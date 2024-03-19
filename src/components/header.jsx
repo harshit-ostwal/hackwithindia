@@ -4,7 +4,7 @@ import React from 'react'
 
 function Header() {
     return (
-        <div className="flex items-center justify-between w-full px-5 py-5 bg-white lg:justify-around">
+        <div className="flex items-center justify-between w-full p-5 lg:px-20">
             <div className="flex items-center justify-center gap-5">
                 <span className="block sm:hidden"><GanttChart /></span>
                 <Link href={"/"} className="flex flex-col leading-none cursor-pointer">
@@ -13,9 +13,9 @@ function Header() {
                 </Link>
             </div>
             <div className="items-center hidden gap-10 sm:flex">
-                <Link href={""} className="font-medium duration-200 hover:text-violet-700">About</Link>
-                <Link href={""} className="font-medium duration-200 hover:text-violet-700">Gallery</Link>
-                <Link href={""} className="font-medium duration-200 hover:text-violet-700">Contact</Link>
+                <Link href={""} className="font-medium text-white duration-200 hover:text-amber-500">About</Link>
+                <Link href={""} className="font-medium text-white duration-200 hover:text-amber-500">Gallery</Link>
+                <Link href={""} className="font-medium text-white duration-200 hover:text-amber-500">Contact</Link>
                 <Link href={""} className="px-8 py-4 font-semibold bg-amber-500 rounded-tr-2xl rounded-bl-2xl">Join Us</Link>
             </div>
             <div className="flex sm:hidden">

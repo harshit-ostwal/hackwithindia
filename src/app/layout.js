@@ -20,9 +20,6 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={`${outfit.variable} font-Outfit`}>
         <div className="w-full">
-          {/* Header */}
-          <Header />
-
           {/* Content */}
           <div>{children}</div>
 
