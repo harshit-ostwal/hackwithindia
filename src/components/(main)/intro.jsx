@@ -4,7 +4,7 @@ import React from 'react'
 
 function Intro() {
     return (
-        <div className="flex flex-col items-center w-full min-h-screen gap-20 p-3 lg:p-20 justify-evenly xl:flex-row">
+        <div className="flex flex-col items-center w-full min-h-full gap-20 p-3 py-20 md:p-40 justify-evenly xl:flex-row">
             <div className="flex flex-col items-center justify-center gap-10 xl:items-start">
                 <div className="flex flex-col text-center text-white xl:text-start">
                     <p className="text-sm font-medium tracking-widest sm:text-lg">MICROSOFT</p>
