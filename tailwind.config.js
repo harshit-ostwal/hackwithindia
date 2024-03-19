@@ -7,6 +7,11 @@ module.exports = {
   ],
   theme: {
     extend: {
+      colors: {
+        'gradient-start': 'var(--gradient-start)',
+        'gradient-middle': 'var(--gradient-middle)',
+        'gradient-end': 'var(--gradient-end)',
+      },
       fontFamily: {
         "Outfit": "var(--Outfit)"
       }
