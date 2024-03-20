@@ -1,7 +1,7 @@
 import { Outfit } from "next/font/google";
 import "./globals.css";
 import Footer from "@/components/footer";
-import Header from "@/components/header";
+import NextTopLoader from "nextjs-toploader";
 
 const outfit = Outfit({
   weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
@@ -19,6 +19,16 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={`${outfit.variable} font-Outfit`}>
+        <NextTopLoader
+          color={"red"}
+          zIndex={1600}
+          speed={1000}
+          height={4}
+          crawlSpeed={1000}
+          crawl={true}
+          easing="ease"
+          showSpinner={false}
+          initialPosition={0.1} />
         <div className="w-full">
           {/* Content */}
           <div>{children}</div>
