@@ -1,5 +1,4 @@
 "use client"
-import { GanttChart } from 'lucide-react'
 import Link from 'next/link'
 import React, { useState } from 'react'
 import { Slant as Hamburger } from 'hamburger-react'
