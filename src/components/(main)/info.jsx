@@ -1,4 +1,3 @@
-import Image from 'next/image'
 import React from 'react'
 
 const Logo = ["/microsoft.png", "/google.png", "/amazon.png", "/fedex.png", "/ola.png", "/Walmart.png",]
@@ -10,7 +9,7 @@ function Info() {
                 <h1 className="text-3xl sm:text-5xl font-bold">Meet Our Sponsors</h1>
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-20 items-center justify-center">
                     {Logo.map((data, index) => (
-                        <img src={data} key={index} alt={data} loading="eager" width={200} className="h-fit" />
+                        <img src={data} key={index} alt={data} loading="xeager" width={200} height={200} className="h-fit" />
                     ))}
                 </div>
             </div>
