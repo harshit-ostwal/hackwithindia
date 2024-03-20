@@ -12,15 +12,15 @@ function Form() {
                     </div>
                     <form className="flex flex-col gap-2 w-full justify-center">
                         <div className="flex flex-col md:flex-row gap-2">
-                            <input type="text" placeholder='Name' required className="w-full p-4 focus:outline-none rounded-tr-xl rounded-bl-xl" />
-                            <input type="text" placeholder='Email' required className="w-full p-4 focus:outline-none rounded-tr-xl rounded-bl-xl" />
+                            <input type="text" placeholder='Name' required className="bg-transparent border border-gray-700 hover:border-white focus:border-white transition-colors duration-300 text-white w-full p-4 focus:outline-none rounded-tr-xl rounded-bl-xl" />
+                            <input type="text" placeholder='Email' required className="bg-transparent border border-gray-700 hover:border-white focus:border-white transition-colors duration-300 text-white w-full p-4 focus:outline-none rounded-tr-xl rounded-bl-xl" />
                         </div>
                         <div className="flex flex-col md:flex-row gap-2">
-                            <input type="text" placeholder='Phone Number' required className="w-full p-4 focus:outline-none rounded-tr-xl rounded-bl-xl" />
-                            <input type="text" placeholder='Subject' required className="w-full p-4 focus:outline-none rounded-tr-xl rounded-bl-xl" />
+                            <input type="text" placeholder='Phone Number' required className="bg-transparent border border-gray-700 hover:border-white focus:border-white transition-colors duration-300 text-white w-full p-4 focus:outline-none rounded-tr-xl rounded-bl-xl" />
+                            <input type="text" placeholder='Subject' required className="bg-transparent border border-gray-700 hover:border-white focus:border-white transition-colors duration-300 text-white w-full p-4 focus:outline-none rounded-tr-xl rounded-bl-xl" />
                         </div>
-                        <textarea placeholder="Message" className="py-3 px-4 h-40 focus:outline-none rounded-tr-xl rounded-bl-xl"></textarea>
-                        <button type="submit" className="bg-gradient-to-tr from-amber-500 to-white py-4 px-6 rounded-tr-xl rounded-bl-xl font-semibold">Submit</button>
+                        <textarea placeholder="Message" required className="bg-transparent border border-gray-700 hover:border-white focus:border-white transition-colors duration-300 text-white py-3 px-4 h-40 focus:outline-none rounded-tr-xl rounded-bl-xl"></textarea>
+                        <button type="submit" className="bg-gradient-to-tr mt-10 from-amber-500 to-white py-4 px-6 rounded-tr-xl rounded-bl-xl font-semibold">Submit</button>
                     </form>
                 </div>
                 <div>
