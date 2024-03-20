@@ -43,7 +43,7 @@ function Intro() {
                     <p className="text-sm font-medium tracking-wide sm:text-lg">The 1st iteration of Hackthon,</p>
                     <p className="text-sm font-medium tracking-wide sm:text-lg">"Cultivating Innovation, Harvesting Tomorrow"</p>
                 </div>
-                <Link href={""} className="px-6 py-3 font-semibold text-black bg-amber-500 rounded-tr-2xl rounded-bl-2xl">Join Us</Link>
+                <Link href={"https://hackwithindia.devfolio.co"} target="_blank" className="px-10 py-4 font-semibold text-black bg-amber-500 rounded-tr-2xl rounded-bl-2xl">Register Now</Link>
             </div>
             <div className="relative">
                 <Image width={600} height={332} quality={100} loading="lazy" src="/AppleVisionPro.png" alt="AppleVisionPro" />
@@ -56,7 +56,7 @@ function Intro() {
                     <div className="flex flex-col gap-2 items-center justify-center">
                         <h1>{timeLeft.hours}</h1>
                         <h1 className="text-xs sm:text-sm lg:text-base">HOURS</h1>
-                    </div>
+                    </div>z
                     <span className="whitespace-pre"> : </span>
                     <div className="flex flex-col gap-2 items-center justify-center">
                         <h1>{timeLeft.minutes}</h1>

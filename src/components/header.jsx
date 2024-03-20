@@ -13,8 +13,8 @@ function Header() {
 
     return (
         <>
-            <div className="flex items-center justify-between w-full p-5 lg:px-20">
-                <div className="flex items-center justify-center text-white gap-5">
+            <div className="flex items-center justify-between w-full p-3 py-5 lg:px-20">
+                <div className="flex items-center justify-center text-white gap-3">
                     <button onClick={Toggle} className={`${Menu ? "fixed top-5 left-5" : "flex"} sm:hidden z-[2000]`}>
                         <Hamburger color={Menu ? "#000" : "#fff"} duration={0.8} size={24} rounded toggled={Menu} toggle={setMenu} />
                     </button>
@@ -30,10 +30,10 @@ function Header() {
                     <Link href={"/About"} className="font-medium text-white duration-200 hover:text-amber-500">About</Link>
                     <Link href={"/Gallery"} className="font-medium text-white duration-200 hover:text-amber-500">Gallery</Link>
                     <Link href={"/Contact"} className="font-medium text-white duration-200 hover:text-amber-500">Contact</Link>
-                    <Link href={""} className="px-8 py-4 font-semibold bg-amber-500 rounded-tr-2xl rounded-bl-2xl">Join Us</Link>
+                    <Link href={"https://hackwithindia.devfolio.co"} target="_blank" className="px-8 py-4 font-semibold bg-amber-500 rounded-tr-2xl rounded-bl-2xl">Register Now</Link>
                 </div>
                 <div className="flex sm:hidden">
-                    <Link href={""} className="px-6 py-3 font-semibold sm:py-4 sm:px-8 bg-amber-500 rounded-tr-2xl rounded-bl-2xl">Join Us</Link>
+                    <Link href={"https://hackwithindia.devfolio.co"} target="_blank" className="p-4 font-semibold text-sm sm:py-4 sm:px-8 bg-amber-500 rounded-tr-2xl rounded-bl-2xl">Register Now</Link>
                 </div>
             </div>
 
