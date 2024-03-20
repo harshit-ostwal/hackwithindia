@@ -31,13 +31,13 @@ const Images = [
 function Theme() {
   return (
     <div className="text-white via-black flex items-center justify-center bg-gradient-to-tr from-gradient-start to-gradient-start w-full min-h-screen">
-      <div className="flex flex-col max-w-7xl w-full p-5 justify-center items-center lg:items-stretch gap-20 md:gap-40 min-h-screen">
+      <div className="flex flex-col max-w-7xl w-full p-5 justify-center items-center lg:items-stretch gap-20 min-h-screen">
         <h1 className="text-4xl sm:text-6xl font-bold">Our Themes</h1>
         <div className="grid grid-cols-1 sm:grid-cols-2  xl:grid-cols-3 gap-20 items-center justify-center">
           {Images.map((data, index) => (
             <div key={index} className="flex flex-col items-center justify-center gap-10">
-              <Image src={data.imageUrl} alt={data.title} quality={100} loading="lazy" width={120} height={120} />
-              <h1 className="font-medium text-lg tracking-widest">{data.title}</h1>
+              <Image src={data.imageUrl} alt={data.title} quality={100} loading="lazy" width={128} height={128} className="w-20 md:w-32" />
+              <h1 className="font-medium text-sm lg:text-lg tracking-widest">{data.title}</h1>
             </div>
           ))}
         </div>

@@ -9,7 +9,7 @@ function Info() {
                 <h1 className="text-3xl sm:text-5xl font-bold">Meet Our Sponsors</h1>
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-20 items-center justify-center">
                     {Logo.map((data, index) => (
-                        <img src={data} key={index} alt={data} loading="xeager" width={200} height={200} className="h-fit" />
+                        <img src={data} key={index} alt={data} loading="lazy" width={240} height={200} className="h-fit w-32 md:w-40" />
                     ))}
                 </div>
             </div>
