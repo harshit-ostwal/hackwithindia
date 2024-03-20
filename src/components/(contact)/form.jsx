@@ -24,7 +24,7 @@ function Form() {
                     </form>
                 </div>
                 <div>
-                    <Image src={"/contact.png"} width={800} height={200} quality={100} alt="Contact Us" className="rounded-3xl bg-blend-multiply" />
+                    <Image src={"/contact.png"} width={800} height={200} loading="lazy" quality={100} alt="Contact Us" className="rounded-3xl bg-blend-multiply" />
                 </div>
             </div>
         </div>
