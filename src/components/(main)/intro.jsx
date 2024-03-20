@@ -56,7 +56,7 @@ function Intro() {
                     <div className="flex flex-col gap-2 items-center justify-center">
                         <h1>{timeLeft.hours}</h1>
                         <h1 className="text-xs sm:text-sm lg:text-base">HOURS</h1>
-                    </div>z
+                    </div>
                     <span className="whitespace-pre"> : </span>
                     <div className="flex flex-col gap-2 items-center justify-center">
                         <h1>{timeLeft.minutes}</h1>
