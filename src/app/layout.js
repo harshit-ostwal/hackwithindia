@@ -21,7 +21,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body suppressHydrationWarning={true} className={`${outfit.variable} font-Outfit`}>
         <NextTopLoader
-          color={"purple"}
+          color={"white"}
           zIndex={1600}
           speed={1000}
           height={4}
