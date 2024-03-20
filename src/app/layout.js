@@ -19,7 +19,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={`${outfit.variable} font-Outfit`}>
+      <body suppressHydrationWarning={true} className={`${outfit.variable} font-Outfit`}>
         <NextTopLoader
           color={"red"}
           zIndex={1600}
