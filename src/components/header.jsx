@@ -13,9 +13,9 @@ function Header() {
                 </Link>
             </div>
             <div className="items-center hidden gap-10 sm:flex">
-                <Link href={""} className="font-medium text-white duration-200 hover:text-amber-500">About</Link>
-                <Link href={""} className="font-medium text-white duration-200 hover:text-amber-500">Gallery</Link>
-                <Link href={""} className="font-medium text-white duration-200 hover:text-amber-500">Contact</Link>
+                <Link href={"/About"} className="font-medium text-white duration-200 hover:text-amber-500">About</Link>
+                <Link href={"/Gallery"} className="font-medium text-white duration-200 hover:text-amber-500">Gallery</Link>
+                <Link href={"/Contact"} className="font-medium text-white duration-200 hover:text-amber-500">Contact</Link>
                 <Link href={""} className="px-8 py-4 font-semibold bg-amber-500 rounded-tr-2xl rounded-bl-2xl">Join Us</Link>
             </div>
             <div className="flex sm:hidden">
