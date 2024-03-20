@@ -4,7 +4,7 @@ const Logo = ["/microsoft.png", "/google.png", "/amazon.png", "/fedex.png", "/ol
 
 function Info() {
     return (
-        <div className="flex flex-col items-center justify-between p-5 min-h-screen gap-40 w-full text-white via-black bg-gradient-to-tl from-gradient-start to-gradient-middle">
+        <div className="flex flex-col items-center justify-center p-5 pt-20 pb-40 min-h-screen gap-40 w-full text-white via-black bg-gradient-to-tl from-gradient-start to-gradient-middle">
             <div className="flex flex-col items-center justify-center gap-20">
                 <h1 className="text-3xl sm:text-5xl font-bold">Meet Our Sponsors</h1>
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-20 items-center justify-center">
