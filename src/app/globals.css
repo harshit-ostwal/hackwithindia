@@ -8,12 +8,6 @@
     --gradient-end: #00CCFF;
 }
 
-::-webkit-scrollbar{
+::-webkit-scrollbar {
     width: 0%;
-}
-
-@layer components{
-    .gradient-Color{
-        @apply bg-gradient-to-r from-gradient-start to-gradient-end 
-    }
 }

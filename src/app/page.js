@@ -1,7 +1,9 @@
 import Event from '@/components/(main)/event'
 import Intro from '@/components/(main)/intro'
+import Info from '@/components/(main)/info'
 import Header from '@/components/header'
 import React from 'react'
+import Theme from '@/components/(main)/theme'
 
 function page() {
   return (
@@ -11,6 +13,8 @@ function page() {
         <Intro />
       </div>
       <Event />
+      <Info />
+      <Theme />
     </div>
   )
 }

@@ -5,7 +5,7 @@ import React from 'react'
 function Header() {
     return (
         <div className="flex items-center justify-between w-full p-5 lg:px-20">
-            <div className="flex items-center justify-center gap-5">
+            <div className="flex items-center justify-center text-white gap-5">
                 <span className="block sm:hidden"><GanttChart /></span>
                 <Link href={"/"} className="flex flex-col leading-none cursor-pointer">
                     <span className="text-3xl font-bold sm:text-4xl">HACK</span>
