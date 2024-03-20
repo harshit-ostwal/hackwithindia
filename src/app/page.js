@@ -5,6 +5,7 @@ import Header from '@/components/header'
 import React from 'react'
 import Theme from '@/components/(main)/theme'
 import History from '@/components/(main)/history'
+import TechStack from '@/components/(main)/techstack'
 
 function page() {
   return (
@@ -16,6 +17,7 @@ function page() {
       <Event />
       <Info />
       <Theme />
+      <TechStack />
       <History />
     </div>
   )

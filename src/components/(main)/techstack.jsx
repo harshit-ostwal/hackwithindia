@@ -28,9 +28,9 @@ const Images = [
   }
 ]
 
-function Theme() {
+function TechStack() {
   return (
-    <div className="text-white via-black flex items-center justify-center bg-gradient-to-bl from-gradient-start to-gradient-middle w-full min-h-screen">
+    <div className="text-white via-black flex items-center justify-center bg-gradient-to-tl from-gradient-start to-gradient-middle w-full min-h-screen">
       <div className="flex flex-col max-w-7xl w-full p-5 justify-center items-center lg:items-stretch gap-20 min-h-screen">
         <h1 className="text-4xl sm:text-6xl font-bold">Our Themes</h1>
         <div className="grid grid-cols-1 sm:grid-cols-2  xl:grid-cols-3 gap-20 items-center justify-center">
@@ -46,4 +46,4 @@ function Theme() {
   )
 }
 
-export default Theme
+export default TechStack

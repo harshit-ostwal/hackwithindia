@@ -2,8 +2,10 @@ import React from 'react'
 
 function History() {
     return (
-        <div className="text-white via-black bg-gradient-to-tl p-5 py-40 flex flex-col justify-center items-center gap-14 md:gap-20 from-gradient-middle to-gradient-start min-h-screen">
-            <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold">Our History</h1>
+        <div className="text-white via-black bg-gradient-to-tr p-5 py-40 flex flex-col justify-center items-center gap-14 md:gap-20 from-gradient-middle to-gradient-start min-h-screen">
+            <div className="flex items-start w-full max-w-7xl">
+                <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold">Our History</h1>
+            </div>
             <p className="flex flex-col gap-2 max-w-7xl lg:text-lg">
                 <span>
                     The primary aim of this hackathon would be to inspire young brains to develop their technical, and team collaboration skills, and encourage them to foster a heightened sense of responsibility towards society, instilling them to channel their creative ideas towards betterment of the community.
