@@ -37,13 +37,13 @@ function Header() {
                 </div>
             </div>
 
-            <div className={`h-screen fixed z-[1600] bg-white text-black top-0 transition-all items-center justify-center duration-1000 ease-in-out w-[100%] sm:w-[70%] md:w-[25%] ${Menu ? "left-0" : "-left-[100%]"}`
+            <div className={`h-screen fixed z-[1600] bg-gradient-to-b from-white via-gray-300 to-sky-300 text-black top-0 transition-all items-center justify-center duration-1000 ease-in-out w-[100%] sm:w-[70%] md:w-[25%] ${Menu ? "left-0" : "-left-[100%]"}`
             }>
                 <div className="flex flex-col gap-5 p-10 items-center h-full w-full  justify-center">
-                    <Link href={"/"} onClick={Toggle} className="font-medium duration-200 hover:text-amber-500">Home</Link>
-                    <Link href={"/About"} onClick={Toggle} className="font-medium duration-200 hover:text-amber-500">About</Link>
-                    <Link href={"/Gallery"} onClick={Toggle} className="font-medium duration-200 hover:text-amber-500">Gallery</Link>
-                    <Link href={"/Contact"} onClick={Toggle} className="font-medium duration-200 hover:text-amber-500">Contact</Link>
+                    <Link href={"/"} onClick={Toggle} className="font-medium duration-200 text-lg hover:text-amber-500">Home</Link>
+                    <Link href={"/About"} onClick={Toggle} className="font-medium duration-200 text-lg hover:text-amber-500">About</Link>
+                    <Link href={"/Gallery"} onClick={Toggle} className="font-medium duration-200 text-lg hover:text-amber-500">Gallery</Link>
+                    <Link href={"/Contact"} onClick={Toggle} className="font-medium duration-200 text-lg hover:text-amber-500">Contact</Link>
                 </div>
             </div>
         </>
