@@ -1,15 +1,15 @@
 import React from 'react'
 
-const Logo = ["/microsoft.png", "/google.png", "/amazon.png", "/fedex.png", "/ola.png", "/Walmart.png",]
+const Logo = ["/reskill.svg", "/microsoft.png", "/bobble.png", "/quine.png", "/ola.png", "/devfolio.png",]
 
 function Info() {
     return (
-        <div className="flex flex-col items-center justify-center w-full min-h-screen gap-40 p-5 pt-20 pb-40 text-white via-black bg-gradient-to-tl from-gradient-start to-gradient-middle">
+        <div className="flex flex-col items-center justify-center w-full gap-40 p-5 pt-20 pb-40 text-white via-black bg-gradient-to-tl from-gradient-start to-gradient-middle">
             <div className="flex flex-col items-center justify-center gap-20">
                 <h1 className="text-3xl font-bold sm:text-5xl">Meet Our Sponsors</h1>
                 <div className="grid items-center justify-center grid-cols-1 gap-20 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
                     {Logo.map((data, index) => (
-                        <img src={data} key={index} alt={data} loading="lazy" width={240} height={200} className="w-32 h-fit md:w-40" />
+                        <img src={data} key={index} alt={data} loading="lazy" className="w-32 md:w-40" />
                     ))}
                 </div>
             </div>
