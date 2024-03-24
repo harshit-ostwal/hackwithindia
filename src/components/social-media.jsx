@@ -1,14 +1,14 @@
-import { Facebook, Github, Instagram, Linkedin, Mail, MapPinned, Twitter } from "lucide-react";
+import { Github, Instagram, Linkedin, Twitter, Youtube } from "lucide-react";
 import Link from "next/link";
 
 export const SocialMediaIcons = [
   {
-    iconName: <Facebook />,
+    iconName: <Youtube />,
     iconHref: ""
   },
   {
     iconName: <Instagram />,
-    iconHref: ""
+    iconHref: "https://instagram.com/hackwithindia"
   },
   {
     iconName: <Twitter />,
