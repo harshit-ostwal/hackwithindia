@@ -42,7 +42,7 @@ function Header() {
             }>
                 <div className="flex flex-col items-center justify-center w-full h-full gap-5 p-10">
                     <Link href={"/"} onClick={Toggle} className="text-lg font-medium duration-200 hover:text-amber-500">Home</Link>
-                    <Link href={"/Guidelines"} className="font-medium text-white duration-200 hover:text-amber-500">Guidelines</Link>
+                    <Link href={"/Guidelines"} onClick={Toggle} className="text-lg font-medium duration-200 hover:text-amber-500">Guidelines</Link>
                     <Link href={"/About"} onClick={Toggle} className="text-lg font-medium duration-200 hover:text-amber-500">About</Link>
                     <Link href={"/Gallery"} onClick={Toggle} className="text-lg font-medium duration-200 hover:text-amber-500">Gallery</Link>
                     <Link href={"/Contact"} onClick={Toggle} className="text-lg font-medium duration-200 hover:text-amber-500">Contact</Link>
