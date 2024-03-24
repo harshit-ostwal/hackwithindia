@@ -32,6 +32,8 @@ const InfoData = [
     infoDesc: [
       {
         subDesc: "+91 77018 77610",
+        subDesc: "+91 98911 81801",
+        subDesc: "+91 89208 94182",
       },
     ]
   },
@@ -39,14 +41,14 @@ const InfoData = [
 
 function Info() {
   return (
-    <div className="flex min-h-screen w-full flex-col items-center gap-20 py-20 justify-evenly">
-      <h1 className="font-bold text-4xl md:text-6xl text-white">Contact Us</h1>
-      <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-20 justify-evenly w-full">
+    <div className="flex flex-col items-center w-full min-h-screen gap-20 py-20 justify-evenly">
+      <h1 className="text-4xl font-bold text-white md:text-6xl">Contact Us</h1>
+      <div className="grid w-full grid-cols-1 gap-20 md:grid-cols-2 xl:grid-cols-3 justify-evenly">
         {InfoData.map((data, index) => (
-          <div key={index} className="flex flex-col gap-5 items-center">
-            <div className="p-4 flex items-center justify-center bg-gradient-to-tr to-white from-amber-400 rounded-full">{data.infoIcon}</div>
-            <div className="flex flex-col gap-2 items-center justify-center">
-              <h1 className="text-white font-semibold text-xl md:text-3xl">{data.infoTitle}</h1>
+          <div key={index} className="flex flex-col items-center gap-5">
+            <div className="flex items-center justify-center p-4 rounded-full bg-gradient-to-tr to-white from-amber-400">{data.infoIcon}</div>
+            <div className="flex flex-col items-center justify-center gap-2">
+              <h1 className="text-xl font-semibold text-white md:text-3xl">{data.infoTitle}</h1>
               {data.infoDesc.map((subData, subIndex) => (
                 <p key={subIndex} className="text-gray-400 md:text-xl">{subData.subDesc}</p>
               ))}
