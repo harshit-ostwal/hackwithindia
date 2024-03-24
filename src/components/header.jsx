@@ -15,7 +15,7 @@ function Header() {
         <>
             <div className="flex items-center justify-between w-full p-3 py-5 lg:px-20">
                 <div className="flex items-center justify-center gap-3 text-white">
-                    <button onClick={Toggle} className={`${Menu ? "fixed top-5 left-5" : "flex"} sm:hidden z-[2000]`}>
+                    <button onClick={Toggle} className={`${Menu ? "fixed top-5 left-5" : "flex"} md:hidden z-[2000]`}>
                         <Hamburger color={Menu ? "#000" : "#fff"} duration={0.8} size={24} rounded toggled={Menu} toggle={setMenu} />
                     </button>
                     <button onClick={Toggle} className={`${Menu ? "flex" : "hidden"} scale-0`}>
@@ -26,14 +26,14 @@ function Header() {
                         <span className="font-semibold tracking-tight sm:tracking-normal sm:text-lg">WITH INDIA</span>
                     </Link>
                 </div>
-                <div className="items-center hidden gap-10 sm:flex">
+                <div className="items-center hidden gap-10 md:flex">
                     <Link href={"/Guidelines"} className="font-medium text-white duration-200 hover:text-amber-500">Guidelines</Link>
                     <Link href={"/About"} className="font-medium text-white duration-200 hover:text-amber-500">About</Link>
                     <Link href={"/Gallery"} className="font-medium text-white duration-200 hover:text-amber-500">Gallery</Link>
                     <Link href={"/Contact"} className="font-medium text-white duration-200 hover:text-amber-500">Contact</Link>
                     <Link href={"https://hackwithindia.devfolio.co"} target="_blank" className="px-8 py-4 font-semibold bg-amber-500 rounded-tr-2xl rounded-bl-2xl">Register Now</Link>
                 </div>
-                <div className="flex sm:hidden">
+                <div className="flex md:hidden">
                     <Link href={"https://hackwithindia.devfolio.co"} target="_blank" className="p-4 text-sm font-semibold sm:py-4 sm:px-8 bg-amber-500 rounded-tr-2xl rounded-bl-2xl">Register Now</Link>
                 </div>
             </div>
