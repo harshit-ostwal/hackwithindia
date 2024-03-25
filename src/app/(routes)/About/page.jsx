@@ -1,9 +1,14 @@
-import Gallery from '@/components/(about)/gallery'
 import Info from '@/components/(about)/info'
 import Info2 from '@/components/(about)/info2'
 import Info3 from '@/components/(about)/info3'
 import Header from '@/components/header'
 import React from 'react'
+
+export const metadata = {
+    title: "About",
+    description: "",
+    keywords: [""],
+};
 
 function page() {
   return (

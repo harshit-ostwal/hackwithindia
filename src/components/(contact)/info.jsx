@@ -32,9 +32,13 @@ const InfoData = [
     infoDesc: [
       {
         subDesc: "+91 77018 77610",
-        subDesc: "+91 98911 81801",
-        subDesc: "+91 89208 94182",
       },
+      {
+        subDesc: "+91 98911 81801",
+      },
+      {
+        subDesc: "+91 89208 94182",
+      }
     ]
   },
 ]
