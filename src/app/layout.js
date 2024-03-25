@@ -3,6 +3,7 @@ import "./globals.css";
 import Footer from "@/components/footer";
 import NextTopLoader from "nextjs-toploader";
 import { Toaster } from "@/components/ui/toaster";
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 const outfit = Outfit({
   weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
@@ -20,6 +21,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body suppressHydrationWarning={true} className={`${outfit.variable} font-Outfit`}>
+        <SpeedInsights />
         <NextTopLoader
           color={"white"}
           zIndex={1600}
