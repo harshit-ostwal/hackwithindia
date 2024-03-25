@@ -2,6 +2,12 @@ import Info from '@/components/(guidelines)/info'
 import Header from '@/components/header'
 import React from 'react'
 
+export const metadata = {
+  title: "Guidelines",
+  description: "",
+  keywords: [""],
+};
+
 function page() {
   return (
     <div className="w-full h-full">

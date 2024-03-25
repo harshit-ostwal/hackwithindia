@@ -2,6 +2,12 @@ import Main from '@/components/(gallery)/main'
 import Header from '@/components/header'
 import React from 'react'
 
+export const metadata = {
+  title: "Gallery",
+  description: "",
+  keywords: [""],
+};
+
 function page() {
   return (
     <div className="w-full h-full">

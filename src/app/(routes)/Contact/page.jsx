@@ -4,6 +4,12 @@ import Location from '@/components/(contact)/location'
 import Header from '@/components/header'
 import React from 'react'
 
+export const metadata = {
+  title: "Contact",
+  description: "",
+  keywords: [""],
+};
+
 function page() {
   return (
     <div className="w-full h-full">
