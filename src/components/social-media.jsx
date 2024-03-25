@@ -17,7 +17,7 @@ export const SocialMediaIcons = [
   },
   {
     iconName: <Linkedin />,
-    iconHref: ""
+    iconHref: "https://www.linkedin.com/company/hackwithindia"
   },
   {
     iconName: <Github />,
