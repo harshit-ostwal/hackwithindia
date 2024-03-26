@@ -15,10 +15,10 @@ const outfit = Outfit({
 export const metadata = {
   title: {
     template: '%s | HackWithIndia',
-    default: 'HackWithIndia',
+    default: 'HackWithIndia | An Official Coding Hackathons',
   },
   description: "By harnessing the potential of advanced technologies like artificial intelligence, the Internet of Things, blockchain, and more, our hackathon aims to inspire students to craft innovative solutions that not only contribute to environmental betterment but also address pressing humanitarian challenges.",
-  keywords:["HackWithIndia","hackathon","web development","app development","programming","technology","education","contest","hackwithindia","Machine Learning Hackathon","Ai Hackathon","ML Hackathon",]
+  keywords:["HackWithIndia","coding hackathon contest","coding contest","live hackathons","hackwithindia official website","online coding contest","hackathon","web development","app development","programming","technology","education","contest","hackwithindia","Machine Learning Hackathon","Ai Hackathon","ML Hackathon",]
 };
 
 export default function RootLayout({ children }) {
