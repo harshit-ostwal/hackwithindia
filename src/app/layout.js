@@ -13,6 +13,7 @@ const outfit = Outfit({
 });
 
 export const metadata = {
+  author: "HackWithIndia",
   title: {
     template: '%s | HackWithIndia',
     default: 'HackWithIndia | An Official Coding Hackathons',
