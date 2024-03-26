@@ -19,13 +19,16 @@ export const metadata = {
     default: 'HackWithIndia | An Official Coding Hackathons',
   },
   description: "By harnessing the potential of advanced technologies like artificial intelligence, the Internet of Things, blockchain, and more, our hackathon aims to inspire students to craft innovative solutions that not only contribute to environmental betterment but also address pressing humanitarian challenges.",
-  keywords:["HackWithIndia","coding hackathon contest","coding contest","live hackathons","hackwithindia official website","online coding contest","hackathon","web development","app development","programming","technology","education","contest","hackwithindia","Machine Learning Hackathon","Ai Hackathon","ML Hackathon",]
+  keywords: ["HackWithIndia", "coding hackathon contest", "coding contest", "live hackathons", "hackwithindia official website", "online coding contest", "hackathon", "web development", "app development", "programming", "technology", "education", "contest", "hackwithindia", "Machine Learning Hackathon", "Ai Hackathon", "ML Hackathon",]
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
+        <meta name="author" content="HackWithIndia"/>
+        <meta name="robots" content="index, follow, noodp" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="icon" href="/icon?<generated>" type="image/<generated>" sizes="<generated>" />
         <link rel="apple-touch-icon" href="/apple-icon?<generated>" type="image/<generated>" sizes="<generated>" />
       </head>
