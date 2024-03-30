@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Logo = ["/Reskill.svg", "/microsoft.png", "/bobble.png", "/Quine.png", "/ola.png", "/Devfolio.png",]
+const Logo = ["/Reskill.svg", "/microsoft.png", "/bobble.png", "/Quine.png", "/ola.png", "/Devfolio.png","flagsmith.png"]
 
 function Info() {
     return (
