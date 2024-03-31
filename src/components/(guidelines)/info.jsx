@@ -138,7 +138,7 @@ function Info() {
                         <ul className="space-y-5">
                             {
                                 data.desc.map((subData, subIndex) => (
-                                    <li className="list-disc" key={subIndex}>{subData.subDesc}</li>
+                                    <li className="list-disc list-inside" key={subIndex}>{subData.subDesc}</li>
                                 ))
                             }
                         </ul>

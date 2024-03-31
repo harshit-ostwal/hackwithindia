@@ -2,7 +2,7 @@ import React from 'react'
 
 function History() {
     return (
-        <div className="flex flex-col items-center justify-center min-h-screen p-5 py-40 text-white via-black bg-gradient-to-tr gap-14 md:gap-20 from-gradient-middle to-gradient-start">
+        <div className="flex flex-col items-center justify-center min-h-screen p-5 pb-40 text-white via-black bg-gradient-to-tl gap-14 md:gap-20 from-gradient-start to-gradient-middle">
             <div className="flex items-start w-full max-w-7xl">
                 <h1 className="text-4xl font-bold sm:text-5xl lg:text-6xl">Our History</h1>
             </div>

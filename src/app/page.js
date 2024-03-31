@@ -6,6 +6,7 @@ import React from 'react'
 import Theme from '@/components/(main)/theme'
 import History from '@/components/(main)/history'
 import TechStack from '@/components/(main)/techstack'
+import Timeline from '@/components/(main)/timeline'
 
 function page() {
   return (
@@ -18,6 +19,7 @@ function page() {
       <Info />
       <Theme />
       <TechStack />
+      <Timeline />
       <History />
     </div>
   )
