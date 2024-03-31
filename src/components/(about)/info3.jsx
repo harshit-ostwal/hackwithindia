@@ -1,11 +1,13 @@
-import React from 'react'
+import React from "react";
 
 function Info3() {
   return (
     <div className="flex flex-col justify-center min-h-screen p-5 pb-40 pt-28 lg:pt-0 via-black bg-gradient-to-br from-gradient-start to-gradient-end">
       <div className="flex flex-col items-center justify-center text-white gap-14">
         <div className="flex items-start w-full max-w-7xl">
-          <h1 className="text-4xl font-bold sm:text-5xl lg:text-6xl">About INAUGRAL EDITION</h1>
+          <h1 className="text-4xl font-bold sm:text-5xl lg:text-6xl">
+            About INAUGRAL EDITION
+          </h1>
         </div>
         <ul className="space-y-5 max-w-7xl lg:text-lg">
           <li>
@@ -35,7 +37,7 @@ function Info3() {
         </ul>
       </div>
     </div>
-  )
+  );
 }
 
-export default Info3
+export default Info3;
