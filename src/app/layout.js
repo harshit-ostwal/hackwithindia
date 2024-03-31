@@ -4,6 +4,7 @@ import Footer from "@/components/footer";
 import NextTopLoader from "nextjs-toploader";
 import { Toaster } from "@/components/ui/toaster";
 import SmoothScroll from "@/components/SmoothScroll";
+import BottomToTop from "@/components/BottomToTop";
 
 const outfit = Outfit({
   weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
@@ -26,8 +27,8 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
-        <meta name="author" content="HackWithIndia"/>
-        <meta name="robots" content="index, follow, noodp" />
+        <meta name="author" content="HackWithIndia" />
+        <meta name="robots" content="index, follow" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="icon" href="/icon?<generated>" type="image/<generated>" sizes="<generated>" />
         <link rel="apple-touch-icon" href="/apple-icon?<generated>" type="image/<generated>" sizes="<generated>" />
@@ -52,6 +53,7 @@ export default function RootLayout({ children }) {
             <Footer />
           </div>
           <Toaster />
+          <BottomToTop />
         </SmoothScroll>
       </body>
     </html>
