@@ -27,7 +27,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" type="image/ico" href="/favicon.ico" />
         <meta name="author" content="HackWithIndia" />
         <meta name="copyright" content="Copyright © HACKWITHINDIA | All Rights Reserved" />
         <meta name="robots" content="index,follow" />
