@@ -4,8 +4,41 @@ import React from 'react'
 
 export const metadata = {
   title: "Gallery",
-  description: "By harnessing the potential of advanced technologies like artificial intelligence, the Internet of Things, blockchain, and more, our hackathon aims to inspire students to craft innovative solutions that not only contribute to environmental betterment but also address pressing humanitarian challenges.",
-  keywords: ["HackWithIndia","hackathon images","live hackathon images","hackathon images","hackathon pictures", "hackathon", "web development", "app development", "programming", "technology", "education", "contest", "hackwithindia", "Machine Learning Hackathon", "Ai Hackathon", "ML Hackathon",]
+  description: "Explore the vibrant world of HackWithIndia through our gallery of hackathon images. See the excitement of live hackathons captured in stunning pictures. Browse through our collection of hackathon images and get inspired by the creativity and innovation on display. Join us in celebrating the spirit of web development, app development, programming, and technology education.",
+  keywords: [
+    "HackWithIndia",
+    "coding hackathon contest",
+    "coding contest",
+    "live hackathons",
+    "hackwithindia official website",
+    "online coding contest",
+    "hackathon",
+    "web development",
+    "app development",
+    "programming",
+    "technology",
+    "education",
+    "contest",
+    "Machine Learning Hackathon",
+    "Ai Hackathon",
+    "ML Hackathon",
+    "hackathon event",
+    "coding competition",
+    "software development",
+    "coding challenges",
+    "programming contest",
+    "hackathon for students",
+    "hackathon for developers",
+    "innovation contest",
+    "tech contest",
+    "hackathon registration",
+    "hackathon prizes",
+    "hackathon rules",
+    "hackathon guidelines",
+    "hackathon schedule",
+    "hackathon projects",
+    "hackathon ideas"
+  ]
 };
 
 function page() {

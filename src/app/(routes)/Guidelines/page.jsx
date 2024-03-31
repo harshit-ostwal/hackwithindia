@@ -4,8 +4,41 @@ import React from 'react'
 
 export const metadata = {
   title: "Guidelines",
-  description: "By harnessing the potential of advanced technologies like artificial intelligence, the Internet of Things, blockchain, and more, our hackathon aims to inspire students to craft innovative solutions that not only contribute to environmental betterment but also address pressing humanitarian challenges.",
-  keywords:["HackWithIndia","hackathon instructions","rules of hackathon","hackathon guidelines","hackathon rule book","hackwithindia rule book","coding hackathon contest","coding contest","live hackathons","hackwithindia official website","online coding contest","hackathon","web development","app development","programming","technology","education","contest","hackwithindia","Machine Learning Hackathon","Ai Hackathon","ML Hackathon",]
+  description: "Discover the rules and guidelines that govern HackWithIndia's coding hackathon contests. Our rule book provides detailed instructions on how to participate, what to expect, and how to excel in our live hackathons. Learn about the coding contest format, judging criteria, and prizes. Join us for web development, app development, programming, and technology education contests that challenge and inspire.",
+  keywords: [
+    "HackWithIndia",
+    "coding hackathon contest",
+    "coding contest",
+    "live hackathons",
+    "hackwithindia official website",
+    "online coding contest",
+    "hackathon",
+    "web development",
+    "app development",
+    "programming",
+    "technology",
+    "education",
+    "contest",
+    "Machine Learning Hackathon",
+    "Ai Hackathon",
+    "ML Hackathon",
+    "hackathon event",
+    "coding competition",
+    "software development",
+    "coding challenges",
+    "programming contest",
+    "hackathon for students",
+    "hackathon for developers",
+    "innovation contest",
+    "tech contest",
+    "hackathon registration",
+    "hackathon prizes",
+    "hackathon rules",
+    "hackathon guidelines",
+    "hackathon schedule",
+    "hackathon projects",
+    "hackathon ideas"
+  ]
 };
 
 function page() {

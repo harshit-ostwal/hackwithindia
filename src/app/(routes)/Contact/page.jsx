@@ -6,8 +6,41 @@ import React from 'react'
 
 export const metadata = {
   title: "Contact",
-  description: "By harnessing the potential of advanced technologies like artificial intelligence, the Internet of Things, blockchain, and more, our hackathon aims to inspire students to craft innovative solutions that not only contribute to environmental betterment but also address pressing humanitarian challenges.",
-  keywords: ["HackWithIndia","hackathon contact no","hackathon helpline", "hackathon", "web development", "app development", "programming", "technology", "education", "contest", "hackwithindia", "Machine Learning Hackathon", "Ai Hackathon", "ML Hackathon",]
+  description: "Contact HackWithIndia for all your hackathon inquiries. Find our contact number and helpline for assistance with our web development, app development, programming, and technology education contests. Connect with us to learn more about our upcoming events and how you can get involved in the exciting world of coding hackathons.",
+  keywords: [
+    "HackWithIndia",
+    "coding hackathon contest",
+    "coding contest",
+    "live hackathons",
+    "hackwithindia official website",
+    "online coding contest",
+    "hackathon",
+    "web development",
+    "app development",
+    "programming",
+    "technology",
+    "education",
+    "contest",
+    "Machine Learning Hackathon",
+    "Ai Hackathon",
+    "ML Hackathon",
+    "hackathon event",
+    "coding competition",
+    "software development",
+    "coding challenges",
+    "programming contest",
+    "hackathon for students",
+    "hackathon for developers",
+    "innovation contest",
+    "tech contest",
+    "hackathon registration",
+    "hackathon prizes",
+    "hackathon rules",
+    "hackathon guidelines",
+    "hackathon schedule",
+    "hackathon projects",
+    "hackathon ideas"
+  ]
 };
 
 function page() {

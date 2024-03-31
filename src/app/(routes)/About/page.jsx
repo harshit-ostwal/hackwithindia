@@ -6,8 +6,41 @@ import React from 'react'
 
 export const metadata = {
   title: "About",
-  description: "This AICTE approved Institute under GGSIP University is ideally located in the Institutional area of Janakpuri, New Delhi. Established in 2001, MSIT has a campus spread over eight acres of land with beautiful eco-friendly surroundings. The institute has over a short span of time acquired and developed impressive infrastructure, expertise, and resources for imparting high quality engineeringeducation. The institute provides Bachelor of Technology in CSE, IT, ECE and EEE streams.",
-  keywords: ["HackWithIndia", "hackathon", "web development", "app development", "programming", "technology", "education", "contest", "hackwithindia", "Machine Learning Hackathon", "Ai Hackathon", "ML Hackathon",]
+  description: "Learn about HackWithIndia, the premier platform for coding hackathon contests. Discover the rules, guidelines, and instructions that govern our contests. Dive into the world of web development, app development, programming, and technology education. Explore our past contests and see how we're shaping the future of technology through innovation and collaboration.",
+  keywords: [
+    "HackWithIndia",
+    "coding hackathon contest",
+    "coding contest",
+    "live hackathons",
+    "hackwithindia official website",
+    "online coding contest",
+    "hackathon",
+    "web development",
+    "app development",
+    "programming",
+    "technology",
+    "education",
+    "contest",
+    "Machine Learning Hackathon",
+    "Ai Hackathon",
+    "ML Hackathon",
+    "hackathon event",
+    "coding competition",
+    "software development",
+    "coding challenges",
+    "programming contest",
+    "hackathon for students",
+    "hackathon for developers",
+    "innovation contest",
+    "tech contest",
+    "hackathon registration",
+    "hackathon prizes",
+    "hackathon rules",
+    "hackathon guidelines",
+    "hackathon schedule",
+    "hackathon projects",
+    "hackathon ideas"
+  ]
 };
 
 function page() {
