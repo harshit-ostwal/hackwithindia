@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: /Gallery
+Disallow: /About
+Disallow: /Guidelines
+Disallow: /Contact
+Sitemap: https://hackwithindia.live/sitemap.xml

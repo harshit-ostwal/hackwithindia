@@ -27,8 +27,17 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
+        <link rel="icon" href="/favicon.ico" />
         <meta name="author" content="HackWithIndia" />
-        <meta name="robots" content="index, follow" />
+        <meta name="copyright" content="Copyright © HACKWITHINDIA | All Rights Reserved" />
+        <meta name="robots" content="index,follow" />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://hackwithindia.live" />
+        <meta property="og:title" content="HackWithIndia | An Official Coding Hackathons" />
+        <meta name="twitter:title" content="HackWithIndia | An Official Coding Hackathons" />
+        <meta name="twitter:description" content="By harnessing the potential of advanced technologies like artificial intelligence, the Internet of Things, blockchain, and more, our hackathon aims to inspire students to craft innovative solutions that not only contribute to environmental betterment but also address pressing humanitarian challenges." />
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="icon" href="/icon?<generated>" type="image/<generated>" sizes="<generated>" />
         <link rel="apple-touch-icon" href="/apple-icon?<generated>" type="image/<generated>" sizes="<generated>" />
