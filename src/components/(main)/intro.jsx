@@ -13,7 +13,7 @@ function Intro() {
     });
 
     useEffect(() => {
-        const targetDate = new Date('2024-03-30T23:59:59');
+        const targetDate = new Date('2024-04-06T23:59:59');
         const timer = setInterval(() => {
             const difference = targetDate - new Date();
             if (difference > 0) {
@@ -43,27 +43,27 @@ function Intro() {
                     <p className="text-sm font-medium tracking-wide sm:text-lg">The 1st iteration of Hackthon,</p>
                     <p className="text-sm font-medium tracking-wide sm:text-lg">"Cultivating Innovation, Harvesting Tomorrow"</p>
                 </div>
-                <Link href={"https://hackwithindia.devfolio.co"} target="_blank" className="px-10 py-4 hidden lg:block font-semibold text-black bg-amber-500 rounded-tr-2xl rounded-bl-2xl">Register Now</Link>
+                <Link href={"https://hackwithindia.devfolio.co"} target="_blank" className="hidden px-10 py-4 font-semibold text-black lg:block bg-amber-500 rounded-tr-2xl rounded-bl-2xl">Register Now</Link>
             </div>
             <div className="relative">
                 <Image width={600} height={332} quality={100} loading="lazy" src="/AppleVisionPro.png" alt="AppleVisionPro" />
                 <div className="text-white absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-[65%] flex font-bold text-3xl sm:text-5xl 2xl:text-7xl">
-                    <div className="flex flex-col gap-2 items-center justify-center">
+                    <div className="flex flex-col items-center justify-center gap-2">
                         <h1>{timeLeft.days}</h1>
                         <h1 className="text-xs sm:text-sm lg:text-base">DAYS</h1>
                     </div>
                     <span className="whitespace-pre"> : </span>
-                    <div className="flex flex-col gap-2 items-center justify-center">
+                    <div className="flex flex-col items-center justify-center gap-2">
                         <h1>{timeLeft.hours}</h1>
                         <h1 className="text-xs sm:text-sm lg:text-base">HOURS</h1>
                     </div>
                     <span className="whitespace-pre"> : </span>
-                    <div className="flex flex-col gap-2 items-center justify-center">
+                    <div className="flex flex-col items-center justify-center gap-2">
                         <h1>{timeLeft.minutes}</h1>
                         <h1 className="text-xs sm:text-sm lg:text-base">MINUTES</h1>
                     </div>
                     <span className="whitespace-pre"> : </span>
-                    <div className="flex flex-col gap-2 items-center justify-center">
+                    <div className="flex flex-col items-center justify-center gap-2">
                         <h1>{timeLeft.seconds}</h1>
                         <h1 className="text-xs sm:text-sm lg:text-base">SECONDS</h1>
                     </div>
