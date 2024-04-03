@@ -5,6 +5,7 @@ import NextTopLoader from "nextjs-toploader";
 import { Toaster } from "@/components/ui/toaster";
 import SmoothScroll from "@/components/SmoothScroll";
 import BottomToTop from "@/components/BottomToTop";
+import Head from "next/head";
 
 const outfit = Outfit({
   weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
@@ -15,6 +16,7 @@ const outfit = Outfit({
 
 export const metadata = {
   author: "HackWithIndia",
+  copyright: "Copyright © HACKWITHINDIA | All Rights Reserved.",
   title: {
     template: '%s | HackWithIndia',
     default: 'HackWithIndia | An Official Coding Hackathons',
@@ -59,10 +61,11 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <head>
+      <Head>
         <link rel="icon" type="image/ico" href="/favicon.ico" />
-        <meta name="author" content="HackWithIndia" />
-        <meta name="copyright" content="Copyright © HACKWITHINDIA | All Rights Reserved" />
+        <meta name="description" content={metadata.description} />
+        <meta name="author" content={metadata.author} />
+        <meta name="copyright" content={metadata.copyright} />
         <meta name="robots" content="index,follow" />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://hackwithindia.live" />
@@ -72,9 +75,8 @@ export default function RootLayout({ children }) {
         <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="ie=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="icon" href="/icon?<generated>" type="image/<generated>" sizes="<generated>" />
-        <link rel="apple-touch-icon" href="/apple-icon?<generated>" type="image/<generated>" sizes="<generated>" />
-      </head>
+        <link rel="apple-touch-icon" href="/apple-icon" type="image/png" />
+      </Head>
       <body suppressHydrationWarning={true} className={`${outfit.variable} font-Outfit antialiased`}>
         <SmoothScroll>
           <NextTopLoader
