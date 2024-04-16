@@ -14,7 +14,7 @@ function Info() {
                 </div>
             </div>
             <div className="flex flex-col gap-14 max-w-7xl">
-                <h1 className="text-3xl font-bold text-center sm:text-5xl sm:text-start">What is HACKWITHINDIA?</h1>
+                <h1 className="text-3xl font-bold text-center sm:text-5xl sm:text-start">What is HACKWITHDELHI?</h1>
                 <ul className="space-y-5 text-lg">
                     <li>
                         We from HackwithIndia are organising a 12 hour inter-college hackathon, HackwithDelhi, on 20th May 2024. The hackathon will be held at G.L. Bajaj Institute of Technology. This hackathon will be the biggest hackathon in Delhi, and more than 400 students will be participating from all over Delhi-NCR.
