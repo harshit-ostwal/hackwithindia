@@ -46,24 +46,24 @@ function Form() {
     }
 
     return (
-        <div className="w-full min-h-screen bg-gradient-to-tr p-3 py-20 from-gradient-start via-black to-gradient-end flex items-center justify-center">
-            <div className="grid grid-cols-1 xl:grid-cols-2 items-center justify-center gap-10">
-                <div className="flex flex-col gap-14 w-full h-full justify-center">
-                    <div className="flex flex-col gap-1 text-white items-center justify-center text-center">
-                        <h1 className="text-4xl md:text-5xl font-bold">Get In Touch With Us</h1>
+        <div className="flex items-center justify-center w-full min-h-screen p-3 py-20 bg-black">
+            <div className="grid items-center justify-center grid-cols-1 gap-10 xl:grid-cols-2">
+                <div className="flex flex-col justify-center w-full h-full gap-14">
+                    <div className="flex flex-col items-center justify-center gap-1 text-center text-white">
+                        <h1 className="text-4xl font-bold md:text-5xl">Get In Touch With Us</h1>
                         <p className="text-sm md:text-base">We're here to help! Feel free to reach out to us for any inquiries or assistance.</p>
                     </div>
-                    <form onSubmit={handleSubmit} className="flex flex-col gap-2 w-full justify-center">
-                        <div className="flex flex-col md:flex-row gap-2">
-                            <input onChange={(e) => setName(e.target.value)} type="text" placeholder='Name' required className="bg-transparent border border-gray-700 hover:border-white focus:border-white transition-colors duration-300 text-white w-full p-4 focus:outline-none rounded-tr-xl rounded-bl-xl" />
-                            <input onChange={(e) => setEmail(e.target.value)} type="email" placeholder='Email' required className="bg-transparent border border-gray-700 hover:border-white focus:border-white transition-colors duration-300 text-white w-full p-4 focus:outline-none rounded-tr-xl rounded-bl-xl" />
+                    <form onSubmit={handleSubmit} className="flex flex-col justify-center w-full gap-2">
+                        <div className="flex flex-col gap-2 md:flex-row">
+                            <input onChange={(e) => setName(e.target.value)} type="text" placeholder='Name' required className="w-full p-4 text-white transition-colors duration-300 bg-transparent border border-gray-700 hover:border-white focus:border-white focus:outline-none rounded-tr-xl rounded-bl-xl" />
+                            <input onChange={(e) => setEmail(e.target.value)} type="email" placeholder='Email' required className="w-full p-4 text-white transition-colors duration-300 bg-transparent border border-gray-700 hover:border-white focus:border-white focus:outline-none rounded-tr-xl rounded-bl-xl" />
                         </div>
-                        <div className="flex flex-col md:flex-row gap-2">
-                            <input onChange={(e) => setPhoneNo(e.target.value)} type="text" placeholder='Phone Number' required className="bg-transparent border border-gray-700 hover:border-white focus:border-white transition-colors duration-300 text-white w-full p-4 focus:outline-none rounded-tr-xl rounded-bl-xl" />
-                            <input onChange={(e) => setSubject(e.target.value)} type="text" placeholder='Subject' required className="bg-transparent border border-gray-700 hover:border-white focus:border-white transition-colors duration-300 text-white w-full p-4 focus:outline-none rounded-tr-xl rounded-bl-xl" />
+                        <div className="flex flex-col gap-2 md:flex-row">
+                            <input onChange={(e) => setPhoneNo(e.target.value)} type="text" placeholder='Phone Number' required className="w-full p-4 text-white transition-colors duration-300 bg-transparent border border-gray-700 hover:border-white focus:border-white focus:outline-none rounded-tr-xl rounded-bl-xl" />
+                            <input onChange={(e) => setSubject(e.target.value)} type="text" placeholder='Subject' required className="w-full p-4 text-white transition-colors duration-300 bg-transparent border border-gray-700 hover:border-white focus:border-white focus:outline-none rounded-tr-xl rounded-bl-xl" />
                         </div>
-                        <textarea onChange={(e) => setMessage(e.target.value)} placeholder="Message" required className="bg-transparent border border-gray-700 hover:border-white focus:border-white transition-colors duration-300 text-white py-3 px-4 h-40 focus:outline-none rounded-tr-xl rounded-bl-xl"></textarea>
-                        <button type="submit" className="bg-gradient-to-tr mt-10 flex items-center justify-center from-amber-500 to-white py-4 px-6 rounded-tr-xl rounded-bl-xl font-semibold">
+                        <textarea onChange={(e) => setMessage(e.target.value)} placeholder="Message" required className="h-40 px-4 py-3 text-white transition-colors duration-300 bg-transparent border border-gray-700 hover:border-white focus:border-white focus:outline-none rounded-tr-xl rounded-bl-xl"></textarea>
+                        <button type="submit" className="flex items-center justify-center px-6 py-4 mt-10 font-semibold bg-gradient-to-tr from-amber-500 to-white rounded-tr-xl rounded-bl-xl">
                             {isLoading ? <Loader2 className="animate-spin" /> : "Submit"}
                         </button>
                     </form>

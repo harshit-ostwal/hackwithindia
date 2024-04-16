@@ -3,7 +3,7 @@ import Gallery2 from './gallery2'
 
 function Info2() {
   return (
-    <div className="flex flex-col justify-between min-h-screen gap-40 p-5 py-28 lg:py-40 lg:gap-60 via-black bg-gradient-to-tr from-gradient-start to-gradient-middle">
+    <div className="flex flex-col justify-between min-h-screen gap-40 p-5 bg-black py-28 lg:py-40 lg:gap-60">
       <div className="flex flex-col items-center justify-center text-white gap-14">
         <div className="flex items-start w-full max-w-7xl">
           <h1 className="text-4xl font-bold sm:text-5xl lg:text-6xl">About HACKWITHINDIA</h1>

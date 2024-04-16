@@ -44,7 +44,7 @@ export const metadata = {
 function page() {
   return (
     <div className="w-full h-full">
-      <div className="via-black bg-gradient-to-tl from-gradient-start to-gradient-start">
+      <div className="bg-black">
         <Header />
         <Main />
       </div>
