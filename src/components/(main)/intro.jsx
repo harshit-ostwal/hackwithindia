@@ -38,8 +38,8 @@ function Intro() {
                 <div className="flex flex-col text-center text-white xl:text-start">
                     <p className="text-sm font-medium tracking-widest sm:text-lg">HACKWITHINDIA</p>
                     <p className="text-sm font-medium tracking-widest sm:text-lg">PRESENTS</p>
-                    <h1 className="pt-5 text-5xl font-bold tracking-widest sm:text-6xl md:text-7xl 2xl:text-8xl">INAUGRAL</h1>
-                    <h1 className="pb-5 text-5xl font-bold tracking-widest sm:text-6xl md:text-7xl 2xl:text-8xl">EDITION</h1>
+                    <h1 className="pt-5 text-5xl font-bold tracking-widest sm:text-6xl md:text-7xl 2xl:text-8xl">HACK</h1>
+                    <h1 className="pb-5 text-5xl font-bold tracking-widest sm:text-6xl md:text-7xl 2xl:text-8xl">WITH DELHI</h1>
                     <p className="text-sm font-medium tracking-wide sm:text-lg">The 2nd iteration of Hackthon,</p>
                     <p className="text-sm font-medium tracking-wide sm:text-lg">"Cultivating Innovation, Harvesting Tomorrow"</p>
                 </div>
