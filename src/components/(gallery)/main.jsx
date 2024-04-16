@@ -5,8 +5,8 @@ import { TypeAnimation } from 'react-type-animation';
 function Main() {
 
     return (
-        <div className="min-h-screen w-full items-center justify-center text-center flex p-2">
-            <TypeAnimation className="capitalize font-bold text-lg md:text-xl lg:text-3xl xl:text-4xl text-amber-300" speed={50}
+        <div className="flex items-center justify-center w-full min-h-screen p-2 text-center">
+            <TypeAnimation className="text-lg font-bold capitalize md:text-xl lg:text-3xl xl:text-4xl text-amber-300" speed={50}
                 sequence={[
                     '" Unlocking creativity, revealing soon... "', // English
                     1000,

@@ -46,7 +46,7 @@ function Form() {
     }
 
     return (
-        <div className="flex items-center justify-center w-full min-h-screen p-3 py-20 bg-black">
+        <div className="flex items-center justify-center w-full min-h-screen p-3 py-20 bg-gradient-to-tr from-gradient-start via-black to-gradient-end">
             <div className="grid items-center justify-center grid-cols-1 gap-10 xl:grid-cols-2">
                 <div className="flex flex-col justify-center w-full h-full gap-14">
                     <div className="flex flex-col items-center justify-center gap-1 text-center text-white">

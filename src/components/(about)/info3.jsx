@@ -2,7 +2,7 @@ import React from "react";
 
 function Info3() {
   return (
-    <div className="flex flex-col justify-center min-h-screen p-5 pb-40 bg-black pt-28 lg:pt-0">
+    <div className="flex flex-col justify-center min-h-screen p-5 pb-40 pt-28 lg:pt-0 via-black bg-gradient-to-br from-gradient-start to-gradient-end">
       <div className="flex flex-col items-center justify-center text-white gap-14">
         <div className="flex items-start w-full max-w-7xl">
           <h1 className="text-4xl font-bold sm:text-5xl lg:text-6xl">

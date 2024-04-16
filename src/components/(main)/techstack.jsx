@@ -38,7 +38,7 @@ const Images = [
 
 function TechStack() {
   return (
-    <div className="flex items-center justify-center w-full min-h-screen p-5 pt-40 text-white">
+    <div className="flex items-center justify-center w-full min-h-screen p-5 pt-40 text-white via-black bg-gradient-to-tl from-gradient-start to-gradient-middle">
       <div className="flex flex-col items-center justify-center w-full min-h-screen gap-20 p-5 max-w-7xl lg:items-stretch">
         <h1 className="text-4xl font-bold sm:text-6xl">Tech Stack</h1>
         <div className="grid items-center justify-center grid-cols-1 gap-20 sm:grid-cols-2 xl:grid-cols-3">
