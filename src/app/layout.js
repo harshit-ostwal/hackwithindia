@@ -62,20 +62,26 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <Head>
-        <link rel="icon" type="image/ico" href="/favicon.ico" />
+      <meta charSet="UTF-8" />
+        <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta name="description" content={metadata.description} />
         <meta name="author" content={metadata.author} />
-        <meta name="copyright" content={metadata.copyright} />
-        <meta name="robots" content="index,follow" />
+        <meta name="keywords" content={metadata.keywords.join(',')} />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://hackwithindia.live" />
         <meta property="og:title" content="HackWithIndia | An Official Coding Hackathons" />
+        <meta property="og:description" content={metadata.description} />
+        <meta property="og:image" content="/Event2.png" />
+        <meta name="twitter:card" content="Event2.png" />
+        <meta name="twitter:creator" content="@hackwithindia1" />
         <meta name="twitter:title" content="HackWithIndia | An Official Coding Hackathons" />
-        <meta name="twitter:description" content="By harnessing the potential of advanced technologies like artificial intelligence, the Internet of Things, blockchain, and more, our hackathon aims to inspire students to craft innovative solutions that not only contribute to environmental betterment but also address pressing humanitarian challenges." />
-        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="apple-touch-icon" href="/apple-icon" type="image/png" />
+        <meta name="twitter:description" content={metadata.description} />
+        <meta name="twitter:image" content="/Event2.png" />
+        <link rel="icon" href="/favicon.ico" />
+        <link rel="apple-touch-icon" href="/apple-icon.png" />
+        <link rel="canonical" href="https://hackwithindia.live" />
+        <title>{metadata.title}</title>
       </Head>
       <body suppressHydrationWarning={true} className={`${outfit.variable} font-Outfit antialiased`}>
         <SmoothScroll>
