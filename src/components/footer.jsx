@@ -8,7 +8,7 @@ function Footer() {
             <SocialMedia />
             <div className="flex flex-col">
                 <p className="text-sm font-medium md:text-base">Copyright © HACKWITHINDIA | All Rights Reserved</p>
-                <p className="text-sm font-medium md:text-base">Built By Harshit Ostwal</p>
+                {/* <p className="text-sm font-medium md:text-base">Built By Harshit Ostwal</p> */}
             </div>
         </footer>
     )
