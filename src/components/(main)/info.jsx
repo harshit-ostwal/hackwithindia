@@ -17,7 +17,7 @@ function Info() {
                 <h1 className="text-3xl font-bold text-center sm:text-5xl sm:text-start">What is HACKWITHDELHI?</h1>
                 <ul className="space-y-5 text-lg">
                     <li>
-                        We from hackWithIndia are writing to propose the organizing of a two-day (30 hours) inter-college hackathon event HackWithIndia from 27th march to 6th April.
+                        We from HackwithIndia are organising a 12 hour inter-college hackathon, HackwithDelhi, on 20th May 2024. The hackathon will be held at G.L. Bajaj Institute of Technology. This hackathon will be the biggest hackathon in Delhi, and more than 400 students will be participating from all over Delhi-NCR.
                     </li>
                     <li>
                         By harnessing the potential of advanced technologies like artificial intelligence, the Internet of Things, blockchain, and more, our hackathon aims to inspire students to craft innovative solutions that not only contribute to environmental betterment but also address pressing humanitarian challenges.
