@@ -8,13 +8,16 @@ function History() {
             </div>
             <ul className="space-y-5 max-w-7xl lg:text-lg">
                 <li>
-                    The primary aim of this hackathon would be to inspire young brains to develop their technical, and team collaboration skills, and encourage them to foster a heightened sense of responsibility towards society, instilling them to channel their creative ideas towards betterment of the community.
+                    HackWithIndia emerged as a pioneer in the hackathon scene, hosting two monumental events within a span of six months.
                 </li>
                 <li>
-                    There will be 2 rounds in the hackathon. On the first day, Round 1 will begin with participants giving an abstract and presentation on their idea, followed by Round 2 of the mentorship process. Only the shortlisted teams will be in round 2 which is prototyping. After the results of round 2 finalists will give the presentation to the judges on the second day and the winner of the contest will be declared.
+                    The journey began with "Code4Cause," a groundbreaking hackathon that attracted over 3000 registrations from students across India. Held offline at the esteemed Maharaja Surajmal Institute of Technology, the event saw a remarkable turnout of 2000+ enthusiastic participants. Code4Cause wasn't just about coding; it was a platform where innovation met social impact, sparking solutions to pressing global issues.
                 </li>
                 <li>
-                    We are expected to gather more than 800 participants from all over other universities. We would also be providing them with food and basic amenities from the sponsors fund. Additionally, we'd be contacting a number of well-known figures in industry and education.
+                    Buoyed by the success of Code4Cause, HackWithIndia ventured into uncharted territory with its inaugural edition. This time, the stakes were higher, with over 5000 registrations flooding in. The grand finale was hosted at the prestigious Microsoft Office in Gurugram, setting the stage for intense competition and groundbreaking innovations. The event not only showcased the technical prowess of India's brightest minds but also fostered collaboration and creativity on a national scale.
+                </li>
+                <li>
+                These two landmark hackathons cemented HackWithIndia's reputation as a catalyst for innovation, bringing together the best minds to tackle real-world challenges head-on. With each event, the community grew stronger, setting the stage for even greater accomplishments in the future.
                 </li>
             </ul>
         </div>

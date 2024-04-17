@@ -14,7 +14,7 @@ function Info() {
                 </div>
             </div>
             <div className="flex flex-col gap-14 max-w-7xl">
-                <h1 className="text-3xl font-bold text-center sm:text-5xl sm:text-start">What is HACKWITHINDIA?</h1>
+                <h1 className="text-3xl font-bold text-center sm:text-5xl sm:text-start">What is HACKWITHDELHI?</h1>
                 <ul className="space-y-5 text-lg">
                     <li>
                         We from hackWithIndia are writing to propose the organizing of a two-day (30 hours) inter-college hackathon event HackWithIndia from 27th march to 6th April.
