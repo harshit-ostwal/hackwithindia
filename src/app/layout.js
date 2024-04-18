@@ -62,7 +62,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <Head>
-      <meta charSet="UTF-8" />
+        <meta charSet="UTF-8" />
         <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta name="description" content={metadata.description} />
@@ -72,7 +72,6 @@ export default function RootLayout({ children }) {
         <meta property="og:url" content="https://hackwithindia.live" />
         <meta property="og:title" content="HackWithIndia | An Official Coding Hackathons" />
         <meta property="og:description" content={metadata.description} />
-        <meta property="og:image" content="/Event2.png" />
         <meta name="twitter:card" content="Event2.png" />
         <meta name="twitter:creator" content="@hackwithindia1" />
         <meta name="twitter:title" content="HackWithIndia | An Official Coding Hackathons" />
@@ -81,6 +80,9 @@ export default function RootLayout({ children }) {
         <link rel="icon" href="/favicon.ico" />
         <link rel="apple-touch-icon" href="/apple-icon.png" />
         <link rel="canonical" href="https://hackwithindia.live" />
+        <meta property="og:image" content="/Event2.png" />
+        <meta property="og:image:width" content="3375px" />
+        <meta property="og:image:height" content="4219px" />
         <title>{metadata.title}</title>
       </Head>
       <body suppressHydrationWarning={true} className={`${outfit.variable} font-Outfit antialiased`}>
