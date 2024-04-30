@@ -55,36 +55,27 @@ export const metadata = {
     "hackathon schedule",
     "hackathon projects",
     "hackathon ideas"
-  ]
+  ],
+  openGraph: {
+    title: "HackWithIndia | An Official Coding Hackathons",
+    description:
+      "Welcome to HackWithIndia - your gateway to cutting-edge coding hackathons and contests! Join us for live hackathons that challenge your skills in web development, app development, programming, and technology. As the official website of HackWithIndia, we offer online coding contests that push the boundaries of innovation. Whether you're a seasoned coder or just starting, our contests provide a platform for learning and growth. Don't miss out on the Machine Learning Hackathon, Ai Hackathon, and ML Hackathon events that are sure to inspire. Join us and be part of a community dedicated to education, creativity, and technology advancement..",
+    url: "https://hackwithindia.live",
+    images:
+      "https://res.cloudinary.com/dgw7uwtzg/image/upload/v1714453712/andgjtvunpehjvzvg6vi.png",
+    siteName: "HackWithIndia | An Official Coding Hackathons",
+    locale: "en_US",
+    type: "website",
+  },
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <Head>
-        <meta charSet="UTF-8" />
-        <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta name="description" content={metadata.description} />
-        <meta name="author" content={metadata.author} />
-        <meta name="keywords" content={metadata.keywords.join(',')} />
-        <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://hackwithindia.live" />
-        <meta property="og:title" content="HackWithIndia | An Official Coding Hackathons" />
-        <meta property="og:description" content={metadata.description} />
-        <meta name="twitter:card" content="Event2.png" />
-        <meta name="twitter:creator" content="@hackwithindia1" />
-        <meta name="twitter:title" content="HackWithIndia | An Official Coding Hackathons" />
-        <meta name="twitter:description" content={metadata.description} />
-        <meta name="twitter:image" content="/Event2.png" />
+      <head>
         <link rel="icon" href="/favicon.ico" />
         <link rel="apple-touch-icon" href="/apple-icon.png" />
-        <link rel="canonical" href="https://hackwithindia.live" />
-        <meta property="og:image" content="/Event2.png" />
-        <meta property="og:image:width" content="3375px" />
-        <meta property="og:image:height" content="4219px" />
-        <title>{metadata.title}</title>
-      </Head>
+      </head>
       <body suppressHydrationWarning={true} className={`${outfit.variable} font-Outfit antialiased`}>
         <SmoothScroll>
           <NextTopLoader
