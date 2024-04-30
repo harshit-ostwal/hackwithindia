@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Logo1 = ["/Logitech.png", "/mx.png"]
+const Logo1 = ["/mx.png"]
 const Logo2 = ["/Reskill.svg", "/microsoft.png", "/bobble.png", "/QuillAudits.svg", "/Quine.png", "/ola.png", "/flagsmith.png", "/Devfolio.png",]
 
 function Info() {
@@ -8,7 +8,7 @@ function Info() {
         <div className="flex flex-col items-center justify-center w-full gap-40 p-5 pt-20 pb-40 text-white via-black bg-gradient-to-tl from-gradient-start to-gradient-middle">
             <div className="flex flex-col items-center justify-center gap-20">
                 <h1 className="text-3xl font-bold sm:text-5xl">Meet Our Title Sponsors</h1>
-                <div className="grid items-center justify-center grid-cols-1 gap-20 sm:grid-cols-2">
+                <div className="grid items-center justify-center grid-cols-1 gap-20">
                     {Logo1.map((data, index) => (
                         <img src={data} key={index} alt={data} loading="lazy" width={500} />
                     ))}

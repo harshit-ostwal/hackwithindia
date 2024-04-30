@@ -7,7 +7,18 @@ import React from 'react'
 export const metadata = {
   title: "Contact",
   description: "Contact HackWithIndia for all your hackathon inquiries. Find our contact number and helpline for assistance with our web development, app development, programming, and technology education contests. Connect with us to learn more about our upcoming events and how you can get involved in the exciting world of coding hackathons.",
+  openGraph: {
+    title: "Contact | HackWithIndia",
+    description: "Contact HackWithIndia for all your hackathon inquiries. Find our contact number and helpline for assistance with our web development, app development, programming, and technology education contests. Connect with us to learn more about our upcoming events and how you can get involved in the exciting world of coding hackathons.",
+    url: "https://hackwithindia.live/Contact",
+    images:
+      "https://res.cloudinary.com/dgw7uwtzg/image/upload/v1714453712/andgjtvunpehjvzvg6vi.png",
+    siteName: "HackWithIndia | An Official Coding Hackathons",
+    locale: "en_US",
+    type: "website",
+  },
   keywords: [
+    "Hackathon prizes", "Rewards", "Hackathon", "Coding", "Programming", "Tech",
     "HackWithIndia",
     "coding hackathon contest",
     "coding contest",
@@ -39,7 +50,8 @@ export const metadata = {
     "hackathon guidelines",
     "hackathon schedule",
     "hackathon projects",
-    "hackathon ideas"
+    "hackathon ideas",
+    "hackwithdelhi"
   ]
 };
 
