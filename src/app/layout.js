@@ -15,19 +15,19 @@ const outfit = Outfit({
 });
 
 export const metadata = {
-  author: "HackWithIndia",
-  copyright: "Copyright © HACKWITHINDIA | All Rights Reserved.",
+  author: "HackwithIndia",
+  copyright: "Copyright © HackwithIndia | All Rights Reserved.",
   title: {
-    template: '%s | HackWithIndia',
-    default: 'HackWithIndia | An Official Coding Hackathons',
+    template: '%s | HackwithIndia',
+    default: 'HackwithIndia | An Official Coding Hackathons',
   },
-  description: "Welcome to HackWithIndia - your gateway to cutting-edge coding hackathons and contests! Join us for live hackathons that challenge your skills in web development, app development, programming, and technology. As the official website of HackWithIndia, we offer online coding contests that push the boundaries of innovation. Whether you're a seasoned coder or just starting, our contests provide a platform for learning and growth. Don't miss out on the Machine Learning Hackathon, Ai Hackathon, and ML Hackathon events that are sure to inspire. Join us and be part of a community dedicated to education, creativity, and technology advancement.",
+  description: "HackwithIndia - your gateway to cutting-edge coding hackathons and contests! Join us for live hackathons that challenge your skills in web development, app development, programming, and technology. As the official website of HackwithIndia, we offer online coding contests that push the boundaries of innovation. Whether you're a seasoned coder or just starting, our contests provide a platform for learning and growth. Don't miss out on the Machine Learning Hackathon, Ai Hackathon, and ML Hackathon events that are sure to inspire. Join us and be part of a community dedicated to education, creativity, and technology advancement.",
   keywords: [
-    "HackWithIndia",
+    "HackwithIndia",
     "coding hackathon contest",
     "coding contest",
     "live hackathons",
-    "hackwithindia official website",
+    "HackwithIndia official website",
     "online coding contest",
     "hackathon",
     "web development",
@@ -57,13 +57,13 @@ export const metadata = {
     "hackathon ideas"
   ],
   openGraph: {
-    title: "HackWithIndia | An Official Coding Hackathons",
+    title: "HackwithIndia | An Official Coding Hackathons",
     description:
-      "Welcome to HackWithIndia - your gateway to cutting-edge coding hackathons and contests! Join us for live hackathons that challenge your skills in web development, app development, programming, and technology. As the official website of HackWithIndia, we offer online coding contests that push the boundaries of innovation. Whether you're a seasoned coder or just starting, our contests provide a platform for learning and growth. Don't miss out on the Machine Learning Hackathon, Ai Hackathon, and ML Hackathon events that are sure to inspire. Join us and be part of a community dedicated to education, creativity, and technology advancement..",
-    url: "https://hackwithindia.live",
+      "Welcome to HackwithIndia - your gateway to cutting-edge coding hackathons and contests! Join us for live hackathons that challenge your skills in web development, app development, programming, and technology. As the official website of HackwithIndia, we offer online coding contests that push the boundaries of innovation. Whether you're a seasoned coder or just starting, our contests provide a platform for learning and growth. Don't miss out on the Machine Learning Hackathon, Ai Hackathon, and ML Hackathon events that are sure to inspire. Join us and be part of a community dedicated to education, creativity, and technology advancement..",
+    url: "https://HackwithIndia.live",
     images:
       "https://res.cloudinary.com/dgw7uwtzg/image/upload/v1714453712/andgjtvunpehjvzvg6vi.png",
-    siteName: "HackWithIndia | An Official Coding Hackathons",
+    siteName: "HackwithIndia | An Official Coding Hackathons",
     locale: "en_US",
     type: "website",
   },
