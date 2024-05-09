@@ -18,7 +18,7 @@ function page() {
 
       <div className="w-[95%] lg:w-4/5 columns-1 md:columns-2 xl:columns-3 space-y-5 relative">
         {GalleryData.map((data, index) => (
-          <div>
+          <div key={index}>
             {isLoading && <Skeleton className="aspect-video" />}
             <Image src={data} key={index} onLoad={() => setIsLoading(false)} className={`${isLoading ? "hidden" : ""} object-contain`} quality={100} width={600} height={600} priority fetchPriority="high" />
           </div>
