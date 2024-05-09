@@ -6,7 +6,7 @@ import { TaggingWinnerData } from '@/data/TaggingWinner';
 
 function TaggingWinner() {
     return (
-        <div className="flex flex-col items-center gap-20">
+        <div className="flex flex-col items-center w-full gap-20">
             <div className="flex flex-col items-center max-w-5xl gap-10 text-center">
                 <h1 className="text-3xl font-semibold tracking-wide md:text-4xl lg:text-6xl">Tagging Challenge Winner's</h1>
             </div>
