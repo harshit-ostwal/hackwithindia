@@ -13,7 +13,7 @@ function page() {
 
       <div className="flex flex-col items-center max-w-5xl gap-10 text-center">
         <h1 className="text-6xl font-semibold tracking-widest">Gallery</h1>
-        <p className="text-lg md:text-xl text-white/70">Explore our gallery of memorable moments from HackWithIndi events at Gurugram. Immerse in the vibrant coding community, witness innovation, and get inspired.</p>
+        <p className="text-lg md:text-xl text-white/70">Explore our gallery of memorable moments from HackWithIndia events at Gurugram. Immerse in the vibrant coding community, witness innovation, and get inspired.</p>
       </div>
 
       <div className="w-[95%] lg:w-4/5 columns-1 md:columns-2 xl:columns-3 space-y-5 relative">

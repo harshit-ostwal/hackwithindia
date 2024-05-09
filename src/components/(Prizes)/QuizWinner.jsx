@@ -6,14 +6,14 @@ import { QuizWinnerData } from '@/data/quizWinner';
 
 function QuizWinner() {
     return (
-        <div className="flex flex-col items-center w-full h-full gap-20">
+        <div className="flex flex-col items-center gap-20">
             <div className="flex flex-col items-center max-w-5xl gap-10 text-center">
                 <h1 className="text-3xl font-semibold tracking-wide md:text-4xl lg:text-6xl">Quiz Challenge Winner's</h1>
             </div>
 
             <div className="grid items-center justify-center w-[95%] lg:w-4/5 grid-cols-1 gap-10 md:grid-cols-2 2xl:grid-cols-3">
                 {QuizWinnerData.map((data, index) => (
-                    <div key={index} className="flex flex-col items-center p-20 justify-center w-full h-full gap-6 border border-white border-solid rounded-3xl bg-[radial-gradient(ellipse_100%_90%_at_50%_0%,#222,#000)]">
+                    <div key={index} className="flex flex-col items-center p-20 justify-center gap-6 border border-white border-solid rounded-3xl bg-[radial-gradient(ellipse_100%_90%_at_50%_0%,#222,#000)]">
                         <div className="flex items-center justify-center gap-4">
                             <Image
                                 src={LeftLeaf}
