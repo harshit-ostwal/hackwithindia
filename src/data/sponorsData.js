@@ -1,4 +1,4 @@
-import Microsoft from "../../public/Sponors/Microsoft.png"
+import Microsoft from "../../public/Sponors/microsoft.png"
 import Bobble from "../../public/Sponors/bobble.png"
 import Devfolio from "../../public/Sponors/Devfolio.png"
 import Quine from "../../public/Sponors/Quine.svg"
