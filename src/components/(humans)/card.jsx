@@ -12,7 +12,7 @@ function HumanCard({ data }) {
 
     return (
         <div className="flex flex-col gap-4 w-[280px]">
-            {isLoading && <Skeleton className="w-[280px] h-[470px]" />}
+            {isLoading && <Skeleton className="w-[280px] h-[350px]" />}
             <Image
                 src={data.img}
                 onLoad={() => setIsLoading(false)}
