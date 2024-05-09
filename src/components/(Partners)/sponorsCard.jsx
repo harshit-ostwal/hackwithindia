@@ -17,7 +17,7 @@ function SponorsCard({ data }) {
             onMouseLeave={(e) => {
                 setIsHovered(false);
             }}
-            href={data.sponorsLink} className="flex flex-col w-full h-full overflow-hidden border border-solid rounded-xl border-white/40">
+            href={data.sponorsLink} className="flex flex-col w-full h-90 overflow-hidden border border-solid rounded-xl border-white/40">
             {isLoading && <Skeleton className="aspect-video" />}
             <Image src={data.sponorsImg} onLoad={() => setIsLoading(false)} className={`${isLoading ? "hidden" : ""} object-contain p-5 bg-white w-full aspect-video`} priority={true} fetchPriority="high" quality={100} alt={data.sponorsName} />
             <div className="flex items-center justify-between p-5">
