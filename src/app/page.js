@@ -1,26 +1,11 @@
-import Event from '@/components/(main)/event'
-import Intro from '@/components/(main)/intro'
+"use client"
 import Info from '@/components/(main)/info'
-import Header from '@/components/header'
-import React from 'react'
-import Theme from '@/components/(main)/theme'
-import History from '@/components/(main)/history'
-import TechStack from '@/components/(main)/techstack'
-import Timeline from '@/components/(main)/timeline'
+import React, { useEffect } from 'react'
 
 function page() {
   return (
-    <div className="w-full h-full">
-      <div className="via-black bg-gradient-to-tl from-gradient-start to-gradient-start">
-        <Header />
-        <Intro />
-      </div>
-      <Event />
+    <div className="flex flex-col items-center w-full min-h-screen gap-20 p-2 overflow-hidden">
       <Info />
-      <Theme />
-      <TechStack />
-      <Timeline />
-      <History />
     </div>
   )
 }

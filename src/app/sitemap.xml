@@ -2,27 +2,42 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
         <loc>https://hackwithindia.live/</loc>
-        <lastmod>2024-04-30</lastmod>
+        <lastmod>2024-05-09</lastmod>
         <priority>1.0</priority>
     </url>
     <url>
-        <loc>https://hackwithindia.live/About</loc>
-        <lastmod>2024-04-30</lastmod>
+        <loc>https://hackwithindia.live/Gallery</loc>
+        <lastmod>2024-05-09</lastmod>
         <priority>0.9</priority>
     </url>
     <url>
-        <loc>https://hackwithindia.live/Guidelines</loc>
-        <lastmod>2024-04-30</lastmod>
+        <loc>https://hackwithindia.live/Partners</loc>
+        <lastmod>2024-05-09</lastmod>
+        <priority>0.9</priority>
+    </url>
+    <url>
+        <loc>https://hackwithindia.live/Prizes</loc>
+        <lastmod>2024-05-09</lastmod>
+        <priority>0.9</priority>
+    </url>
+    <url>
+        <loc>https://hackwithindia.live/Schedule</loc>
+        <lastmod>2024-05-09</lastmod>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://hackwithindia.live/Gallery</loc>
-        <lastmod>2024-04-30</lastmod>
+        <loc>https://hackwithindia.live/Humans</loc>
+        <lastmod>2024-05-09</lastmod>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://hackwithindia.live/contact</loc>
-        <lastmod>2024-04-30</lastmod>
-        <priority>0.7</priority>
+        <loc>https://hackwithindia.live/FAQs</loc>
+        <lastmod>2024-05-09</lastmod>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://hackwithindia.live/Contact</loc>
+        <lastmod>2024-05-09</lastmod>
+        <priority>0.8</priority>
     </url>
 </urlset>

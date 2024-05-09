@@ -1,64 +1,28 @@
-import Main from '@/components/(gallery)/main'
-import Header from '@/components/header'
-import React from 'react'
-
-export const metadata = {
-  title: "Gallery",
-  description: "Explore the vibrant world of HackwithIndia through our gallery of hackathon images. See the excitement of live hackathons captured in stunning pictures. Browse through our collection of hackathon images and get inspired by the creativity and innovation on display. Join us in celebrating the spirit of web development, app development, programming, and technology education.",
-  openGraph: {
-    title: "Gallery | HackwithIndia",
-    description: "Explore the vibrant world of HackwithIndia through our gallery of hackathon images. See the excitement of live hackathons captured in stunning pictures. Browse through our collection of hackathon images and get inspired by the creativity and innovation on display. Join us in celebrating the spirit of web development, app development, programming, and technology education.",
-    url: "https://HackwithIndia.live/Gallery",
-    images:
-      "https://res.cloudinary.com/dgw7uwtzg/image/upload/v1714453712/andgjtvunpehjvzvg6vi.png",
-    siteName: "HackwithIndia | An Official Coding Hackathons",
-    locale: "en_US",
-    type: "website",
-  },
-  keywords: [
-    "Hackathon prizes", "Rewards", "Hackathon", "Coding", "Programming", "Tech",
-    "HackwithIndia",
-    "coding hackathon contest",
-    "coding contest",
-    "live hackathons",
-    "HackwithIndia official website",
-    "online coding contest",
-    "hackathon",
-    "web development",
-    "app development",
-    "programming",
-    "technology",
-    "education",
-    "contest",
-    "Machine Learning Hackathon",
-    "Ai Hackathon",
-    "ML Hackathon",
-    "hackathon event",
-    "coding competition",
-    "software development",
-    "coding challenges",
-    "programming contest",
-    "hackathon for students",
-    "hackathon for developers",
-    "innovation contest",
-    "tech contest",
-    "hackathon registration",
-    "hackathon prizes",
-    "hackathon rules",
-    "hackathon guidelines",
-    "hackathon schedule",
-    "hackathon projects",
-    "hackathon ideas",
-    "hackwithdelhi"
-  ]
-};
+"use client"
+import { Skeleton } from '@/components/ui/skeleton';
+import { GalleryData } from '@/data/Gallery'
+import Image from 'next/image'
+import React, { useState } from 'react'
 
 function page() {
+
+  const [isLoading, setIsLoading] = useState(true);
+
   return (
-    <div className="w-full h-full">
-      <div className="via-black bg-gradient-to-tl from-gradient-start to-gradient-start">
-        <Header />
-        <Main />
+    <div className="flex flex-col items-center w-full min-h-screen gap-20 p-2 overflow-hidden">
+
+      <div className="flex flex-col items-center max-w-5xl gap-10 text-center">
+        <h1 className="text-6xl font-semibold tracking-widest">Gallery</h1>
+        <p className="text-lg md:text-xl text-white/70">Explore our gallery of memorable moments from HackWithIndi events at Gurugram. Immerse in the vibrant coding community, witness innovation, and get inspired.</p>
+      </div>
+
+      <div className="w-[95%] lg:w-4/5 columns-1 md:columns-2 xl:columns-3 space-y-5 relative">
+        {GalleryData.map((data, index) => (
+          <div>
+            {isLoading && <Skeleton className="aspect-video" />}
+            <Image src={data} key={index} onLoad={() => setIsLoading(false)} className={`${isLoading ? "hidden" : ""} object-contain`} quality={100} width={600} height={600} priority fetchPriority="high" />
+          </div>
+        ))}
       </div>
     </div>
   )

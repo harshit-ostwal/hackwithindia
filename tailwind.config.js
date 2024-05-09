@@ -17,13 +17,8 @@ module.exports = {
       },
     },
     extend: {
-      colors: {
-        'gradient-start': 'var(--gradient-start)',
-        'gradient-middle': 'var(--gradient-middle)',
-        'gradient-end': 'var(--gradient-end)',
-      },
       fontFamily: {
-        "Outfit": "var(--Outfit)"
+        "Outfit": "var(--outfit)"
       },
       keyframes: {
         "accordion-down": {
