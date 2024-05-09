@@ -2,7 +2,6 @@ import Image from 'next/image';
 import React from 'react'
 import LeftLeaf from "../../../public/LeftLeaf.svg"
 import RightLeaf from "../../../public/RightLeaf.svg"
-import { TaggingWinnerData } from '@/data/TaggingWinner';
 import { QuizWinnerData } from '@/data/quizWinner';
 
 function QuizWinner() {
