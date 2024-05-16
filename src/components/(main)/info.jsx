@@ -9,12 +9,24 @@ import Link from 'next/link'
 
 function Info() {
   return (
-    <div className="flex flex-col items-center justify-center w-full gap-20 p-5">
+    <div className="flex flex-col items-center justify-center w-full gap-20 p-2">
       <div className="flex flex-col justify-between w-full gap-10 xl:flex-row">
-        <div className="flex flex-col">
+        <div className="flex flex-col gap-2">
           <h1 className="text-lg font-medium md:text-2xl text-white/70">This Year's Hackathon Theme,</h1>
-          <h1 className="text-4xl font-bold lg:text-6xl">Digital Anonymity</h1>
-          <h1 className="text-4xl font-bold lg:text-6xl">Unleashed</h1>
+          <h1 className="text-4xl font-bold lg:text-6xl" style={{
+            background:
+              "linear-gradient(80deg, #D06D30 6.67%, #FFD887 28.13%, #FFDCAD 64.87%, #FAB858 95.66%)",
+            backgroundClip: "text",
+            WebkitBackgroundClip: "text",
+            WebkitTextFillColor: "transparent"
+          }}>Digital Anonymity</h1>
+          <h1 className="text-4xl font-bold lg:text-6xl" style={{
+            background:
+              "linear-gradient(80deg, #D06D30 6.67%, #FFD887 28.13%, #FFDCAD 64.87%, #FAB858 95.66%)",
+            backgroundClip: "text",
+            WebkitBackgroundClip: "text",
+            WebkitTextFillColor: "transparent"
+          }}>Unleashed</h1>
         </div>
         <div className="flex flex-col gap-2">
           <div className="flex flex-col text-white/70">
@@ -27,15 +39,15 @@ function Info() {
 
       <div className="flex flex-col gap-10">
         <div className="flex flex-col items-center justify-center gap-2">
-          <Image src={Mx} alt="Mx Logo" className="w-72 lg:w-96" />
+          <Image src={Mx} alt="Mx Logo" className="w-72 lg:w-96" quality={100} fetchPriority="high" priority={true} />
           <h1 className="text-sm font-semibold md:text-base lg:text-xl text-white/70">PRESENTS</h1>
-          <Image src={HackWithIndia} />
+          <Image src={HackWithIndia} alt="HackWithIndia Logo" quality={100} fetchPriority="high" priority={true} />
         </div>
 
         <div className="flex flex-col items-center justify-center gap-2">
           <h1 className="text-sm font-semibold md:text-base lg:text-xl text-white/70">POWERED BY</h1>
           <div className="flex items-center justify-center w-full">
-            <Image src={Hive} alt="Hive Logo" className="w-72 lg:w-96" />
+            <Image src={Hive} alt="Hive Logo" className="w-72 lg:w-96" quality={100} fetchPriority="high" priority={true} />
           </div>
         </div>
       </div>
