@@ -2,6 +2,8 @@ import { SiteLinksData } from '@/data/siteLinks'
 import Link from 'next/link'
 import React from 'react'
 import SocialMedia from './socialMedia'
+import getInTouch from "../../public/getInTouchImage.svg"
+import Image from 'next/image'
 
 function Footer() {
 
@@ -11,12 +13,14 @@ function Footer() {
         <footer className="flex items-end justify-center w-full min-h-screen text-white bg-black">
 
             <div className="flex flex-col w-5/6 gap-20 py-10 lg:gap-40">
-                <div className="flex items-end flex-1 w-full">
+                <div className="flex w-full">
                     <h1 className="flex flex-col text-6xl font-medium tracking-wide sm:text-7xl md:text-8xl lg:text-9xl">
                         <span>Empower</span>
                         <span>Your Digital</span>
                         <span>Odyssey!</span>
                     </h1>
+
+                    {/* <Image src={getInTouch} className="w-auto h-auto animate-spinner" priority={true} fetchPriority="high" quality={100} alt="GetInTouch" /> */}
                 </div>
 
                 <div className="flex flex-col w-full gap-10">

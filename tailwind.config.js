@@ -21,6 +21,9 @@ module.exports = {
         "Outfit": "var(--outfit)"
       },
       keyframes: {
+        "spinner": {
+          to: { rotate: "360deg" },
+        },
         "accordion-down": {
           from: { height: "0" },
           to: { height: "var(--radix-accordion-content-height)" },
@@ -33,6 +36,7 @@ module.exports = {
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
+        "spinner": "spinner 6s linear infinite",
       },
     },
   },

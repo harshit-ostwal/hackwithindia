@@ -5,7 +5,7 @@ export const MacroWinnerData = [
         prizeImg: "/Prizes/M240_Mouse.png",
     },
     {
-        prize: "MX Master 3S For Mac",
+        prize: "MX Master 3S Mouse",
         prizeOrder: "2nd",
         prizeImg: "/Prizes/Mx_Keyborad_S.png",
     },
