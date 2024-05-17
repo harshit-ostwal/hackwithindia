@@ -3,13 +3,13 @@ import React from 'react'
 import Hive from "../../../public/Main/Hive.svg"
 import HackWithIndia from "../../../public/Main/HackWithIndia.png"
 import Mx from "../../../public/Main/mx-logo-white.png"
-import SocialMedia from '../socialMedia'
+import Freshen from "../../../public/Main/Freshen-Logo.png"
 import { FiArrowUpRight } from 'react-icons/fi'
 import Link from 'next/link'
 
 function Info() {
   return (
-    <div className="flex flex-col items-center justify-center w-full gap-20 p-2">
+    <div className="flex flex-col items-center justify-center w-11/12 gap-20">
       <div className="flex flex-col justify-between w-full gap-10 xl:flex-row">
         <div className="flex flex-col gap-2">
           <h1 className="text-lg font-medium md:text-2xl text-white/70">This Year's Hackathon Theme,</h1>
@@ -48,6 +48,13 @@ function Info() {
           <h1 className="text-sm font-semibold md:text-base lg:text-xl text-white/70">POWERED BY</h1>
           <div className="flex items-center justify-center w-full">
             <Image src={Hive} alt="Hive Logo" className="w-72 lg:w-96" quality={100} fetchPriority="high" priority={true} />
+          </div>
+        </div>
+
+        <div className="flex flex-col items-center justify-center gap-2">
+          <h1 className="text-sm font-semibold md:text-base lg:text-xl text-white/70">DRINKS BY</h1>
+          <div className="flex items-center justify-center w-full">
+            <Image src={Freshen} alt="Hive Logo" className="w-72 lg:w-96" quality={100} fetchPriority="high" priority={true} />
           </div>
         </div>
       </div>
