@@ -10,7 +10,7 @@ export const MacroWinnerData = [
         prizeImg: "/Prizes/Mx_Keyborad_S.png",
     },
     {
-        prize: "M240 Silent Bluetooth Mouse",
+        prize: "MX Master 3S Mouse",
         prizeOrder: "3rd",
         prizeImg: "/Prizes/Mx_Master_3s.png",
     },
