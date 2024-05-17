@@ -77,7 +77,7 @@ export default function RootLayout({ children }) {
           <div className="absolute -z-10 h-screen w-full bg-[linear-gradient(to_right,#111_1px,transparent_1px),linear-gradient(to_bottom,#111_1px,transparent_1px)] bg-[size:4rem_4rem] [mask-image:radial-gradient(ellipse_80%_100%_at_50%_0%,#000_80%,transparent_110%)]"></div>
           <Header />
 
-          <div className="flex-1 mt-[10%]">
+          <div className="flex-1 mt-[15%] 2xl:mt-[10%]">
             <div className="min-h-screen">
               {children}
             </div>

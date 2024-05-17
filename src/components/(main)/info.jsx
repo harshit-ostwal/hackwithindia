@@ -13,9 +13,9 @@ function Info() {
       <div className="flex flex-col justify-between w-full gap-10 xl:flex-row">
         <div className="flex flex-col gap-2">
           <h1 className="text-lg font-medium md:text-2xl text-white/70">This Year's Hackathon Theme,</h1>
-          <h1 className="text-4xl font-bold lg:text-6xl" style={{
+          <h1 className="h-[44px] lg:h-[70px] text-4xl font-bold lg:text-6xl" style={{
             background:
-              "linear-gradient(80deg, #D06D30 6.67%, #FFD887 28.13%, #FFDCAD 64.87%, #FAB858 95.66%)",
+              "linear-gradient(80deg, #D06D30 6.67%, #FFD887 28.13%, #FFDCAD 64.87%, #FAB858 95.66%)",  
             backgroundClip: "text",
             WebkitBackgroundClip: "text",
             WebkitTextFillColor: "transparent"
