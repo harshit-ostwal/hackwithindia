@@ -10,16 +10,16 @@ import FlagSmith from "../../public/Sponors/flagsmith.png"
 
 export const SponorsCardData = [
     {
-        sponorsImg: Freshen,
-        sponorsName: "Freshen",
-        sponorsCategory: "Beverages Sponors",
-        sponorsLink: "https://www.freshendrinks.com",
-    },
-    {
         sponorsImg: Hive,
         sponorsName: "Hive",
         sponorsCategory: "Power Sponors",
         sponorsLink: "https://hive.io",
+    },
+    {
+        sponorsImg: Freshen,
+        sponorsName: "Freshen",
+        sponorsCategory: "Beverages Sponors",
+        sponorsLink: "https://www.freshendrinks.com",
     },
     {
         sponorsImg: Microsoft,
