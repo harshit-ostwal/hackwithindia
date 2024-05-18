@@ -1,5 +1,6 @@
 import MXLogo from "../../public/Partners/mx-logo-black.png"
 import Freshen from "../../public/Main/Freshen-Logo.png"
+import Hive from "../../public/Main/Hive.png"
 
 export const TitleSponorData = [
     {
@@ -10,6 +11,13 @@ export const TitleSponorData = [
         titleSponsorLink: "https://www.logitech.com/en-in/mx/master-series.html",
     },
     {
+        titleSponsorLogo: Hive,
+        titleSponsorName: "Hive",
+        titleSponsorCategory: "Power Sponsor",
+        titleSponsorDesc: "Enjoy our refreshing drinks to stay energized and hydrated as you innovate. Let's code and stay fresh together!",
+        titleSponsorLink: "https://www.logitech.com/en-in/mx/master-series.html",
+    },
+        {
         titleSponsorLogo: Freshen,
         titleSponsorName: "Freshen",
         titleSponsorCategory: "Beverages Sponsor",
