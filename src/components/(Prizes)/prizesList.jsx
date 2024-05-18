@@ -20,6 +20,11 @@ function PrizesList() {
                 </div>
             </div>
 
+            <div className="flex flex-col items-center justify-center w-full gap-5 border border-white border-solid h-60 rounded-3xl lg:h-96 bg-[radial-gradient(ellipse_50%_100%_at_50%_-20%,#ef4444,#000)]">
+                <h1 className='font-bold text-7xl lg:text-9xl'>$1500</h1>
+                <p className="text-2xl font-semibold">Cash Prize - Hive</p>
+            </div>
+
         </div>
     )
 }
