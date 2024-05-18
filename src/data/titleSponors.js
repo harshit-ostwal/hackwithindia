@@ -12,7 +12,7 @@ export const TitleSponorData = [
     {
         titleSponsorLogo: Freshen,
         titleSponsorName: "Freshen",
-        titleSponsorCategory: "Power Sponsor",
+        titleSponsorCategory: "Beverages Sponsor",
         titleSponsorDesc: "Enjoy our refreshing drinks to stay energized and hydrated as you innovate. Let's code and stay fresh together!",
         titleSponsorLink: "https://www.logitech.com/en-in/mx/master-series.html",
     }
