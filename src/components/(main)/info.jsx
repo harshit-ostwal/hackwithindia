@@ -52,7 +52,7 @@ function Info() {
         </div>
 
         <div className="flex flex-col items-center justify-center gap-2">
-          <h1 className="text-sm font-semibold md:text-base lg:text-xl text-white/70">DRINKS BY</h1>
+          <h1 className="text-sm font-semibold md:text-base lg:text-xl text-white/70">BEVERAGES BY</h1>
           <div className="flex items-center justify-center w-full">
             <Image src={Freshen} alt="Hive Logo" className="w-72 lg:w-96" quality={100} fetchPriority="high" priority={true} />
           </div>
