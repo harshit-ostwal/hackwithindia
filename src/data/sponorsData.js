@@ -1,26 +1,12 @@
 import Microsoft from "../../public/Sponors/microsoft.png"
-import Hive from "../../public/Main/Hive.svg"
 import Devfolio from "../../public/Sponors/Devfolio.png"
 import Quine from "../../public/Sponors/Quine.svg"
 import QuillAudits from "../../public/Sponors/QuillAudits.svg"
-import Freshen from "../../public/Main/Freshen-Logo.png"
 import Reskill from "../../public/Sponors/Reskill.svg"
 import Ola from "../../public/Sponors/ola.svg"
 import FlagSmith from "../../public/Sponors/flagsmith.png"
 
 export const SponorsCardData = [
-    {
-        sponorsImg: Hive,
-        sponorsName: "Hive",
-        sponorsCategory: "Power Sponors",
-        sponorsLink: "https://hive.io",
-    },
-    {
-        sponorsImg: Freshen,
-        sponorsName: "Freshen",
-        sponorsCategory: "Beverages Sponors",
-        sponorsLink: "https://www.freshendrinks.com",
-    },
     {
         sponorsImg: Microsoft,
         sponorsName: "Microsoft",
