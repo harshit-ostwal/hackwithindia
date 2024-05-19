@@ -13,7 +13,7 @@ function Info3() {
                 <p className="text-sm md:text-lg lg:text-xl text-white/70">Get to interact and learn more about the amazing <span className="font-bold text-white">Cash Prize</span> by Hive, and win fantastic rewards along the way!</p>
             </div>
 
-            <div className="flex flex-col items-center justify-center w-[95%] lg:w-4/5 gap-10 border border-white border-solid rounded-3xl h-80 md:h-96 bg-gradient-to-tl from-pink-800 to-white/20">
+            <div className="flex flex-col items-center justify-center w-[95%] lg:w-4/5 gap-10 border border-white border-solid rounded-3xl py-10 bg-gradient-to-tl from-pink-800 to-white/20">
                 <div className="flex items-center justify-center gap-0 md:gap-4">
                     <Image
                         src={LeftLeaf}
@@ -22,7 +22,7 @@ function Info3() {
                         quality={100}
                         priority={true} fetchPriority="high"
                     />
-                    <h1 className="text-lg font-semibold tracking-wider text-center capitalize text-nowrap sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl">Hive Macro Challenge</h1>
+                    <h1 className="text-lg font-semibold tracking-wider text-center capitalize text-nowrap sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl">Hive Track</h1>
                     <Image
                         src={RightLeaf}
                         alt="leaf"
@@ -31,6 +31,7 @@ function Info3() {
                         priority={true} fetchPriority="high"
                     />
                 </div>
+                <h1 className='font-bold text-7xl lg:text-9xl'>$1500</h1>
                 <div className="flex gap-5">
                     <Link href={"https://discord.gg/SuFVSywvVs"} target="_blank" className="flex items-center gap-2 px-4 py-2 text-sm font-medium text-black duration-150 bg-white md:py-3 md:text-base md:px-10 hover:scale-95 w-fit">Discord Server<FiArrowUpRight size={28} /></Link>
                     <Link href={"https://shorturl.at/P0478"} target="_blank" className="flex items-center gap-2 px-4 py-2 text-sm font-medium text-black duration-150 bg-white md:py-3 md:text-base md:px-10 hover:scale-95 w-fit">Track Details<FiArrowUpRight size={28} /></Link>
