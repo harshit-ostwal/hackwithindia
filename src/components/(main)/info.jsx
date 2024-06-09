@@ -1,8 +1,8 @@
 import Image from 'next/image'
 import React from 'react'
 import Hive from "../../../public/Main/Hive.jpeg"
-import HackWithIndia from "../../../public/Main/HackWithIndia.png"
-import Mx from "../../../public/Main/mx-logo-white.png"
+import BuildWithDelhi from "../../../public/Main/BuildWithDelhi.jpeg"
+import UsCinemas from "../../../public/Main/UsCinemas.png"
 import Freshen from "../../../public/Main/Freshen-Logo.png"
 import { FiArrowUpRight } from 'react-icons/fi'
 import Link from 'next/link'
@@ -39,16 +39,16 @@ function Info() {
       </div>
 
       <div className="flex flex-col gap-10">
-        <div className="flex flex-col items-center justify-center gap-2">
-          <Image src={Mx} alt="Mx Logo" className="w-72 lg:w-96" quality={100} fetchPriority="high" priority={true} />
+        <div className="flex flex-col items-center justify-center gap-10">
+          <Image src={Hive} alt="Mx Logo" className="w-72" quality={100} fetchPriority="high" priority={true} />
           <h1 className="text-sm font-semibold md:text-base lg:text-xl text-white/70">PRESENTS</h1>
-          <Image src={HackWithIndia} alt="HackWithIndia Logo" quality={100} fetchPriority="high" priority={true} />
+          <Image src={BuildWithDelhi} alt="HackWithIndia Logo" className="w-full h-96" quality={100} fetchPriority="high" priority={true} />
         </div>
 
-        <div className="flex flex-col items-center justify-center gap-5">
-          <h1 className="text-sm font-semibold md:text-base lg:text-xl text-white/70">POWERED BY</h1>
+        <div className="flex flex-col items-center justify-center gap-10">
+          <h1 className="text-sm font-semibold md:text-base lg:text-xl text-white/70">CINEMA PARTNER</h1>
           <div className="flex items-center justify-center w-full">
-            <Image src={Hive} alt="Hive Logo" className="w-72 lg:w-96" quality={100} fetchPriority="high" priority={true} />
+            <Image src={UsCinemas} alt="Hive Logo" className="w-72" quality={100} fetchPriority="high" priority={true} />
           </div>
         </div>
 
