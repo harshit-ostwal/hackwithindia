@@ -19,9 +19,9 @@ export const TitleSponorData = [
     },
     {
         titleSponsorLogo: UsCinemas,
-        titleSponsorName: "Us Cinemas",
-        titleSponsorCategory: "Cinema Sponsor",
-        titleSponsorDesc: "U.S. Cinema is a company that supports the film industry by sponsoring events such as film festivals and independent films. They provide financial support, marketing, and resources to promote cinema-related activities.",
-        titleSponsorLink: "https://uscinemas.in",
+        titleSponsorName: "Logitech",
+        titleSponsorCategory: "Title Sponsor",
+        titleSponsorDesc: "The MX Master Series is expertly designed for users, empowering coders to unleash productivity and optimize performance during intense coding marathons.",
+        titleSponsorLink: "https://www.logitech.com/en-in/mx/master-series.html",
     },
 ]

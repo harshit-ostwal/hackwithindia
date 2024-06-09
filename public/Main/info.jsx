@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
-import Hive from "../../../public/Main/Hive2.svg"
+import Hive from "../../../public/Main/Hive.svg"
 import BuildWithDelhi from "../../../public/Main/BuildWithDelhi.jpeg"
 import UsCinemas from "../../../public/Main/UsCinemas.png"
 import Freshen from "../../../public/Main/Freshen-Logo.png"
@@ -30,8 +30,8 @@ function Info() {
         </div>
         <div className="flex flex-col gap-2">
           <div className="flex flex-col text-white/70">
-            <p className="text-base font-medium text-nowrap md:text-lg">Join us at Greater Noida,</p>
-            <p className="text-base font-medium text-nowrap md:text-lg">June 29 for an in-person hackathon.</p>
+            <p className="text-base font-medium text-nowrap md:text-lg">Join us at G.L.Bajaj Institute Of Technology,</p>
+            <p className="text-base font-medium text-nowrap md:text-lg">May 20 for an in-person hackathon.</p>
           </div>
           <Link href={"https://shorturl.at/P0478"} target="_blank" className="flex items-center gap-2 px-4 py-2 text-sm font-medium text-black duration-150 bg-white md:py-3 md:text-base md:px-10 hover:scale-95 w-fit">Explore Hive Tracks<FiArrowUpRight size={28} /></Link>
         </div>
