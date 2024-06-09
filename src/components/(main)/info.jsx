@@ -33,6 +33,7 @@ function Info() {
             <p className="text-base font-medium text-nowrap md:text-lg">Join us at Greater Noida,</p>
             <p className="text-base font-medium text-nowrap md:text-lg">June 29 for an in-person hackathon.</p>
           </div>
+          <Link href={"https://buildwithdelhi.devfolio.co"} target="_blank" className="flex items-center gap-2 px-4 py-2 text-sm font-medium text-black duration-150 bg-white md:py-3 md:text-base md:px-10 hover:scale-95 w-fit">Register Now<FiArrowUpRight size={28} /></Link>
           <Link href={"https://shorturl.at/P0478"} target="_blank" className="flex items-center gap-2 px-4 py-2 text-sm font-medium text-black duration-150 bg-white md:py-3 md:text-base md:px-10 hover:scale-95 w-fit">Explore Hive Tracks<FiArrowUpRight size={28} /></Link>
         </div>
       </div>
