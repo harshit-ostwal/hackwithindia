@@ -4,6 +4,7 @@ import Hive from "../../../public/Main/Hive2.svg"
 import BuildWithDelhi from "../../../public/Main/BuildWithDelhi.jpeg"
 import UsCinemas from "../../../public/Main/UsCinemas.png"
 import Freshen from "../../../public/Main/Freshen-Logo.png"
+import Communication from "../../../public/Main/Communication-Logo.png"
 import { FiArrowUpRight } from 'react-icons/fi'
 import Link from 'next/link'
 
@@ -56,6 +57,13 @@ function Info() {
           <h1 className="text-sm font-semibold md:text-base lg:text-xl text-white/70">BEVERAGES BY</h1>
           <div className="flex items-center justify-center w-full">
             <Image src={Freshen} alt="Hive Logo" className="w-72 lg:w-96" quality={100} fetchPriority="high" priority={true} />
+          </div>
+        </div>
+        
+        <div className="flex flex-col items-center justify-center gap-2">
+          <h1 className="text-sm font-semibold md:text-base lg:text-xl text-white/70">COMMUNICATION BY</h1>
+          <div className="flex items-center justify-center w-full">
+            <Image src={Communication} alt="Hive Logo" className="w-72 lg:w-96" quality={100} fetchPriority="high" priority={true} />
           </div>
         </div>
       </div>
