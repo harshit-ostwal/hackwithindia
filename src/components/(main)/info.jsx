@@ -4,7 +4,7 @@ import Hive from "../../../public/Main/Hive2.svg"
 import BuildWithDelhi from "../../../public/Main/BuildWithDelhi.jpeg"
 import UsCinemas from "../../../public/Main/UsCinemas.png"
 import Freshen from "../../../public/Main/Freshen-Logo.png"
-import Communication from "../../../public/Main/Communication-Logo.png"
+import Communication from "../../../public/Main/Communication-Logo.jpg"
 import { FiArrowUpRight } from 'react-icons/fi'
 import Link from 'next/link'
 
@@ -60,7 +60,7 @@ function Info() {
           </div>
         </div>
         
-        <div className="flex flex-col items-center justify-center gap-2">
+        <div className="flex flex-col items-center justify-center gap-8">
           <h1 className="text-sm font-semibold md:text-base lg:text-xl text-white/70">COMMUNICATION BY</h1>
           <div className="flex items-center justify-center w-full">
             <Image src={Communication} alt="Hive Logo" className="w-72 lg:w-96" quality={100} fetchPriority="high" priority={true} />
