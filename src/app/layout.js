@@ -20,6 +20,11 @@ export const metadata = {
   description: "HackwithIndia - your gateway to cutting-edge coding hackathons and contests! Join us for live hackathons that challenge your skills in web development, app development, programming, and technology. As the official website of HackwithIndia, we offer online coding contests that push the boundaries of innovation. Whether you're a seasoned coder or just starting, our contests provide a platform for learning and growth. Don't miss out on the Machine Learning Hackathon, Ai Hackathon, and ML Hackathon events that are sure to inspire. Join us and be part of a community dedicated to education, creativity, and technology advancement.",
   keywords: [
     "HackwithIndia",
+    "smart india hackathons",
+    "top hackathon",
+    "instagram hackwithindia",
+    "devfoilo hackwithindia",
+    "Hack with India",
     "coding hackathon contest",
     "coding contest",
     "live hackathons",
@@ -53,7 +58,7 @@ export const metadata = {
     "hackathon ideas"
   ],
   openGraph: {
-    title: "HackwithIndia | An Official Coding Hackathons",
+    title: "India’s Biggest Hackathon Community | HACKWITHINDIA",
     description:
       "Welcome to HackwithIndia - your gateway to cutting-edge coding hackathons and contests! Join us for live hackathons that challenge your skills in web development, app development, programming, and technology. As the official website of HackwithIndia, we offer online coding contests that push the boundaries of innovation. Whether you're a seasoned coder or just starting, our contests provide a platform for learning and growth. Don't miss out on the Machine Learning Hackathon, Ai Hackathon, and ML Hackathon events that are sure to inspire. Join us and be part of a community dedicated to education, creativity, and technology advancement..",
     url: "https://HackwithIndia.live",
