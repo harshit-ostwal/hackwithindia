@@ -19,7 +19,7 @@ function page() {
           </p>
         </BoxReveal>
         <BoxReveal boxColor={"#5046e6"} duration={0.5}>
-          <p className="text-xl">
+          <p className="text-sm md:text-lg lg:text-xl">
             Explore our gallery of memorable moments from HackWithIndia<span className="text-[#5046e6]">.</span>
           </p>
         </BoxReveal>
