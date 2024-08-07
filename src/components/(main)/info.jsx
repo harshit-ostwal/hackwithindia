@@ -1,7 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
-import Hive from "../../../public/Main/Hive2.svg"
-import BuildWithDelhi from "../../../public/Main/BuildWithDelhi.jpeg"
+import HackWithChandigarh from "../../../public/Main/HackWithChandigarh.png"
 import { FiArrowUpRight } from 'react-icons/fi'
 import Link from 'next/link'
 
@@ -38,9 +37,8 @@ function Info() {
 
       <div className="flex flex-col gap-10">
         <div className="flex flex-col items-center justify-center gap-10">
-          <Image src={Hive} alt="Mx Logo" className="w-72" quality={100} fetchPriority="high" priority={true} />
           <h1 className="text-sm font-semibold md:text-base lg:text-xl text-white/70">PRESENTS</h1>
-          <Image src={BuildWithDelhi} alt="HackWithIndia Logo" className="w-full h-auto" quality={100} fetchPriority="high" priority={true} />
+          <Image src={HackWithChandigarh} alt="HackWithIndia Logo" width={1080} quality={100} fetchPriority="high" priority={true} />
         </div>
       </div>
     </div >
