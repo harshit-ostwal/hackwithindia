@@ -75,12 +75,12 @@ function Info() {
       <div className="flex flex-col justify-between w-full gap-10 xl:flex-row">
         <div className="flex flex-col gap-2">
           <BoxReveal boxColor={"#5046e6"} duration={0.5}>
-            <p className="text-[2rem] font-semibold">
+            <p className="text-xl font-semibold lg:text-4xl">
               India's Biggest Hackathon Community,<span className="text-[#5046e6]"></span>
             </p>
           </BoxReveal>
           <BoxReveal boxColor={"#5046e6"} duration={0.5}>
-            <SparklesText text={"HackWithIndia"} className={"text-7xl"} />
+            <SparklesText text={"HackWithIndia"}/>
           </BoxReveal>
         </div>
         <div className="flex flex-col gap-2">

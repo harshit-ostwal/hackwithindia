@@ -126,7 +126,7 @@ const slugs = [
 
 function Info2() {
     return (
-        <div className="flex flex-col items-center justify-center w-full gap-40 mt-40">
+        <div className="flex flex-col items-center justify-center w-full gap-20 mt-40">
             <SparklesText text={"Our Special's"} className={"text-7xl"} />
             <div className="grid items-center justify-center w-[95%] md:w-full grid-cols-1 gap-20 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4">
                 {ReportData.map((data, index) => (
@@ -151,11 +151,11 @@ function Info2() {
                     </ShineBorder>
                 ))}
             </div>
-            <div className="relative flex flex-col items-center justify-center w-full h-full px-20 pt-8 pb-20 overflow-hidden rounded-lg ">
+            <div className="relative flex flex-col items-center justify-center w-full h-full p-10 mt-20 overflow-hidden rounded-lg">
                 <IconCloud iconSlugs={slugs} />
             </div>
 
-            <div className="relative flex flex-col items-center justify-center w-full overflow-hidden">
+            <div className="relative flex flex-col items-center justify-center w-full mt-20 overflow-hidden">
                 <Marquee pauseOnHover className="[--duration:20s] w-full">
                     {firstRow.map((review) => (
                         <ReviewCard key={review.username} {...review} />
