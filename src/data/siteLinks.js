@@ -4,7 +4,7 @@ export const SiteLinksData = [
         href: "/"
     },
     {
-        title: "Gallery",
+        title: "Past Events",
         href: "/Gallery"
     },
     {

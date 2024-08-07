@@ -4,13 +4,22 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
 import TitleSponorCard from './titleSponorCard'
 import { SponorsCardData } from '@/data/sponorsData'
 import SponorsCard from './sponorsCard'
+import BoxReveal from '../magicui/box-reveal'
 
 function Info() {
     return (
         <div className="flex flex-col items-center w-full h-full gap-10">
             <div className="flex flex-col items-center max-w-5xl gap-10 text-center">
-                <h1 className="text-6xl font-semibold tracking-widest">Partners</h1>
-                <p className="md:text-xl text-white/70">We are proud to collaborate with visionary organizations that share our passion for innovation and technology. These esteemed partners play a crucial role in making our hackathon a success.</p>
+                <BoxReveal boxColor={"#5046e6"} duration={0.5}>
+                    <p className="font-semibold tracking-tighter text-7xl">
+                        Partners<span className="text-[#5046e6]"></span>
+                    </p>
+                </BoxReveal>
+                <BoxReveal boxColor={"#5046e6"} duration={0.5}>
+                    <p className="text-xl">
+                        We are proud to collaborate with visionary organizations that share our passion for innovation and technology. These esteemed partners play a crucial role in making our hackathon a success.<span className="text-[#5046e6]">.</span>
+                    </p>
+                </BoxReveal>
             </div>
             <Tabs defaultValue="Sponsor" className="flex flex-col items-center justify-center w-[95%] lg:w-4/5">
                 <TabsList>
