@@ -20,10 +20,6 @@ export const SiteLinksData = [
         href: "/Schedule"
     },
     {
-        title: "Humans",
-        href: "/Humans"
-    },
-    {
         title: "FAQs",
         href: "/FAQs"
     },

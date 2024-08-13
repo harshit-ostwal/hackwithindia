@@ -51,7 +51,7 @@ const SparklesText = ({
 
   return (
     <div
-      className={cn("text-5xl lg:text-7xl font-extrabold tracking-tighter", className)}
+      className={cn("font-extrabold tracking-tighter", className)}
       {...props}
       style={{
         "--sparkles-first-color": `${colors.first}`,

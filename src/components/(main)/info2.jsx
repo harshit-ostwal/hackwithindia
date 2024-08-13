@@ -127,7 +127,7 @@ const slugs = [
 function Info2() {
     return (
         <div className="flex flex-col items-center justify-center w-full gap-20 mt-40">
-            <SparklesText text={"Our Special's"} className={"text-7xl"} />
+            <SparklesText text={"Our Special's"} className={"text-5xl lg:text-7xl"} />
             <div className="grid items-center justify-center w-[95%] md:w-full grid-cols-1 gap-20 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4">
                 {ReportData.map((data, index) => (
                     <ShineBorder key={index}

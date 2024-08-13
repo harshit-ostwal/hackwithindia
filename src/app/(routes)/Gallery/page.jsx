@@ -1,13 +1,13 @@
 "use client"
 import BoxReveal from '@/components/magicui/box-reveal';
-import { Skeleton } from '@/components/ui/skeleton';
-import { GalleryData } from '@/data/Gallery'
+import ShineBorder from '@/components/magicui/shine-border';
 import Image from 'next/image'
 import React, { useState } from 'react'
+import SparklesText from '@/components/magicui/sparkles-text';
+import Link from 'next/link';
+import { PastEvents } from '@/data/pastEvents';
 
 function page() {
-
-  const [isLoading, setIsLoading] = useState(true);
 
   return (
     <div className="flex flex-col items-center w-full min-h-screen gap-20 p-2 overflow-hidden">
@@ -25,15 +25,29 @@ function page() {
         </BoxReveal>
       </div>
 
-      <div className="w-[95%] lg:w-4/5 columns-1 md:columns-2 xl:columns-3 space-y-5 relative">
-        {GalleryData.map((data, index) => (
-          <div key={index}>
-            {isLoading && <Skeleton className="aspect-video" />}
-            <Image src={data} key={index} onLoad={() => setIsLoading(false)} className={`${isLoading ? "hidden" : ""} object-contain`} quality={100} width={600} height={600} priority fetchPriority="high" />
-          </div>
-        ))}
+      <div className="h-full gap-14 lg:columns-2 2xl:columns-3 columns-1">
+        {
+          PastEvents.map((data, index) => (
+            <Link href={`Gallery/${data.title}`} key={index}>
+              <ShineBorder
+                className="w-[380px] sm:w-[500px] p-8 rounded-md mb-14 flex flex-col gap-14"
+                color={["#A07CFE", "#FE8FB5", "#FFBE7B"]}
+              >
+                <Image src={data.thumbanil} alt={data.title} quality={100} fetchPriority="high" priority={true} />
+                <div className="flex flex-col w-full gap-4">
+                  <SparklesText className="text-4xl font-extrabold tracking-tighter" text={data.title} />
+                  <p className="text-sm text-neutral-400">{data.description}</p>
+                  <div className="flex items-center justify-between w-full">
+                    <h1 className="text-sm font-semibold text-neutral-400">{data.location}</h1>
+                    <h1 className="text-sm font-semibold text-neutral-400">{data.date}</h1>
+                  </div>
+                </div>
+              </ShineBorder>
+            </Link>
+          ))
+        }
       </div>
-    </div>
+    </div >
   )
 }
 
