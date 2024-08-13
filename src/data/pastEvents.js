@@ -1,5 +1,5 @@
 import Code4Clause from "@/../public/Main/Code4Clause.png"
-import HackWithIndia from "@/../public/Main/HackWithIndia.png"
+import HackWithIndia from "@/../public/Main/HackWithIndia2.png"
 import BuildWithDelhi from "@/../public/Main/BuildWithDelhi.png"
 import HackWithDelhi from "@/../public/Main/HackWithDelhi2.png"
 import HackWithChandigarh from "@/../public/Main/HackWithChandigarh.png"
