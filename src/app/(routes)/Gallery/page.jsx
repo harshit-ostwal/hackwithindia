@@ -33,7 +33,7 @@ function page() {
                 className="w-[380px] sm:w-[500px] p-8 rounded-md mb-14 flex flex-col gap-14"
                 color={["#A07CFE", "#FE8FB5", "#FFBE7B"]}
               >
-                <Image src={data.thumbanil} alt={data.title} quality={100} fetchPriority="high" priority={true} />
+                <Image src={data.thumbanil} alt={data.title} quality={100} fetchPriority="high" loading="eager" priority={true} />
                 <div className="flex flex-col w-full gap-4">
                   <SparklesText className="text-4xl font-extrabold tracking-tighter" text={data.title} />
                   <p className="text-sm text-neutral-400">{data.description}</p>
