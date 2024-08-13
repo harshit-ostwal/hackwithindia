@@ -30,7 +30,7 @@ function page() {
           PastEvents.map((data, index) => (
             <Link href={`Gallery/${data.title}`} key={index}>
               <ShineBorder
-                className="w-[380px] sm:w-[500px] p-8 rounded-md mb-14 flex flex-col gap-14"
+                className="w-[95%] sm:w-[500px] p-8 rounded-md mb-14 flex flex-col gap-14"
                 color={["#A07CFE", "#FE8FB5", "#FFBE7B"]}
               >
                 <Image src={data.thumbanil} alt={data.title} quality={100} fetchPriority="high" loading="eager" priority={true} />
