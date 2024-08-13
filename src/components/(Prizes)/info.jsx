@@ -15,7 +15,7 @@ function Info() {
         </BoxReveal>
         <BoxReveal boxColor={"#5046e6"} duration={0.5}>
           <p className="text-sm md:text-lg lg:text-xl">
-            Collaborate and innovate to build something awesome ! All monetary prizes will be split equally among the winning team members.<span className="text-[#5046e6]">.</span>
+            Collaborate and innovate to build something awesome ! All monetary prizes will be split equally among the winning team members<span className="text-[#5046e6]">.</span>
           </p>
         </BoxReveal>
         <div className="flex flex-col items-center gap-4">

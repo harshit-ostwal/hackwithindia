@@ -98,11 +98,11 @@ export default function RootLayout({ children }) {
       </head>
       <body className={`${outfit.variable} font-Outfit subpixel-antialiased bg-black`}>
         <div className="relative flex flex-col w-full text-white">
-          <div className="absolute -z-10 h-screen w-full bg-[linear-gradient(to_right,#111_1px,transparent_1px),linear-gradient(to_bottom,#111_1px,transparent_1px)] bg-[size:4rem_4rem] [mask-image:radial-gradient(ellipse_80%_100%_at_50%_0%,#000_80%,transparent_110%)]"></div>
+          <div className="absolute -z-10 min-h-screen w-full bg-[linear-gradient(to_right,#111_1px,transparent_1px),linear-gradient(to_bottom,#111_1px,transparent_1px)] bg-[size:4rem_4rem] [mask-image:radial-gradient(ellipse_80%_100%_at_50%_0%,#000_80%,transparent_110%)]"></div>
           <Header />
 
-          <div className="flex-1 mt-[15%] 2xl:mt-[10%]">
-            <div className="min-h-screen">
+          <div className="flex-1 mt-[15%] 2xl:mt-[10%] flex flex-col gap-60">
+            <div className="min-h-full">
               {children}
             </div>
             <Footer />

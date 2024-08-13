@@ -4,7 +4,7 @@ export const SiteLinksData = [
         href: "/"
     },
     {
-        title: "Past Events",
+        title: "Gallery",
         href: "/Gallery"
     },
     {
@@ -16,6 +16,10 @@ export const SiteLinksData = [
         href: "/Prizes"
     },
     {
+        title: "Code Of Conduct",
+        href: "/CodeOfConduct"
+    },
+    {
         title: "Schedule",
         href: "/Schedule"
     },
@@ -24,7 +28,7 @@ export const SiteLinksData = [
         href: "/FAQs"
     },
     {
-        title: "Contact",
-        href: "/Contact"
+        title: "Reach Us",
+        href: "/ReachUs"
     },
 ]

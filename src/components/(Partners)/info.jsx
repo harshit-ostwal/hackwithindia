@@ -17,7 +17,7 @@ function Info() {
                 </BoxReveal>
                 <BoxReveal boxColor={"#5046e6"} duration={0.5}>
                 <p className="text-sm md:text-lg lg:text-xl">
-                        We are proud to collaborate with visionary organizations that share our passion for innovation and technology. These esteemed partners play a crucial role in making our hackathon a success.<span className="text-[#5046e6]">.</span>
+                        We are proud to collaborate with visionary organizations that share our passion for innovation and technology. These esteemed partners play a crucial role in making our hackathon a success<span className="text-[#5046e6]">.</span>
                     </p>
                 </BoxReveal>
             </div>

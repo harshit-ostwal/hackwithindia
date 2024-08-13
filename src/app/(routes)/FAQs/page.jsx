@@ -5,16 +5,16 @@ import BoxReveal from '@/components/magicui/box-reveal'
 
 function page() {
   return (
-    <div className="flex flex-col items-center w-full min-h-screen gap-20 p-2 overflow-hidden">
-      <div className="flex flex-col items-center max-w-5xl gap-5 text-center">
+    <div className="flex flex-col items-center w-full min-h-full gap-20 p-2 overflow-hidden">
+      <div className="flex flex-col items-center w-full max-w-5xl gap-5 text-center">
         <BoxReveal boxColor={"#5046e6"} duration={0.5}>
-          <p className="font-semibold tracking-tighter text-7xl">
-            FAQ's<span className="text-[#5046e6]"></span>
+          <p className="w-full font-semibold tracking-tighter text-7xl">
+            FAQ's
           </p>
         </BoxReveal>
         <BoxReveal boxColor={"#5046e6"} duration={0.5}>
           <p className="text-sm md:text-lg lg:text-xl">
-            Explore our FAQs to find answers to common questions about HackWithIndia.<span className="text-[#5046e6]">.</span>
+            Explore our FAQs to find answers to common questions about HackWithIndia<span className="text-[#5046e6]">.</span>
           </p>
         </BoxReveal>
       </div>

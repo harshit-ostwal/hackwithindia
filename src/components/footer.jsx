@@ -10,7 +10,7 @@ function Footer() {
     const year = new Date().getFullYear();
 
     return (
-        <footer className="flex items-end justify-center w-full min-h-screen text-white bg-black">
+        <footer className="flex items-end justify-center w-full min-h-full text-white bg-black">
 
             <div className="flex flex-col w-5/6 gap-20 py-10 lg:gap-40">
                 <div className="flex w-full">

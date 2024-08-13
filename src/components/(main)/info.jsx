@@ -4,7 +4,6 @@ import React from 'react'
 import HackWithChandigarh from "../../../public/Main/HackWithChandigarh.png"
 import { FiArrowUpRight } from 'react-icons/fi'
 import { cn } from "@/lib/utils";
-import Link from 'next/link'
 import AnimatedGradientText from '../magicui/animated-gradient-text'
 import { FaChevronRight } from 'react-icons/fa';
 import confetti from "canvas-confetti";
