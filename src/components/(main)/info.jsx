@@ -80,7 +80,7 @@ function Info() {
             </p>
           </BoxReveal>
           <BoxReveal boxColor={"#5046e6"} duration={0.5}>
-            <SparklesText text={"HackWithIndia"} className="h-full"/>
+            <SparklesText text={"HackWithIndia"} />
           </BoxReveal>
         </div>
         <div className="flex flex-col gap-2">
