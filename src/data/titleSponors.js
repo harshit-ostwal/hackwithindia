@@ -6,7 +6,7 @@ export const TitleSponorData = [
         titleSponsorLogo: Freshen,
         titleSponsorName: "OpenBuild",
         titleSponsorCategory: "Developer Support",
-        titleSponsorDesc: "Enjoy our refreshing drinks to stay energized and hydrated as you innovate. Let's code and stay fresh together!",
+        titleSponsorDesc: "Help ✦ Developers ✦ get on the Success Way to Web3",
         titleSponsorLink: "",
     },
     {
