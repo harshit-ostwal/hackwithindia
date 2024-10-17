@@ -39,7 +39,7 @@ function Footer() {
 
                     <div className="flex flex-col items-center justify-between gap-2 md:flex-row text-white/70">
                         <p className="text-sm font-light md:text-base">© {year} HackWithIndia, All rights reserved</p>
-                        <p className="text-sm font-light md:text-base">Built By Harshit Ostwal</p>
+                        <p className="text-sm font-light md:text-base">Built By Mokshu & Harshit Ostwal</p>
                     </div>
                 </div>
 
