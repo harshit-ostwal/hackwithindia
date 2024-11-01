@@ -12,11 +12,11 @@ function page() {
     <div className="flex flex-col items-center w-full min-h-screen gap-20 p-2 overflow-hidden">
       <Info />
       <PrizesList />
-      <Info3 />
-      <Info2 />
-      <MacroWinner />
+      {/* <Info3 /> */}
+      {/* <Info2 /> */}
+      {/* <MacroWinner />
       <TaggingWinner />
-      <QuizWinner />
+      <QuizWinner /> */}
     </div>
   )
 }

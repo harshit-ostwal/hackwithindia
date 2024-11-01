@@ -17,11 +17,11 @@ function SponorsCard({ data }) {
             onMouseLeave={(e) => {
                 setIsHovered(false);
             }}
-            href={data.sponorsLink} className="flex flex-col w-full h-90 overflow-hidden border border-solid rounded-xl border-white/40">
+            href={data.sponorsLink} className="flex flex-col w-full overflow-hidden border border-solid h-90 rounded-xl border-white/40">
             {isLoading && <Skeleton className="aspect-video" />}
             <Image src={data.sponorsImg} onLoad={() => setIsLoading(false)} className={`${isLoading ? "hidden" : ""} object-contain p-5 bg-white w-full aspect-video`} priority={true} fetchPriority="high" quality={100} alt={data.sponorsName} />
-            <div className="flex items-center justify-between p-5">
-                <div className="flex flex-col">
+            <div className="flex items-center justify-between w-full p-5">
+                <div className="flex flex-col w-full">
                     <h1 className="text-lg font-semibold">{data.sponorsName}</h1>
                     <h1 className="font-medium text-white/70">{data.sponorsCategory}</h1>
                 </div>
