@@ -12,7 +12,7 @@ function Footer() {
     return (
         <footer className="flex items-end justify-center w-full min-h-full text-white bg-black">
             <div className="flex flex-col w-5/6 gap-20 py-10 lg:gap-40">
-                <div className="flex w-full">
+                {/* <div className="flex w-full">
                     <h1 className="flex flex-col text-6xl font-medium tracking-wide sm:text-7xl md:text-8xl lg:text-9xl">
                         <span>Empower</span>
                         <span>Your Digital</span>
@@ -20,7 +20,7 @@ function Footer() {
                     </h1>
 
                     {/* <Image src={getInTouch} className="w-auto h-auto animate-spinner" priority={true} fetchPriority="high" quality={100} alt="GetInTouch" /> */}
-                </div>
+                {/* </div> */}
 
                 <div className="flex flex-col w-full gap-10">
                     <div className="w-full border-t rounded-full border-white/70"></div>
