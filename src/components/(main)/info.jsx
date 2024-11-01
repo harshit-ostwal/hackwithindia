@@ -1,7 +1,7 @@
 "use client"
 import Image from 'next/image'
 import React from 'react'
-import HackWithChandigarh from "../../../public/Main/HackWithChandigarh.png"
+import HackWithChandigarh from "../../../public/Main/1.png"
 import { FiArrowUpRight } from 'react-icons/fi'
 import { cn } from "@/lib/utils";
 import AnimatedGradientText from '../magicui/animated-gradient-text'
@@ -13,33 +13,6 @@ import SparklesText from '../magicui/sparkles-text'
 function Info() {
 
   const handleClick = () => {
-    const duration = 5 * 1000;
-    const animationEnd = Date.now() + duration;
-    const defaults = { startVelocity: 30, spread: 360, ticks: 60, zIndex: 0 };
-
-    const randomInRange = (min, max) =>
-      Math.random() * (max - min) + min;
-
-    const interval = window.setInterval(() => {
-      const timeLeft = animationEnd - Date.now();
-
-      if (timeLeft <= 0) {
-        return clearInterval(interval);
-      }
-
-      const particleCount = 50 * (timeLeft / duration);
-      confetti({
-        ...defaults,
-        particleCount,
-        origin: { x: randomInRange(0.1, 0.3), y: Math.random() - 0.2 },
-      });
-      confetti({
-        ...defaults,
-        particleCount,
-        origin: { x: randomInRange(0.7, 0.9), y: Math.random() - 0.2 },
-      });
-    }, 250);
-
     const end = Date.now() + 3 * 1000; // 3 seconds
     const colors = ["#a786ff", "#fd8bbc", "#eca184", "#f8deb1"];
 
@@ -54,6 +27,7 @@ function Info() {
         origin: { x: 0, y: 0.5 },
         colors: colors,
       });
+      
       confetti({
         particleCount: 2,
         angle: 120,
@@ -86,17 +60,17 @@ function Info() {
           <div className="flex flex-col text-white/70">
             <BoxReveal boxColor={"#5046e6"} duration={0.5}>
               <p className="text-base font-medium text-nowrap md:text-lg">
-                Join us at Chandigarh University,<span className="text-[#de59f3]"></span>
+                Join us at Google Office,<span className="text-[#de59f3]"></span>
               </p>
             </BoxReveal>
             <BoxReveal boxColor={"#5046e6"} duration={0.5}>
               <p className="text-base font-medium text-nowrap md:text-lg">
-                Our 1st Biggest Hackathon In Chandigarh.<span className="text-[#de59f3]"></span>
+                Our st Biggest Hackathon In Bangalore.<span className="text-[#de59f3]"></span>
               </p>
             </BoxReveal>
           </div>
           <button onClick={handleClick} className="flex items-center gap-2 px-4 py-2 text-sm font-medium text-black duration-150 bg-white md:py-3 md:text-base md:px-10 hover:scale-95 w-fit">Register Now<FiArrowUpRight size={28} /></button>
-          <button onClick={handleClick} className="flex items-center gap-2 px-4 py-2 text-sm font-medium text-black duration-150 bg-white md:py-3 md:text-base md:px-10 hover:scale-95 w-fit">Explore Hive Tracks<FiArrowUpRight size={28} /></button>
+          <button className="flex items-center gap-2 px-4 py-2 text-sm font-medium text-black duration-150 bg-white md:py-3 md:text-base md:px-10 hover:scale-95 w-fit">Explore Hive Tracks<FiArrowUpRight size={28} /></button>
         </div>
       </div>
       <AnimatedGradientText>
@@ -112,7 +86,7 @@ function Info() {
       </AnimatedGradientText>
       <div className="flex flex-col gap-10">
         <div className="flex flex-col items-center justify-center gap-10">
-          <Image src={HackWithChandigarh} alt="HackWithIndia Logo" width={1080} quality={100} fetchPriority="high" priority={true} />
+          <Image src={HackWithChandigarh} alt="HackWithIndia Logo" width={400} quality={100} fetchPriority="high" priority={true} />
         </div>
       </div>
     </div >

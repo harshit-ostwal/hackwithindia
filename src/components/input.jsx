@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 const Input = ({ req, type, placeholder, className, updateValue, value, disabled, checked }) => {
     return (
       <input

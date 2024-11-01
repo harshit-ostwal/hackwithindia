@@ -1,21 +1,21 @@
 export const ReportData = [
     {
-        total: 2000,
+        total: 15000,
         title: "Registrations",
-        desc: "2000+ registrations from across the country."
+        desc: "15000+ registrations from across the country."
     },
     {
-        total: 300,
+        total: 3000,
         title: "Offline Participants",
-        desc: "200+ participants joined the offline hackathon!"
+        desc: "3000+ participants joined the offline hackathon!"
     },
     {
-        total: 30,
+        total: 50,
         title: "Volunteers",
         desc: "To help you, get the best out of HackWithIndia."
     },
     {
-        total: 100,
+        total: 2000,
         title: "Projects",
         desc: "Innovative submissions from various domains."
     },
