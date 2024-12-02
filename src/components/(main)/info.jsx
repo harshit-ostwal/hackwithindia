@@ -1,7 +1,8 @@
 "use client"
 import Image from 'next/image'
 import React from 'react'
-import HackWithChandigarh from "../../../public/Main/1.png"
+import HackWithChandigarh from "../../../public/Main/Community Post.jpeg"
+import MX from "../../../public/Partners/mx-logo-white.png"
 import { FiArrowUpRight } from 'react-icons/fi'
 import { cn } from "@/lib/utils";
 import AnimatedGradientText from '../magicui/animated-gradient-text'
@@ -27,7 +28,7 @@ function Info() {
         origin: { x: 0, y: 0.5 },
         colors: colors,
       });
-      
+
       confetti({
         particleCount: 2,
         angle: 120,
@@ -53,7 +54,7 @@ function Info() {
             </p>
           </BoxReveal>
           <BoxReveal boxColor={"#5046e6"} duration={0.5}>
-            <SparklesText className={"text-5xl lg:text-7xl h-full"} text={"HackWithIndia"}/>
+            <SparklesText className={"text-5xl lg:text-7xl h-full"} text={"HackWithIndia"} />
           </BoxReveal>
         </div>
         <div className="flex flex-col gap-2">
@@ -70,7 +71,7 @@ function Info() {
             </BoxReveal>
           </div>
           <button onClick={handleClick} className="flex items-center gap-2 px-4 py-2 text-sm font-medium text-black duration-150 bg-white md:py-3 md:text-base md:px-10 hover:scale-95 w-fit">Register Now<FiArrowUpRight size={28} /></button>
-          <button className="flex items-center gap-2 px-4 py-2 text-sm font-medium text-black duration-150 bg-white md:py-3 md:text-base md:px-10 hover:scale-95 w-fit">Explore Hive Tracks<FiArrowUpRight size={28} /></button>
+          <button className="flex items-center gap-2 px-4 py-2 text-sm font-medium text-black duration-150 bg-white md:py-3 md:text-base md:px-10 hover:scale-95 w-fit">Register For Macro Challenge<FiArrowUpRight size={28} /></button>
         </div>
       </div>
       <AnimatedGradientText>
@@ -85,8 +86,12 @@ function Info() {
         <FaChevronRight className="ml-1 size-3 transition-transform duration-300 ease-in-out group-hover:translate-x-0.5" />
       </AnimatedGradientText>
       <div className="flex flex-col gap-10">
-        <div className="flex flex-col items-center justify-center gap-10">
-          <Image src={HackWithChandigarh} alt="HackWithIndia Logo" width={400} quality={100} fetchPriority="high" priority={true} />
+        <div className="flex flex-col items-center justify-center gap-20">
+          <Image src={HackWithChandigarh} alt="HackWithIndia Logo" width={800} quality={100} fetchPriority="high" className="rounded-md" priority={true} />
+          <div className="flex flex-col items-center justify-center gap-2">
+            <h1 className="capitalize text-neutral-300">Powered By</h1>
+            <Image src={MX} alt="HackWithIndia Logo" width={500} quality={100} fetchPriority="high" priority={true} />
+          </div>
         </div>
       </div>
     </div >

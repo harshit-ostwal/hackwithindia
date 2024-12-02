@@ -1,4 +1,5 @@
 import Info from '@/components/(Partners)/info'
+import TitleSponorCard from '@/components/(Partners)/titleSponorCard'
 import React from 'react'
 
 function page() {

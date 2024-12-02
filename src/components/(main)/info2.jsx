@@ -128,7 +128,7 @@ function Info2() {
     return (
         <div className="flex flex-col items-center justify-center w-full gap-20 mt-40">
             <SparklesText text={"Our Special's"} className={"text-5xl lg:text-7xl"} />
-            <div className="grid items-center justify-center w-[95%] md:w-full grid-cols-1 gap-20 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4">
+            <div className="grid items-center justify-center w-11/12 grid-cols-1 gap-20 md:w-3/4 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3">
                 {ReportData.map((data, index) => (
                     <ShineBorder key={index}
                         className="flex flex-col items-center justify-center w-full gap-5 px-5 py-10 rounded-md realtive text-nowrap"
