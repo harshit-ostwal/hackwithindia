@@ -1,2 +1,2 @@
 User-agent: *
-Sitemap: https://hackwithindia.live/sitemap.xml
+Sitemap: https://hackwithindia.in/sitemap.xml
