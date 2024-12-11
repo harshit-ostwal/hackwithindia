@@ -61,11 +61,6 @@ function Info() {
           <div className="flex flex-col text-white/70">
             <BoxReveal boxColor={"#5046e6"} duration={0.5}>
               <p className="text-base font-medium text-nowrap md:text-lg">
-                Join us at Google Office,<span className="text-[#de59f3]"></span>
-              </p>
-            </BoxReveal>
-            <BoxReveal boxColor={"#5046e6"} duration={0.5}>
-              <p className="text-base font-medium text-nowrap md:text-lg">
                 Our st Biggest Hackathon In Bangalore.<span className="text-[#de59f3]"></span>
               </p>
             </BoxReveal>
