@@ -59,11 +59,6 @@ function Info() {
         </div>
         <div className="flex flex-col gap-2">
           <div className="flex flex-col text-white/70">
-            <BoxReveal boxColor={"#5046e6"} duration={0.5}>
-              <p className="text-base font-medium text-nowrap md:text-lg">
-                Our st Biggest Hackathon In Bangalore.<span className="text-[#de59f3]"></span>
-              </p>
-            </BoxReveal>
           </div>
           <button onClick={handleClick} className="flex items-center gap-2 px-4 py-2 text-sm font-medium text-black duration-150 bg-white md:py-3 md:text-base md:px-10 hover:scale-95 w-fit">Register Now<FiArrowUpRight size={28} /></button>
           <button className="flex items-center gap-2 px-4 py-2 text-sm font-medium text-black duration-150 bg-white md:py-3 md:text-base md:px-10 hover:scale-95 w-fit">Register For Macro Challenge<FiArrowUpRight size={28} /></button>
