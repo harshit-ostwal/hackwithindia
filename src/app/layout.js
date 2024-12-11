@@ -97,7 +97,7 @@ export default function RootLayout({ children }) {
         <link rel="apple-touch-icon" href="/apple-icon.png" />
       </head>
       <body className={`${outfit.variable} font-Outfit subpixel-antialiased bg-black`}>
-        <div className="relative flex flex-col w-full text-white">
+        {/* <div className="relative flex flex-col w-full text-white">
           <div className="absolute -z-10 min-h-screen w-full bg-[linear-gradient(to_right,#111_1px,transparent_1px),linear-gradient(to_bottom,#111_1px,transparent_1px)] bg-[size:4rem_4rem] [mask-image:radial-gradient(ellipse_80%_100%_at_50%_0%,#000_80%,transparent_110%)]"></div>
           <Header />
 
@@ -107,7 +107,8 @@ export default function RootLayout({ children }) {
             </div>
             <Footer />
           </div>
-        </div>
+        </div> */}
+        <h1>Website Hacked By PodaHack</h1>
       </body>
     </html>
   );
