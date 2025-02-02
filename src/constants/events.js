@@ -43,7 +43,8 @@ export const EventsData = [
         location: "Developer Hall, New York, NY",
         description: "A gathering of developers to discuss and learn about the latest in software development practices.",
         registrationLink: "https://hackwithIndia.in",
-        href: "/Events/annual-developer-meetup-2024", winners: [
+        href: "/Events/annual-developer-meetup-2024",
+        winners: [
             {
                 teamName: "Jain's Squad",
                 teamSize: "4",

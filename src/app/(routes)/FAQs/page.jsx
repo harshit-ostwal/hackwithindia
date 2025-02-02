@@ -24,7 +24,6 @@ function page() {
                     </div>
                     <SearchInput value={searchTerm} onChange={(e) => setSearchTerm(e.target.value)} placeholder="Search FAQ's..." />
                 </div>
-                
 
                 <Accordion type="single" collapsible>
                     {filteredFaqs.map((data, index) => (
