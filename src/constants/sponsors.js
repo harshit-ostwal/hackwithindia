@@ -18,12 +18,6 @@ export const SponsorsData = [
         invert: true
     },
     {
-        src: "/Brand Logos/ID8DevHub.svg",
-        title: "ID8DevHub",
-        desc: "",
-        invert: false
-    },
-    {
         src: "https://www.pw.live/_next/static/media/pw-logo.e76e9f50.webp",
         title: "Physics Wallah",
         desc: "",
@@ -236,6 +230,12 @@ export const SponsorsData = [
     {
         src: "https://www.spjain.org/hubfs/images/2019/org/home-page-2019/SPJ-Global-Black-Font.png",
         title: "SP Jain School of Global Management",
+        desc: "",
+        invert: false
+    },
+    {
+        src: "/Brand Logos/ID8DevHub.svg",
+        title: "ID8DevHub",
         desc: "",
         invert: false
     },

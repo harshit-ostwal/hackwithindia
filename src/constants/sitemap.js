@@ -4,8 +4,8 @@ export const SitemapData = [
         href: "/"
     },
     {
-        title: "About Us",
-        href: "/AboutUs"
+        title: "About",
+        href: "/About"
     },
     {
         title: "Events",
