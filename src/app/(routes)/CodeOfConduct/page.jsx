@@ -1,166 +1,151 @@
-import BoxReveal from '@/components/magicui/box-reveal'
+import { Button } from '@/components/ui/button'
+import { Separator } from '@/components/ui/separator'
 import React from 'react'
 
-export default function page() {
-    return (
-        <div className="flex flex-col items-center w-full min-h-full gap-20 p-2 overflow-hidden">
-            <div className="flex flex-col items-center max-w-5xl gap-5 text-center">
-                <BoxReveal boxColor={"#5046e6"} duration={0.5}>
-                    <p className="font-semibold tracking-tighter text-7xl">
-                        Code Of Conduct
-                    </p>
-                </BoxReveal>
-                <BoxReveal boxColor={"#5046e6"} duration={0.5}>
-                    <p className="text-sm md:text-lg lg:text-xl">
-                        Explore our Code of Conduct to understand our rules and regulations<span className="text-[#5046e6]">.</span>
-                    </p>
-                </BoxReveal>
-            </div>
+function page() {
+  return (
+    <div className="flex flex-col min-h-screen w-full items-center">
+      <div className="flex flex-col gap-20 w-full xl:w-3/4">
 
-            <div className="flex flex-col w-full max-w-5xl gap-20">
-                <div className="flex flex-col gap-10">
-                    <div className="flex flex-col gap-4">
-                        <h1 className="text-3xl font-semibold text-blue-300">Applicability</h1>
-                        <span className="w-full border-b rounded-full border-neutral-400"></span>
-                    </div>
-
-                    <div className="flex flex-col gap-10">
-                        <h1 className="text-lg">This policy shall be applicable on all spaces related to Devfolio, including the following, as well as their online counterparts (if any):</h1>
-                        <ul className="pl-6 text-lg list-disc list-inside">
-                            <li>hackathons</li>
-                            <li>talks, presentations, or demos</li>
-                            <li>workshops</li>
-                            <li>parties and social events</li>
-                            <li>social media channels, etc.</li>
-                        </ul>
-                        <h1 className="text-lg">This Code of Conduct also applies equally to all sponsors and partners of hackathons, and to all projects that are made at the hackathon.</h1>
-                    </div>
-                </div>
-
-                <div className="flex flex-col gap-10">
-                    <div className="flex flex-col gap-4">
-                        <h1 className="text-3xl font-semibold text-blue-300">No plagiarism or re-using of past work</h1>
-
-                        <span className="w-full border-b rounded-full border-neutral-400"></span>
-                    </div>
-
-                    <div className="flex flex-col gap-10">
-                        <h1 className="text-lg">We encourage you to submit projects only prepared in the duration of the hackathon. <br /> However, if you decide to submit projects consisting of re-used code, or re-submit a project that you have already submitted previously to any other hackathon, you are to disclose such previous use and its extent with the submission.</h1>
-                        <h1 className="text-lg">  If upon inspection, it is found that the project has re-used code that was not disclosed with the submission, the organizer may ask the participant to point out similarities and differences between the old and new work, and/or disqualify the submission from winning awards automatically.</h1>
-                    </div>
-                </div>
-
-                <div className="flex flex-col gap-10">
-                    <div className="flex flex-col gap-4">
-                        <h1 className="text-3xl font-semibold text-blue-300">No discrimination</h1>
-
-                        <span className="w-full border-b rounded-full border-neutral-400"></span>
-                    </div>
-
-                    <div className="flex flex-col gap-10">
-                        <h1 className="text-lg">Hackathons hosted on Devfolio are dedicated to providing a safe and comfortable environment and harassment-free experience for everyone. No discrimination, on the basis of the following, shall be tolerated:</h1>
-                        <ul className="pl-6 text-lg list-disc list-inside">
-                            <li>gender</li>
-                            <li>gender identity and expression</li>
-                            <li>age</li>
-                            <li>sexual orientation</li>
-                            <li>disability</li>
-                            <li>physical appearance</li>
-                            <li>body size</li>
-                            <li>race</li>
-                            <li>ethnicity</li>
-                            <li>nationality</li>
-                            <li>religion</li>
-                            <li>political views</li>
-                            <li>previous hackathon attendance or lack of</li>
-                            <li>computing experience or lack of</li>
-                            <li>chosen programming language or tech stack</li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div className="flex flex-col gap-10">
-                    <div className="flex flex-col gap-4">
-                        <h1 className="text-3xl font-semibold text-blue-300">No harassment</h1>
-
-                        <span className="w-full border-b rounded-full border-neutral-400"></span>
-                    </div>
-
-                    <div className="flex flex-col gap-10">
-                        <h1 className="text-lg">We do not tolerate harassment of hackathon participants in any form, including offensive discriminatory verbal comments, public display of sexual material, in public spaces, deliberate intimidation, stalking, wilful disruption, inappropriate physical contact, unwelcome sexual advances, and the taking of photographs and audio/video recordings without the subjects consent.</h1>
-                    </div>
-                </div>
-
-                <div className="flex flex-col gap-10">
-                    <div className="flex flex-col gap-4">
-                        <h1 className="text-3xl font-semibold text-blue-300">No recording without consent</h1>
-
-                        <span className="w-full border-b rounded-full border-neutral-400"></span>
-                    </div>
-
-                    <div className="flex flex-col gap-10">
-                        <h1 className="text-lg">While photography and videography is encouraged, other participants must be given a reasonable chance to opt out from being photographed. If they object to the taking of their photograph, comply with their request.</h1>
-                        <h1 className="text-lg">If they express their disapproval after the photo or video has been captured, please delete it from your records, and in case it has been shared online, take reasonable steps to retract it from social media as well.</h1>
-                        <h1 className="text-lg">It is inappropriate to take photographs in contexts where people have a reasonable expectation of privacy (in bathrooms or where participants are sleeping).</h1>
-                    </div>
-                </div>
-
-                <div className="flex flex-col gap-10">
-                    <div className="flex flex-col gap-4">
-                        <h1 className="text-3xl font-semibold text-blue-300">Creation of a safe space</h1>
-
-                        <span className="w-full border-b rounded-full border-neutral-400"></span>
-                    </div>
-
-                    <div className="flex flex-col gap-10">
-                        <h1 className="text-lg">No sponsors, partners, or participants shall use sexualised images, activities, or other material at the hackathons for any non-permitted purpose. The use of sexualised clothing/uniforms/costumes, and anything that creates a sexualised environment is prohibited.</h1>
-                        <h1 className="text-lg">If they express their disapproval after the photo or video has been captured, please delete it from your records, and in case it has been shared online, take reasonable steps to retract it from social media as well.</h1>
-                        <h1 className="text-lg">It is inappropriate to take photographs in contexts where people have a reasonable expectation of privacy (in bathrooms or where participants are sleeping).</h1>
-                    </div>
-                </div>
-
-                <div className="flex flex-col gap-10">
-                    <div className="flex flex-col gap-4">
-                        <h1 className="text-3xl font-semibold text-blue-300">Intellectual Property</h1>
-
-                        <span className="w-full border-b rounded-full border-neutral-400"></span>
-                    </div>
-
-                    <div className="flex flex-col gap-10">
-                        <h1 className="text-lg">You will own any developments made by you, and all rights, titles and interests in those developments, including the intellectual property rights therein, shall belong to you. By posting your submission on Devfolio, you are granting Devfolio a non-exclusive, worldwide, royalty-free license to use, distribute, display and reproduce your submission only to the extent required by us to provide services on the Devfolio platform. We will never try to steal your creations or use them exploitatively.</h1>
-                    </div>
-                </div>
-
-                <div className="flex flex-col gap-10">
-                    <div className="flex flex-col gap-4">
-                        <h1 className="text-3xl font-semibold text-blue-300">Always report</h1>
-
-                        <span className="w-full border-b rounded-full border-neutral-400"></span>
-                    </div>
-
-                    <div className="flex flex-col gap-10">
-                        <h1 className="text-lg">If you notice any violation of this Code of Conduct or find otherwise suspicious behavior or have any concerns, please contact a member of the hackathon organizing committee immediately.</h1>
-                        <h1 className="text-lg">We will be happy to help participants contact local security or local law enforcement, or otherwise assist those experiencing harassment to feel safe for the duration of the hackathon. We value your attendance.</h1>
-                    </div>
-                </div>
-
-                <div className="flex flex-col gap-10">
-                    <div className="flex flex-col gap-4">
-                        <h1 className="text-3xl font-semibold text-blue-300">Consequences of violations</h1>
-
-                        <span className="w-full border-b rounded-full border-neutral-400"></span>
-                    </div>
-
-                    <div className="flex flex-col gap-10">
-                        <h1 className="text-lg">In case any participant violates this Code of Conduct, the organizer may, at their own discretion:</h1>
-                        <ul className="pl-6 text-lg list-disc list-inside">
-                            <li>expel them from the hackathon with no refund (if applicable),</li>
-                            <li>block their access to Devfolio resources including the website,</li>
-                            <li>report their behaviour to local law enforcement.</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
+        <div className="flex flex-col gap-8">
+          <h1 className="text-3xl md:text-4xl font-semibold">Code of Conduct</h1>
+          <p className="text-lg md:text-xl">This policy shall be applicable on all spaces related to <span className="font-semibold border-b-2 border-amber-300">HackwithIndia</span>, including the following, as well as their online counterparts (if any):</p>
+          <ul className="text-lg md:text-xl list-disc list-inside space-y-4">
+            <li>Hackathons</li>
+            <li>Talks, presentations, or demos</li>
+            <li>Workshops</li>
+            <li>Parties and social events</li>
+            <li>Social media channels, etc.</li>
+          </ul>
+          <p className="text-lg md:text-xl">This Code of Conduct also applies equally to all <span className="font-semibold border-b-2 border-pink-300">Sponsors & Partners</span> of hackathons, and to all projects that are made at the hackathon.</p>
         </div>
-    )
+
+        <Separator />
+
+        <div className="flex flex-col gap-8">
+          <h1 className="text-3xl md:text-4xl font-semibold">No Plagiarism or Re-using of Past Work</h1>
+          <p className="text-lg md:text-xl">We encourage you to submit projects <span className="font-semibold border-b-2 border-amber-300">only prepared during the duration of the hackathon</span></p>
+          <ul className="text-lg md:text-xl list-disc list-inside space-y-4">
+            <li>If you decide to submit projects consisting of <span className="font-semibold border-b-2 border-purple-300">Re-Used Code</span> or re-submit a project that has already been submitted to any other hackathon, <span className="font-semibold border-b-2 border-blue-300">You Must Disclose</span> such previous use and its extent with the submission.</li>
+            <li>If upon inspection it is found that the project contains <span className="font-semibold border-b-2 border-red-300">Re-Used Code</span> that was not disclosed, the organizer may:</li>
+            <li>Ask the participant to point out similarities and differences between the old and new work, and/or</li>
+            <li>Disqualify the submission from winning awards automatically.</li>
+          </ul>
+        </div>
+
+        <Separator />
+
+        <div className="flex flex-col gap-8">
+          <h1 className="text-3xl md:text-4xl font-semibold">No Discrimination</h1>
+          <p className="text-lg md:text-xl">Hackathons hosted on HackwithIndia are dedicated to providing a <span className="font-semibold border-b-2 border-green-300">Safe & Comfortable Environment</span> and a <span className="font-semibold border-b-2 border-purple-300">Harassment-free Experience</span> for everyone. Discrimination based on the following will <span className="font-semibold border-b-2 border-cyan-300">Not</span> be tolerated:</p>
+          <ul className="text-lg md:text-xl list-disc list-inside space-y-4">
+            <li>Gender</li>
+            <li>Gender identity and expression</li>
+            <li>Age</li>
+            <li>Sexual orientation</li>
+            <li>Disability</li>
+            <li>Physical appearance</li>
+            <li>Body size</li>
+            <li>Race</li>
+            <li>Ethnicity</li>
+            <li>Nationality</li>
+            <li>Religion</li>
+            <li>Political views</li>
+            <li>Previous hackathon attendance or lack of</li>
+            <li>Computing experience or lack of</li>
+            <li>Chosen programming language or tech stack</li>
+          </ul>
+        </div>
+
+        <Separator />
+
+        <div className="flex flex-col gap-8">
+          <h1 className="text-3xl md:text-4xl font-semibold">No Harassment</h1>
+          <p className="text-lg md:text-xl">We do not tolerate <span className="font-semibold border-b-2 border-amber-300">Harassment</span> of hackathon participants in any form, including:</p>
+          <ul className="text-lg md:text-xl list-disc list-inside space-y-4">
+            <li>Offensive discriminatory verbal comments</li>
+            <li>Public display of sexual material in public spaces</li>
+            <li>Deliberate intimidation</li>
+            <li>Stalking</li>
+            <li>Wilful disruption</li>
+            <li>Inappropriate physical contact</li>
+            <li>Unwelcome sexual advances</li>
+            <li>Taking photographs or audio/video recordings without the subject's consent</li>
+          </ul>
+        </div>
+
+        <Separator />
+
+        <div className="flex flex-col gap-8">
+          <h1 className="text-3xl md:text-4xl font-semibold">No Recording Without Consent</h1>
+          <p className="text-lg md:text-xl">Photography and videography are encouraged, but:</p>
+          <ul className="text-lg md:text-xl list-disc list-inside space-y-4">
+            <li>Participants must be given a <span className="font-semibold border-b-2 border-cyan-300">Reasonable Chance</span> to opt out from being photographed.</li>
+            <li>If a participant objects to being photographed, comply with their request.</li>
+            <li>If they express disapproval after a photo or video has been captured:</li>
+            <ul className="space-y-4 list-inside list-disc indent-4">
+              <li>Delete it from your records.</li>
+              <li>If shared online, take reasonable steps to <span className="font-semibold border-b-2 border-black">Retract It From Social Media</span></li>
+            </ul>
+            <li>It is inappropriate to take photographs in contexts where people have a <span className="font-semibold border-b-2 border-purple-300">Reasonable Expectation Of Privacy</span> (e.g., bathrooms or sleeping areas).</li>
+          </ul>
+        </div>
+
+        <Separator />
+
+        <div className="flex flex-col gap-8">
+          <h1 className="text-3xl md:text-4xl font-semibold">Creation of a Safe Space</h1>
+          <ul className="text-lg md:text-xl list-disc list-inside space-y-4">
+            <li>No sponsors, partners, or participants shall use <span className="font-semibold border-b-2 border-sky-300">Sexualised Images, Activities & Materials</span> for any non-permitted purpose.</li>
+            <li>The use of sexualised clothing/uniforms/costumes or anything that creates a <span className="font-semibold border-b-2 border-rose-300">Sexualised Environment</span> is prohibited.</li>
+          </ul>
+        </div>
+
+        <Separator />
+
+        <div className="flex flex-col gap-8">
+          <h1 className="text-3xl md:text-4xl font-semibold">Intellectual Property</h1>
+          <ul className="text-lg md:text-xl list-disc list-inside space-y-4">
+            <li>You will <span className="font-semibold border-b-2 border-pink-300">Own Any Developments Made By You</span> including all rights, titles, and interests in those developments.</li>
+            <li>By posting your submission on HackwithIndia, you grant HackwithIndia a <span className="font-semibold border-b-2 border-blue-300">Non-Exclusive, Worldwide, Royalty-Free License</span> too.</li>
+          </ul>
+        </div>
+
+        <Separator />
+
+        <div className="flex flex-col gap-8">
+          <h1 className="text-3xl md:text-4xl font-semibold">Always Report</h1>
+          <p className="text-lg md:text-xl">If you notice any <span className="font-semibold border-b-2 border-yellow-300">Violation</span> of this Code of Conduct, find suspicious behavior, or have concerns:</p>
+          <ul className="text-lg md:text-xl list-disc list-inside space-y-4">
+            <li>No sponsors, partners, or participants shall use <span className="font-semibold border-b-2 border-red-300">Sexualised Images, Activities & Materials</span> for any non-permitted purpose.</li>
+            <li>The use of sexualised clothing/uniforms/costumes or anything that creates a <span className="font-semibold border-b-2 border-cyan-300">Sexualised Environment</span> is prohibited.</li>
+          </ul>
+        </div>
+
+        <Separator />
+
+        <div className="flex flex-col gap-8">
+          <h1 className="text-3xl md:text-4xl font-semibold">Consequences of Violations</h1>
+          <p className="text-lg md:text-xl">If any participant violates this Code of Conduct, the organizer may, at their own discretion:</p>
+          <ul className="text-lg md:text-xl list-disc list-inside space-y-4">
+            <li>Expel the participant from the hackathon with <span className="font-semibold border-b-2 border-orange-300">No Refund</span> (if applicable).</li>
+            <li>Block their access to <span className="font-semibold border-b-2 border-pink-300">HackwithIndia Resources</span>, including the website.</li>
+            <li>Report their behavior to <span className="font-semibold border-b-2 border-emerald-300">Local Law Enforcement.</span></li>
+          </ul>
+        </div>
+
+        <div className="flex flex-col items-center gap-8 bg-gradient-to-r from-blue-200 to-rose-200 h-96 justify-center rounded-2xl text-center">
+          <h1 className="text-3xl md:text-5xl font-bold">Ready to Join the Revolution?</h1>
+          <p className="text-lg md:text-xl max-w-2xl">
+            Whether you're a student, developer, or tech enthusiast, there's a place for you in our community.
+          </p>
+          <Button>
+            Join HackWithIndia
+          </Button>
+        </div>
+      </div>
+    </div>
+  )
 }
+
+export default page
