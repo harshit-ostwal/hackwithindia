@@ -13,7 +13,7 @@ import { useState } from "react";
 function page() {
     const [searchTerm, setSearchTerm] = useState("");
     const filteredFaqs = FaqData.filter(data => data.question.toLowerCase().includes(searchTerm.toLowerCase()) && data.answer);
-    
+
     return (
         <div className="flex flex-col items-center justify-center min-h-screen w-full">
             <div className="flex flex-col w-full gap-20 2xl:w-4/5">
