@@ -300,7 +300,7 @@ export const SponsorsData = [
         invert: false
     },
     {
-        src: "https://www.hackquest.io/_next/static/media/DoubleLine_Logo.f4ef6037.png",
+        src: "https://www.hackquest.io/images/logo/logo-text.svg",
         title: "HackQuest",
         desc: "",
         invert: false
