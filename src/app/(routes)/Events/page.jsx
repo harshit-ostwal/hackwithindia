@@ -11,7 +11,7 @@ function page() {
 
     const [currentIndex, setCurrentIndex] = useState(0);
     const [eventCategory, setEventCategory] = useState("All");
-    const date = new Date().toDateString();
+    const date = new Date(2025, 1, 3).toDateString();
 
     useEffect(() => {
         const interval = setInterval(() => {
