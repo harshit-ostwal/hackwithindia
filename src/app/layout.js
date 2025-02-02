@@ -52,7 +52,7 @@ export default function RootLayout({ children }) {
 
   return (
     <html lang="en" suppressContentEditableWarning suppressHydrationWarning>
-      <body className={`${gilroy.variable} ${rejouice.variable} ${tobias.variable} ${polysans.variable} font-PolySans tracking-tight antialiased smooth-scroll`}>
+      <body className={`${gilroy.variable} ${rejouice.variable} ${tobias.variable} ${polysans.variable} font-Gilroy tracking-tight antialiased smooth-scroll`}>
         <main className="relative flex items-center justify-center flex-col w-full">
           {/* <Loader /> */}
           <BadgeNotification data={"Welcome To India's Biggest Hackathon Community 🇮🇳"} />
