@@ -21,7 +21,7 @@ export const SitemapData = [
     },
     {
         title: "Code of Conduct",
-        href: "/CodeofConduct"
+        href: "/CodeOfConduct"
     },
     {
         title: "Chapters",
