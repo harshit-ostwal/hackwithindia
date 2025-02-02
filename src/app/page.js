@@ -8,7 +8,7 @@ function Page() {
       <div className="flex flex-col w-full gap-40">
 
 
-        <div className="min-h-screen flex rounded-b-[40px] py-20 px-2">
+        {/* <div className="min-h-screen flex rounded-b-[40px] py-20 px-2">
           <div className="flex flex-col lg:flex-row gap-20 w-full justify-center">
             <div className="text-[4rem] md:text-[5rem]">
               <h1 className="font-medium leading-none">Frequently</h1>
@@ -25,7 +25,7 @@ function Page() {
               ))}
             </Accordion>
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   );
