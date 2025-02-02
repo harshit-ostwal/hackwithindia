@@ -54,9 +54,9 @@ export default function RootLayout({ children }) {
     <html lang="en" suppressContentEditableWarning suppressHydrationWarning>
       <body className={`${gilroy.variable} ${rejouice.variable} ${tobias.variable} ${polysans.variable} font-Gilroy tracking-tight antialiased smooth-scroll`}>
         <main className="relative flex items-center justify-center flex-col w-full">
-          <Loader />
+          {/* <Loader /> */}
           <BadgeNotification data={"Welcome To India's Biggest Hackathon Community 🇮🇳"} />
-          <div className="flex flex-col items-center justify-center w-11/12">
+          <div className="flex flex-col items-center justify-center w-11/12  p-5">
             <Navbar />
             <main className="py-20 w-full">{children}</main>
           </div>
