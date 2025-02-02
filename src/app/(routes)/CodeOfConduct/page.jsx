@@ -5,7 +5,7 @@ import React from 'react'
 function page() {
   return (
     <div className="flex flex-col min-h-screen w-full items-center">
-      <div className="flex flex-col gap-20 w-full xl:w-3/4">
+      <div className="flex flex-col gap-20 w-full 2xl:w-4/5">
 
         <div className="flex flex-col gap-8">
           <h1 className="text-3xl md:text-4xl font-semibold">Code of Conduct</h1>

@@ -26,7 +26,7 @@ function page() {
 
     return (
         <div className="flex flex-col items-center min-h-screen">
-            <div className="flex flex-col w-full gap-40 xl:w-4/5">
+            <div className="flex flex-col w-full gap-40 2xl:w-4/5">
                 <div className="flex flex-col gap-2 items-center">
                     <div className="relative leading-none">
                         <h1 className="text-[18vw] Stroke sm:text-[15vw] md:text-[10vw] text-transparent font-semibold">ABOUT US</h1>
@@ -41,7 +41,7 @@ function page() {
                 <div id="asd" className="flex flex-col gap-10">
                     <h1 className="font-semibold text-3xl sm:text-4xl">
                         <span className="underline decoration-rose-400 underline-offset-4">HackwithIndia</span> Is The
-                        <span className="underline decoration-blue-400 underline-offset-4"> Biggest Hackathon Community </span> In India Run By Students
+                        <span className="underline decoration-blue-400 underline-offset-4"> Biggest Hackathon Community </span>
                     </h1>
 
                     <h1 className="text-xl sm:text-2xl lg:text-3xl max-w-7xl w-full">

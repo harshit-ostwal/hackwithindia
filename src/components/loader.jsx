@@ -30,14 +30,14 @@ function Loader() {
         }, {
             opacity: 1,
             x: 0,
-            duration: 1,
+            duration: 0.7,
             stagger: 0.1,
         })
 
         tl.to("#title h1", {
             opacity: 0,
             x: -40,
-            duration: 1,
+            duration: 0.7,
             stagger: 0.1
         })
 
@@ -53,14 +53,14 @@ function Loader() {
             y: 0,
             display: "block",
             hidden: true,
-            duration: 1,
+            duration: 0.5,
             stagger: 0.1
         })
 
         tl.to("#logo", {
             opacity: 0,
             y: -40,
-            duration: 1,
+            duration: 0.5,
             stagger: 0.1
         })
 

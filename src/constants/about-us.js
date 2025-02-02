@@ -76,7 +76,7 @@ export const PerksData = [
     },
     {
         Icon: <FaGift size={56} color="#ec4899" />,
-        title: "Cool Swags",
+        title: "Cool Swags & Goodies",
         description: "Exciting swags like backpacks, mugs, and more await our participants!"
     },
     {
@@ -98,11 +98,6 @@ export const PerksData = [
         Icon: <FaNetworkWired size={56} color="#fbbf24" />,
         title: "Build Network",
         description: "Meet like-minded people and industry leaders to build valuable professional connections."
-    },
-    {
-        Icon: <FaBoxOpen size={56} color="#34d399" />,
-        title: "Free Goodies",
-        description: "Participants will receive exclusive goodies from our sponsors and partners."
     },
     {
         Icon: <FaUsers size={56} color="#3b82f6" />,

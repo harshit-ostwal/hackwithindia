@@ -12,6 +12,12 @@ export const SponsorsData = [
         invert: false
     },
     {
+        src: "https://github.com/ETHIndia/brand-assets/blob/master/On%20Dark/ETHIndia@4x.png?raw=true",
+        title: "Eth-India",
+        desc: "",
+        invert: true
+    },
+    {
         src: "/Brand Logos/ID8DevHub.svg",
         title: "ID8DevHub",
         desc: "",
