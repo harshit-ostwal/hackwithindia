@@ -1,5 +1,5 @@
 export const EventsCategory = [
-    "Upcoming Events", "Past Events"
+    "Upcoming Events", "Past Events", "On-Going Events"
 ];
 
 export const EventsData = [
@@ -35,7 +35,7 @@ export const EventsData = [
     },
     {
         src: "/Swags/Desktop/Wallpaper - 2.png",
-        category: "Past Events",
+        category: "On-Going Events",
         featured: true,
         title: "Annual Developer Meetup 2024",
         date: "19/01/2025",
@@ -123,7 +123,7 @@ export const EventsData = [
     },
     {
         src: "/Swags/Desktop/Wallpaper - 3/Dark.png",
-        category: "Upcoming Events",
+        category: "Past Events",
         featured: true,
         title: "Cybersecurity Summit 2025",
         date: "12/01/2020",
