@@ -45,12 +45,12 @@ function page() {
                         <span className="underline decoration-blue-400 underline-offset-4"> Biggest Hackathon Community </span>
                     </h1>
 
-                    <h1 className="text-xl sm:text-2xl lg:text-3xl max-w-7xl w-full">
+                    <h1 className="text-xl sm:text-2xl lg:text-3xl max-w-7xl w-full font-Tobias">
                         HackWithIndia is India’s largest and most impactful hackathon community.
                         With a mission to foster innovation, collaboration, and learning,
                         HackWithIndia has become a hub for tech enthusiasts, developers, and creative problem-solvers across the country.
                     </h1>
-                    <h1 className="text-xl sm:text-2xl lg:text-3xl max-w-7xl w-full">
+                    <h1 className="text-xl sm:text-2xl lg:text-3xl max-w-7xl w-full font-Tobias">
                         In just 10 months, HackWithIndia has organized over 20 high-energy hackathons,
                         solidifying its role as a driving force in India’s rapidly growing tech ecosystem.
                     </h1>
