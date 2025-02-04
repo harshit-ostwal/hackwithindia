@@ -72,7 +72,7 @@ function Page() {
                 <Link href="/" draggable={false} className="select-none"><Image draggable={false} src="/Logo/HWI Black.svg" width={120} height={120} quality={100} fetchPriority="high" loading="eager" alt="HackWithIndia" /></Link>
                 <div className="flex flex-col gap-4">
                   <div className="flex flex-col gap-2">
-                    <h1 className="text-5xl text-amber-400 font-bold"><NumberTicker className="tracking-tight text-5xl md:text-5xl" value={40000} /> +</h1>
+                    <h1 className="text-5xl text-amber-400 font-bold"><NumberTicker className="tracking-tight text-5xl md:text-5xl" value={110000} /> +</h1>
                     <h1 className="text-2xl font-medium">Developer Community</h1>
                   </div>
                   <p className="text-lg max-w-xl">A global network of developers advancing Web3 and AI technologies through collaboration and innovation.</p>
