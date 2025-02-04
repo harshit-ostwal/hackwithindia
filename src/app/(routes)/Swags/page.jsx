@@ -24,7 +24,7 @@ function page() {
 
     return (
         <div className="flex flex-col items-center min-h-screen">
-            <div className="flex flex-col w-full gap-20 xl:w-4/5">
+            <div className="flex flex-col w-full gap-20  p-5">
                 <div className="flex flex-col items-center gap-2">
                     <div className="relative leading-none">
                         <h1 className="text-[18vw] Stroke sm:text-[15vw] md:text-[10vw] text-transparent font-semibold">SWAGS</h1>

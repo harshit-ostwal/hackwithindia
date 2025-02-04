@@ -5,7 +5,7 @@ import React from 'react'
 function page() {
   return (
     <div className="flex flex-col min-h-screen w-full items-center">
-      <div className="flex flex-col gap-20 w-full 2xl:w-4/5">
+      <div className="flex flex-col gap-20 w-full  p-5">
         <div className="flex flex-col gap-8">
           <h1 className="text-3xl md:text-4xl font-semibold">Code of Conduct</h1>
           <p className="text-lg md:text-xl">This policy shall be applicable on all spaces related to <span className="font-semibold border-b-2 border-amber-300">HackwithIndia</span>, including the following, as well as their online counterparts (if any):</p>

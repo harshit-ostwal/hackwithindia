@@ -6,7 +6,7 @@ function page() {
 
     return (
         <div className="flex flex-col items-center min-h-screen w-full">
-            <div className="flex flex-col w-full gap-20 2xl:w-4/5">
+            <div className="flex flex-col w-full gap-20  p-5">
                 <div className="flex flex-col gap-2 items-center">
                     <div className="relative leading-none">
                         <h1 className="text-[18vw] Stroke sm:text-[15vw] md:text-[10vw] text-transparent font-semibold">PRIZES</h1>
