@@ -26,7 +26,7 @@ function Page() {
     <div className="flex flex-col items-center min-h-screen w-full">
       <div className="flex flex-col gap-20 w-11/12 2xl:w-3/4">
         <div className="w-full flex flex-col gap-10">
-          <div className="relative w-full aspect-video max-h-[500px] min-h-[250px] border rounded-xl overflow-hidden">
+          <div className="relative w-full aspect-video max-h-[750px] min-h-[500px] border rounded-xl overflow-hidden">
             {EventsData.filter((data => data.featured === true)).map((data, index) => (
               <div key={index}>
                 <Link href={data.href} key={index} className={`absolute top-0 left-0 w-full h-full transition-opacity duration-1000 ease-linear ${currentIndex === index ? "opacity-100 z-10" : "opacity-0"}`}>
