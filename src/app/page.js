@@ -1,3 +1,6 @@
+import About from "@/components/About";
+import { AnimatedListDemo } from "@/components/AnimatedListDemo";
+import { ImagesSliderDemo } from "@/components/ImagesSliderDemo";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 import { Button } from "@/components/ui/button";
 import { FaqData } from "@/constants/faqs";
@@ -8,8 +11,11 @@ function Page() {
     <div className="flex flex-col items-center min-h-screen w-full">
       <div className="flex flex-col w-full 2xl:w-4/5 gap-20">
 
-
-
+          <ImagesSliderDemo/>
+        <span className="pointer-events-none z-10 whitespace-pre-wrap bg-gradient-to-b from-[#ffd319] via-[#ff2975] to-[#8c1eff] bg-clip-text text-center text-7xl font-bold leading-none tracking-tighter text-transparent">
+        About Us
+        </span>
+          <About/>
         <div className="flex rounded-b-[40px] py-20 px-2">
           <div className="flex flex-col lg:flex-row gap-20 w-full justify-center">
             <div className="text-[4rem] md:text-[5rem]">
