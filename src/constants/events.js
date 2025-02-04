@@ -4,7 +4,7 @@ export const EventsCategory = [
 
 export const EventsData = [
     {
-        src: "/Swags/Desktop/Wallpaper - 1.png",
+        src: "/Home/12.png",
         category: "Upcoming Events",
         featured: true,
         title: "BuildwithIndia - 2025",
@@ -36,7 +36,7 @@ export const EventsData = [
     {
         src: "/Swags/Desktop/Wallpaper - 1.png",
         category: "36 Hour Hackathon",
-        featured: true,
+        featured: false,
         title: "Fusion Fest - 2025",
         date: "27-01-2025 To 29-03-2025",
         time: "9:00 AM - 5:00 PM",
@@ -66,7 +66,7 @@ export const EventsData = [
     {
         src: "/Swags/Desktop/Wallpaper - 1.png",
         category: "Upcoming Events",
-        featured: true,
+        featured: false,
         title: "HACK VERSE 1.0",
         date: "09-03-2025 To 10-03-2025",
         time: "9:00 AM - 5:00 PM",
@@ -96,7 +96,7 @@ export const EventsData = [
     {
         src: "/Swags/Desktop/Wallpaper - 1.png",
         category: "Upcoming Events",
-        featured: true,
+        featured: false,
         title: "Founder's Day",
         date: "Coming Soon..",
         time: "",
@@ -126,7 +126,7 @@ export const EventsData = [
     {
         src: "/Swags/Desktop/Wallpaper - 1.png",
         category: "Upcoming Events",
-        featured: true,
+        featured: false,
         title: "AI Community Day",
         date: "21-12-2024",
         time: "09:00 AM - 05:00 PM",
@@ -156,7 +156,7 @@ export const EventsData = [
     {
         src: "/Swags/Desktop/Wallpaper - 2.png",
         category: "On-Going Events",
-        featured: true,
+        featured: false,
         title: "BuildwithDelhi",
         date: "",
         time: "",
@@ -201,7 +201,7 @@ export const EventsData = [
     {
         src: "/Swags/Desktop/Wallpaper - 2.png",
         category: "On-Going Events",
-        featured: true,
+        featured: false,
         title: "HackwithChandigarh",
         date: "",
         time: "",
@@ -246,7 +246,7 @@ export const EventsData = [
     {
         src: "/Swags/Desktop/Wallpaper - 2.png",
         category: "On-Going Events",
-        featured: true,
+        featured: false,
         title: "HackwithDelhi",
         date: "",
         time: "",
@@ -291,7 +291,7 @@ export const EventsData = [
     {
         src: "/Swags/Desktop/Wallpaper - 2.png",
         category: "On-Going Events",
-        featured: true,
+        featured: false,
         title: "CodeForCause 2.0",
         date: "",
         time: "",
@@ -336,7 +336,7 @@ export const EventsData = [
     {
         src: "/Swags/Desktop/Wallpaper - 2.png",
         category: "On-Going Events",
-        featured: true,
+        featured: false,
         title: "CodeForCause 1.0",
         date: "",
         time: "",
@@ -381,7 +381,7 @@ export const EventsData = [
     {
         src: "/Swags/Desktop/Wallpaper - 2.png",
         category: "On-Going Events",
-        featured: true,
+        featured: false,
         title: "Meet-UP",
         date: "",
         time: "",
@@ -426,7 +426,7 @@ export const EventsData = [
     {
         src: "/Swags/Desktop/Wallpaper - 2.png",
         category: "On-Going Events",
-        featured: true,
+        featured: false,
         title: "HackwithPunjab",
         date: "",
         time: "",
@@ -471,7 +471,7 @@ export const EventsData = [
     {
         src: "/Swags/Desktop/Wallpaper - 2.png",
         category: "On-Going Events",
-        featured: true,
+        featured: false,
         title: "HackwithIndia",
         date: "",
         time: "",
@@ -516,7 +516,7 @@ export const EventsData = [
     {
         src: "/Swags/Desktop/Wallpaper - 3/Light.png",
         category: "Upcoming Events",
-        featured: true,
+        featured: false,
         title: "AI Workshop: Building Smart Applications",
         date: "12/01/2022",
         time: "1:00 PM - 6:00 PM",
@@ -560,7 +560,7 @@ export const EventsData = [
     {
         src: "/Swags/Desktop/Wallpaper - 3/Dark.png",
         category: "Past Events",
-        featured: true,
+        featured: false,
         title: "Cybersecurity Summit 2025",
         date: "12/01/2020",
         time: "10:00 AM - 3:00 PM",

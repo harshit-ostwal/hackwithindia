@@ -28,7 +28,7 @@ function Footer() {
                         </div>
                     </div>
                     <div className="flex flex-col gap-6">
-                        <h1 className="text-3xl sm:text-4xl">Follow Me</h1>
+                        <h1 className="text-3xl sm:text-4xl">Follow Us</h1>
                         <div className="flex flex-col gap-4">
                             {SocialMedia.map((data, index) => (
                                 <Link href={data.href} key={index} target="_blank" className="text-lg sm:text-xl w-fit text-white">{data.title}</Link>
