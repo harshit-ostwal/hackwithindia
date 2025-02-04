@@ -65,7 +65,7 @@ function Page() {
                 </h1>
                 <Link href="/About" className="hover:text-blue-500 duration-300 w-fit transition-all underline underline-offset-4">Read More</Link>
               </div>
-              <Image draggable={false} src="/Swags/Desktop/Wallpaper - 3/Dark.png" alt="Grid - 1" width="6000" height="3375" className="w-full max-h-full min-h-96 h-full object-cover rounded-xl" />
+              <Image draggable={false} src="/Home/1.JPG" alt="Grid - 1" width="6000" height="3375" className="w-full max-h-full min-h-96 h-full object-cover rounded-xl" />
             </div>
             <div className="grid grid-rows-1 xl:grid-rows-2 w-full gap-4">
               <div className="bg-amber-100 w-full rounded-xl p-5 justify-around flex flex-col gap-4">

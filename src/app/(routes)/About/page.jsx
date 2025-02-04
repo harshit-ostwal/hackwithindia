@@ -8,17 +8,19 @@ import {
 } from "@/components/ui/carousel"
 import { Button } from '@/components/ui/button';
 import { NumberTicker } from '@/components/ui/number-ticker'
-import { AboutImages, CounterData, PerksData } from '@/constants/about-us';
+import { About1Images, About2Images, AboutImages, CounterData, PerksData } from '@/constants/about-us';
 import Image from "next/image";
 import { Separator } from "@/components/ui/separator";
 
 function page() {
 
     const [activeIndex, setActiveIndex] = useState(0);
+    const [activeIndex2, setActiveIndex2] = useState(0);
 
     useEffect(() => {
         const interval = setInterval(() => {
             setActiveIndex((prevIndex) => (prevIndex + 1) % AboutImages.length);
+            setActiveIndex2((prevIndex) => (prevIndex + 1) % About2Images.length);
         }, 3000);
 
         return () => clearInterval(interval);
@@ -52,6 +54,16 @@ function page() {
                         In just 10 months, HackWithIndia has organized over 20 high-energy hackathons,
                         solidifying its role as a driving force in India’s rapidly growing tech ecosystem.
                     </h1>
+                </div>
+
+                <div className="w-full flex flex-col gap-10">
+                    <div className="relative w-full aspect-video max-h-[600px] min-h-[250px] border rounded-xl overflow-hidden">
+                        {About2Images.map((data, index) => (
+                            <div key={index} className={`absolute top-0 left-0 w-full h-full transition-opacity duration-1000 ease-linear ${activeIndex2 === index ? "opacity-100 z-10" : "opacity-0"}`}>
+                                <Image draggable={false} src={data} alt={index} width="6000" height="3375" className="h-full w-full object-cover rounded-xl" />
+                            </div>
+                        ))}
+                    </div>
                 </div>
 
                 <div className="grid grid-cols-2 sm:grid-cols-3 xl:grid-cols-4 gap-10 sm:gap-20">
@@ -125,6 +137,14 @@ function page() {
                             </div>
                         ))}
                     </div>
+                </div>
+
+                <div className="hidden xl:flex w-full gap-6">
+                    {About1Images.map((data, index) => (
+                        <div key={index} onClick={() => setActiveIndex(index)} className={`h-[600px] border rounded-xl cursor-pointer duration-1000 overflow-hidden relative ${activeIndex === index ? "w-full" : "w-72"}`}>
+                            <Image src={data} draggable={false} width={6000} height={3375} alt={data} quality={100} className="w-full h-full object-cover" fetchPriority="high" loading="eager" />
+                        </div>
+                    ))}
                 </div>
 
                 <div className="flex flex-col items-center gap-8 bg-gradient-to-r from-blue-200 to-rose-200 h-96 justify-center rounded-2xl text-center">
