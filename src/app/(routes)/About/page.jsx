@@ -28,7 +28,7 @@ function page() {
 
     return (
         <div className="flex flex-col items-center min-h-screen">
-            <div className="flex flex-col gap-40 w-11/12 2xl:w-3/4 p-5">
+            <div className="flex flex-col gap-40 w-11/12 2xl:w-3/4">
                 <div className="flex flex-col gap-2 items-center">
                     <div className="relative leading-none">
                         <h1 className="text-[18vw] Stroke sm:text-[15vw] md:text-[10vw] text-transparent font-semibold">ABOUT US</h1>
