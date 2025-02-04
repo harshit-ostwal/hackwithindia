@@ -24,30 +24,28 @@ export function ImagesSliderDemo() {
           duration: 0.6,
         }}
         className="z-50 flex flex-col justify-center items-center">
-        <motion.p
+        <motion.div
           className="font-bold text-xl md:text-6xl text-center bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400 py-4">
-          <>
           <h1
-          // ref={titleRef}
-          className="text-white lg:text-[100px] sm:text-[60px] text-[80px] font-extrabold text-center"
+            // ref={titleRef}
+            className="text-white lg:text-[100px] sm:text-[60px] text-[80px] font-extrabold text-center"
           >
-          
-          <span className="relative text-[#FF9933] my-0 mx-[10px] inline-block">
-            <span className="absolute top-0 left-0 w-full h-full bg-[#FF9933] opacity-10 -rotate-3"></span>
-            Hack
-          </span>
-          <span className="relative text-white my-0 mx-[15px] inline-block">
-            <span className="absolute top-0 left-0 w-full h-full bg-white opacity-10 -rotate-5"></span>
-            With
-          </span>
-          
-          <span className="relative text-[#138808] my-0 mx-[15px] inline-block">
-            <span className="absolute top-0 left-0 w-full h-full bg-[#138808] opacity-10 rotate-3"></span>
-            India
-          </span>
+
+            <span className="relative text-[#FF9933] my-0 mx-[10px] inline-block">
+              <span className="absolute top-0 left-0 w-full h-full bg-[#FF9933] opacity-10 -rotate-3"></span>
+              Hack
+            </span>
+            <span className="relative text-white my-0 mx-[15px] inline-block">
+              <span className="absolute top-0 left-0 w-full h-full bg-white opacity-10 -rotate-5"></span>
+              With
+            </span>
+
+            <span className="relative text-[#138808] my-0 mx-[15px] inline-block">
+              <span className="absolute top-0 left-0 w-full h-full bg-[#138808] opacity-10 rotate-3"></span>
+              India
+            </span>
           </h1>
-          </>
-        </motion.p>
+        </motion.div>
         <button
           className="px-4 py-2 backdrop-blur-sm border bg-emerald-300/10 border-emerald-500/20 text-white mx-auto text-center rounded-full relative mt-4">
           <span>Upcoming Hackathon →</span>
