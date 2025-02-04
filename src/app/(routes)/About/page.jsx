@@ -81,7 +81,7 @@ function page() {
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 2xl:grid-cols-3 w-full items-center">
                     <div className="flex flex-col lg:flex-row gap-10 w-full h-full justify-between">
                         <div className="flex flex-col max-w-xl gap-6">
-                            <div className="text-5xl md:text-6xl font-bold tracking-tighter"><h2>What <br /> We Do</h2></div>
+                            <div className="text-5xl md:text-6xl font-bold tracking-tighter font-Tobias"><h2>What <br /> We Do</h2></div>
                             <p className="text-neutral-500 text-xl md:text-2xl">We organize exciting hackathons and challenges that bring together tech enthusiasts to innovate and create real-world solutions.</p>
                         </div>
                         <Separator className="lg:hidden" />
@@ -89,14 +89,14 @@ function page() {
                     </div>
                     <div className="flex flex-col lg:flex-row gap-10 w-full h-full justify-between">
                         <div className="flex flex-col max-w-xl gap-6">
-                            <div className="text-5xl md:text-6xl font-bold tracking-tighter"><h2>How <br /> We Do It</h2></div>
+                            <div className="text-5xl md:text-6xl font-bold tracking-tighter font-Tobias"><h2>How <br /> We Do It</h2></div>
                             <p className="text-neutral-500 text-xl md:text-2xl">We provide mentorship, workshops, and networking opportunities to help participants develop their skills and succeed in every event.</p>
                         </div>
                         <Separator className="lg:hidden" />
                         <Separator className="hidden lg:block" orientation="vertical" />
                     </div>
                     <div className="flex flex-col max-w-xl gap-6 h-full">
-                        <div className="text-5xl md:text-6xl font-bold tracking-tighter"><h2>Why <br /> HackwithIndia</h2></div>
+                        <div className="text-5xl md:text-6xl font-bold tracking-tighter font-Tobias"><h2>Why <br /> HackwithIndia</h2></div>
                         <p className="text-neutral-500 text-xl md:text-2xl">We empower individuals with tech exposure, mentorship, and networking opportunities to help them grow and reach their potential.</p>
                     </div>
                 </div>
