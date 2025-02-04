@@ -8,7 +8,7 @@ const About = () => {
         <div class="bg-gray-900 rounded-2xl p-8">
             <div class="flex items-center gap-3 mb-4">
                 <div class="bg-gray-800 p-2 rounded-full">
-                    <Image draggable={false} src="/Logo/HWI Black.svg" width={120} height={120} quality={100} fetchPriority="high" loading="eager" alt="HackWithIndia" />
+                    <Image draggable={false} src="/Logo/HWI White.svg" width={120} height={120} quality={100} fetchPriority="high" loading="eager" alt="HackWithIndia" />
                 </div>
 
                 <h2 class="text-purple-500 text-2xl font-bold">About HackWithIndia</h2>
@@ -26,7 +26,7 @@ const About = () => {
             <div class="bg-gray-900 rounded-2xl p-8 relative overflow-hidden">
                 <div class="relative z-10">
                     <div class="bg-gray-800 p-2 rounded-full w-fit mb-4">
-                        <Image draggable={false} src="/Logo/HWI Black.svg" width={80} height={120} quality={100} fetchPriority="high" loading="eager" alt="HackWithIndia" />
+                        <Image draggable={false} src="/Logo/HWI White.svg" width={80} height={120} quality={100} fetchPriority="high" loading="eager" alt="HackWithIndia" />
                     </div>
 
                     <h3 class="text-yellow-400 text-5xl font-bold mb-2">40,000+</h3>
@@ -41,7 +41,7 @@ const About = () => {
                 {/* <!-- Web3 & AI Projects --> */}
                 <div class="bg-gray-900 rounded-2xl p-8">
                     <div class="bg-gray-800 p-2 rounded-full w-fit mb-4">
-                    <Image draggable={false} src="/Logo/HWI Black.svg" width={80} height={120} quality={100} fetchPriority="high" loading="eager" alt="HackWithIndia" />
+                    <Image draggable={false} src="/Logo/HWI White.svg" width={80} height={120} quality={100} fetchPriority="high" loading="eager" alt="HackWithIndia" />
                     </div>
                     <h3 class="text-emerald-400 text-5xl font-bold mb-2">3000+</h3>
                     <h4 class="text-white text-2xl font-bold mb-2">Web3 & AI Projects</h4>
@@ -51,7 +51,7 @@ const About = () => {
                 {/* <!-- Countries Impacted --> */}
                 <div class="bg-gray-900 rounded-2xl p-8">
                     <div class="bg-gray-800 p-2 rounded-full w-fit mb-4">
-                    <Image draggable={false} src="/Logo/HWI Black.svg" width={80} height={120} quality={100} fetchPriority="high" loading="eager" alt="HackWithIndia" />
+                    <Image draggable={false} src="/Logo/HWI White.svg" width={80} height={120} quality={100} fetchPriority="high" loading="eager" alt="HackWithIndia" />
                     </div>
 
                     <h3 class="text-cyan-400 text-5xl font-bold mb-2">50+</h3>
