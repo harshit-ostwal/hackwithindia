@@ -63,7 +63,7 @@ function page() {
                                         <h1>Upload Your Photo</h1>
                                     </label>
                                 </Button>
-                                <Button>Desgin It</Button>
+                                <Button>Design It</Button>
                             </div>
                         </div>
                     </div>
