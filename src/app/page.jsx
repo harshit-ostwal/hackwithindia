@@ -29,7 +29,7 @@ function Page() {
           <div className="relative w-full aspect-video max-h-[750px] min-h-[500px] border rounded-xl overflow-hidden">
             {EventsData.filter((data => data.featured === true)).map((data, index) => (
               <div key={index}>
-                <Link href={data.href} key={index} className={`absolute top-0 left-0 w-full h-full transition-opacity duration-1000 ease-linear ${currentIndex === index ? "opacity-100 z-10" : "opacity-0"}`}>
+                <Link href={data.href} key={index} className={`absolute top-0 cursor-pointer left-0 w-full h-full transition-opacity duration-1000 ease-linear ${currentIndex === index ? "opacity-100 z-10" : "opacity-0"}`}>
                   <Image draggable={false} src={data.src} alt={data.title} width="6000" height="3375" className="h-full w-full object-cover rounded-xl" />
                 </Link>
                 {/* <div className={`absolute bottom-5 text-black flex flex-col gap-4 left-5 transition-opacity duration-1000 ease-linear ${currentIndex === index ? "opacity-100 z-10" : "opacity-0"}`}>
@@ -47,12 +47,12 @@ function Page() {
         </div>
 
         <div className="flex flex-col gap-10 justify-center">
-          <div className="text-[3rem] lg:text-[4rem] flex flex-col justify-center">
+          <div className="text-[3rem] md:text-[4rem] lg:text-[5rem] flex flex-col justify-center">
             <h1 className="font-medium leading-none">About</h1>
             <h1 className="font-Tobias leading-none">HackwithIndia</h1>
           </div>
           <div className="grid grid-cols-1 xl:grid-cols-2 w-full min-h-[60vh] gap-6">
-            <div className="border w-full hover:-translate-y-3 duration-300 transition-all rounded-xl overflow-hidden h-full">
+            <div className="border w-full rounded-xl overflow-hidden h-full">
               <div className="flex flex-col gap-6 p-5 h-fit">
                 <h1 className="text-lg md:text-xl max-w-7xl w-full">
                   HackWithIndia is India’s largest and most impactful hackathon community.
@@ -68,7 +68,7 @@ function Page() {
               <Image draggable={false} src="/Swags/Desktop/Wallpaper - 3/Dark.png" alt="Grid - 1" width="6000" height="3375" className="w-full max-h-full min-h-96 h-full object-cover rounded-xl" />
             </div>
             <div className="grid grid-rows-1 xl:grid-rows-2 w-full gap-4">
-              <div className="bg-amber-100 hover:-translate-y-3 duration-300 transition-all w-full rounded-xl p-5 justify-around flex flex-col gap-4">
+              <div className="bg-amber-100 w-full rounded-xl p-5 justify-around flex flex-col gap-4">
                 <Link href="/" draggable={false} className="select-none"><Image draggable={false} src="/Logo/HWI Black.svg" width={120} height={120} quality={100} fetchPriority="high" loading="eager" alt="HackWithIndia" /></Link>
                 <div className="flex flex-col gap-4">
                   <div className="flex flex-col gap-2">
@@ -79,7 +79,7 @@ function Page() {
                 </div>
               </div>
               <div className="grid grid-cols-1 md:grid-cols-2 w-full h-full gap-4">
-                <div className="bg-purple-100 w-full hover:-translate-y-3 duration-300 transition-all rounded-xl p-5 flex flex-col gap-4">
+                <div className="bg-purple-100 w-full rounded-xl p-5 flex flex-col gap-4">
                   <Link href="/" draggable={false} className="select-none"><Image draggable={false} src="/Logo/HWI Black.svg" width={120} height={120} quality={100} fetchPriority="high" loading="eager" alt="HackWithIndia" /></Link>
                   <div className="flex flex-col gap-4">
                     <div className="flex flex-col gap-2">
@@ -89,7 +89,7 @@ function Page() {
                     <p className="text-lg max-w-xl">Over 3000 Web3 and AI projects built to solve real-world challenges with cutting-edge technology.</p>
                   </div>
                 </div>
-                <div className="bg-cyan-100 w-full hover:-translate-y-3 duration-300 transition-all rounded-xl p-5 flex flex-col gap-4">
+                <div className="bg-cyan-100 w-full rounded-xl p-5 flex flex-col gap-4">
                   <Link href="/" draggable={false} className="select-none"><Image draggable={false} src="/Logo/HWI Black.svg" width={120} height={120} quality={100} fetchPriority="high" loading="eager" alt="HackWithIndia" /></Link>
                   <div className="flex flex-col gap-4">
                     <div className="flex flex-col gap-2">
@@ -105,7 +105,7 @@ function Page() {
         </div>
 
         <div className="flex flex-col gap-20 justify-center">
-          <div className="text-[4rem] md:text-[5rem]">
+          <div className="text-[3rem] md:text-[4rem] lg:text-[5rem]">
             <h1 className="font-medium leading-none">Perks</h1>
             <h1 className="font-Tobias leading-none">& Benefits</h1>
           </div>
