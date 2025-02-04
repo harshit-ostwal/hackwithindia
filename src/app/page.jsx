@@ -1,11 +1,8 @@
 "use client"
-import About from "@/components/About";
-import { AnimatedListDemo } from "@/components/AnimatedListDemo";
-import { ImagesSliderDemo } from "@/components/ImagesSliderDemo";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 import { Button } from "@/components/ui/button";
 import { NumberTicker } from "@/components/ui/number-ticker";
-import { CounterData, PerksData } from "@/constants/about-us";
+import { PerksData } from "@/constants/about-us";
 import { EventsData } from "@/constants/events";
 import { FaqData } from "@/constants/faqs";
 import { CalendarDays } from "lucide-react";
@@ -29,12 +26,6 @@ function Page() {
     <div className="flex flex-col items-center min-h-screen w-full">
       <div className="flex flex-col w-11/12 2xl:w-4/5 gap-20">
 
-        <ImagesSliderDemo />
-        <span className="pointer-events-none z-10 whitespace-pre-wrap bg-gradient-to-b from-[#ffd319] via-[#ff2975] to-[#8c1eff] bg-clip-text text-center text-7xl font-bold leading-none tracking-tighter text-transparent">
-          About Us
-        </span>
-        <About />
-
         <div className="w-full flex flex-col gap-10">
           <div className="relative w-full aspect-video max-h-[500px] min-h-[250px] border rounded-xl overflow-hidden">
             {EventsData.filter((data => data.featured === true)).map((data, index) => (
@@ -56,32 +47,61 @@ function Page() {
           </div>
         </div>
 
-        <div className="flex flex-col gap-20 justify-center">
-          <div className="text-[4rem] md:text-[5rem]">
+        <div className="flex flex-col gap-10 justify-center">
+          <div className="text-[4rem] flex flex-col justify-center">
             <h1 className="font-medium leading-none">About</h1>
             <h1 className="font-Tobias leading-none">HackwithIndia</h1>
           </div>
-          <div className="flex flex-col gap-4">
-            <h1 className="text-xl sm:text-2xl lg:text-3xl max-w-7xl w-full">
-              HackWithIndia is India’s largest and most impactful hackathon community.
-              With a mission to foster innovation, collaboration, and learning,
-              HackWithIndia has become a hub for tech enthusiasts, developers, and creative problem-solvers across the country.
-            </h1>
-            <h1 className="text-xl sm:text-2xl lg:text-3xl max-w-7xl w-full">
-              In just 10 months, HackWithIndia has organized over 20 high-energy hackathons,
-              solidifying its role as a driving force in India’s rapidly growing tech ecosystem.
-            </h1>
-          </div>
-          <div className="grid grid-cols-2 sm:grid-cols-3 xl:grid-cols-4 gap-10 sm:gap-20">
-            {CounterData.slice(0,4).map((data, index) => (
-              <div key={index} className="flex flex-col gap-10 items-center">
-                {data.icon}
-                <div className="flex flex-col items-center gap-2">
-                  <span className="text-2xl md:text-4xl"><NumberTicker value={data.value} /> +</span>
-                  <p className="text-lg sm:text-xl lg:text-2xl text-center">{data.title}</p>
+          <div className="grid grid-cols-1 xl:grid-cols-2 w-full min-h-[60vh] gap-6">
+            <div className="border w-full rounded-xl overflow-hidden h-full">
+              <div className="flex flex-col gap-6 p-5 h-fit">
+                <h1 className="text-xl max-w-7xl w-full">
+                  HackWithIndia is India’s largest and most impactful hackathon community.
+                  With a mission to foster innovation, collaboration, and learning,
+                  HackWithIndia has become a hub for tech enthusiasts, developers, and creative problem-solvers across the country.
+                </h1>
+                <h1 className="text-xl max-w-7xl w-full">
+                  In just 10 months, HackWithIndia has organized over 20 high-energy hackathons,
+                  solidifying its role as a driving force in India’s rapidly growing tech ecosystem.
+                </h1>
+                <Link href="/About" className="hover:text-blue-500 duration-300 w-fit transition-all underline underline-offset-4">Read More</Link>
+              </div>
+              <Image draggable={false} src="/Swags/Desktop/Wallpaper - 3/Dark.png" alt="Grid - 1" width="6000" height="3375" className="h-full w-full object-cover rounded-xl" />
+            </div>
+            <div className="grid grid-rows-1 xl:grid-rows-2 w-full gap-4">
+              <div className="border bg-amber-100 w-full rounded-xl p-5 justify-around flex flex-col gap-4">
+                <Link href="/" draggable={false} className="select-none"><Image draggable={false} src="/Logo/HWI Black.svg" width={120} height={120} quality={100} fetchPriority="high" loading="eager" alt="HackWithIndia" /></Link>
+                <div className="flex flex-col gap-4">
+                  <div className="flex flex-col gap-2">
+                    <h1 className="text-5xl text-amber-400 font-bold"><NumberTicker className="tracking-tight text-5xl md:text-5xl" value={40000} /> +</h1>
+                    <h1 className="text-2xl font-medium">Developer Community</h1>
+                  </div>
+                  <p className="text-lg max-w-xl">A global network of developers advancing Web3 and AI technologies through collaboration and innovation.</p>
                 </div>
               </div>
-            ))}
+              <div className="grid grid-cols-1 md:grid-cols-2 w-full h-full gap-4">
+                <div className="border bg-purple-100 w-full rounded-xl p-5 flex flex-col gap-4">
+                  <Link href="/" draggable={false} className="select-none"><Image draggable={false} src="/Logo/HWI Black.svg" width={120} height={120} quality={100} fetchPriority="high" loading="eager" alt="HackWithIndia" /></Link>
+                  <div className="flex flex-col gap-4">
+                    <div className="flex flex-col gap-2">
+                      <h1 className="text-5xl text-purple-400 font-bold"><NumberTicker className="tracking-tight text-5xl md:text-5xl" value={3000} /> +</h1>
+                      <h1 className="text-2xl font-medium">Web3 & AI Projects</h1>
+                    </div>
+                    <p className="text-lg max-w-xl">Over 3000 Web3 and AI projects built to solve real-world challenges with cutting-edge technology.</p>
+                  </div>
+                </div>
+                <div className="border bg-cyan-100 w-full rounded-xl p-5 flex flex-col gap-4">
+                  <Link href="/" draggable={false} className="select-none"><Image draggable={false} src="/Logo/HWI Black.svg" width={120} height={120} quality={100} fetchPriority="high" loading="eager" alt="HackWithIndia" /></Link>
+                  <div className="flex flex-col gap-4">
+                    <div className="flex flex-col gap-2">
+                      <h1 className="text-5xl text-cyan-400 font-bold"><NumberTicker className="tracking-tight text-5xl md:text-5xl" value={50} /> +</h1>
+                      <h1 className="text-2xl font-medium">Cities Impacted</h1>
+                    </div>
+                    <p className="text-lg max-w-xl">HackWithIndia has impacted developers across multiple cities using Web3 and AI technologies.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
 
