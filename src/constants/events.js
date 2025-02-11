@@ -42,7 +42,7 @@ export const EventsData = [
         time: "9:00 AM - 5:00 PM",
         location: "SRM ghaziabad",
         description: "A conference highlighting the latest advancements in Web3 technology and innovation, featuring keynote speakers from leading blockchain and decentralized tech companies.",
-        href: "/Events/WEB 3.0",
+        href: "/Events/WEB3.0",
         winners: [
             {
                 position: "2nd Prize",
