@@ -25,14 +25,20 @@ function Page() {
   return (
     <div className="flex flex-col items-center min-h-screen w-full">
       <div className="flex flex-col gap-20 w-11/12 2xl:w-3/4">
-        <div className="w-full flex flex-col gap-10">
-          <div className="relative w-full aspect-video max-h-[600px] min-h-[500px] border rounded-xl overflow-hidden">
-            {/* {EventsData.map((data, index) => ( */}
-            <div>
-              <Link href={EventsData[0].href} className={`absolute top-0 cursor-pointer left-0 w-full h-full transition-opacity duration-1000 ease-linear`}>
-                <Image draggable={false} src={EventsData[0].src} alt={EventsData[0].title} width="6000" height="3375" className="h-full w-full object-cover rounded-xl" />
-              </Link>
-              {/* <div className={`absolute bottom-5 text-black flex flex-col gap-4 left-5 transition-opacity duration-1000 ease-linear ${currentIndex === index ? "opacity-100 z-10" : "opacity-0"}`}>
+        <div className="w-full flex flex-col gap-20 h-full">
+          {/* <div className="relative w-full aspect-video flex flex-col min-h-[500px] border rounded-xl overflow-hidden"> */}
+          {/* {EventsData.map((data, index) => ( */}
+          <Link href={EventsData[0].href} className={`transition-opacity h-full min-h-[500px] max-h-[600px] overflow-hidden duration-1000 ease-linear`}>
+            <Image draggable={false} src={EventsData[0].src} alt={EventsData[0].title} width="6000" height="3375" className="h-full w-full object-cover rounded-xl" />
+          </Link>
+          <Link href={EventsData[1].href} className={`transition-opacity min-h-[500px] items-center flex flex-col gap-10 overflow-hidden duration-1000 ease-linear`}>
+            <div className="flex flex-col gap-4 items-center">
+              <h1 className="text-medium text-xl">Powered By :-</h1>
+              <Image draggable={false} src={"/Logo/MX.png"} alt={EventsData[1].title} width="300" height="300" className="object-cover rounded-xl" />
+            </div>
+            <Image draggable={false} src={EventsData[1].src} alt={EventsData[1].title} width="6000" height="3375" className="h-full w-full object-cover rounded-xl" />
+          </Link>
+          {/* <div className={`absolute bottom-5 text-black flex flex-col gap-4 left-5 transition-opacity duration-1000 ease-linear ${currentIndex === index ? "opacity-100 z-10" : "opacity-0"}`}>
                   <div className="flex flex-col gap-2">
                     <h1 className="text-xl font-medium">{data.title}</h1>
                     <p className="font-medium flex gap-2 items-center"><CalendarDays className="w-5 h-5" /> {data.date}</p>
@@ -41,9 +47,8 @@ function Page() {
                     Register Now
                   </Link>
                 </div> */}
-            </div>
-            {/* ))} */}
-          </div>
+          {/* ))} */}
+          {/* </div> */}
         </div>
 
         <div className="flex flex-col gap-10 justify-center">

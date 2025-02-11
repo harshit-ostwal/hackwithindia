@@ -34,6 +34,36 @@ export const EventsData = [
         ]
     },
     {
+        src: "/Home/WEB 3.0.png",
+        category: "Upcoming Events",
+        featured: true,
+        title: "Hack with WEB 3.0",
+        date: "Coming Soon...",
+        time: "",
+        location: "Google Office",
+        description: "A conference showcasing the latest trends in technology and innovation with keynote speakers from top tech companies.",
+        href: "/Events/buildwithindia",
+        winners: [
+            {
+                position: "2nd Prize",
+                prizePool: "$10,000",
+            },
+            {
+                position: "1st Prize",
+                prizePool: "$10,000",
+            },
+            {
+                position: "3rd Prize",
+                prizePool: "$10,000",
+            }
+        ],
+        registrationLink: "",
+        images: [
+            "/Swags/Mobile/Wallpaper - 3/Dark.png",
+            "/Swags/Desktop/Wallpaper - 3/Dark.png",
+        ]
+    },
+    {
         src: "/Swags/Desktop/Wallpaper - 1.png",
         category: "36 Hour Hackathon",
         featured: false,
