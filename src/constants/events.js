@@ -38,11 +38,11 @@ export const EventsData = [
         category: "Upcoming Events",
         featured: true,
         title: "Hack with WEB 3.0",
-        date: "Coming Soon...",
+        date: "22nd - 23rd Feb",
         time: "",
-        location: "Google Office",
-        description: "A conference showcasing the latest trends in technology and innovation with keynote speakers from top tech companies.",
-        href: "/Events/buildwithindia",
+        location: "SRM ghaziabad",
+        description: "A conference highlighting the latest advancements in Web3 technology and innovation, featuring keynote speakers from leading blockchain and decentralized tech companies.",
+        href: "/Events/WEB 3.0",
         winners: [
             {
                 position: "2nd Prize",
@@ -59,8 +59,8 @@ export const EventsData = [
         ],
         registrationLink: "",
         images: [
-            "/Swags/Mobile/Wallpaper - 3/Dark.png",
-            "/Swags/Desktop/Wallpaper - 3/Dark.png",
+            // "/Swags/Mobile/Wallpaper - 3/Dark.png",
+            // "/Swags/Desktop/Wallpaper - 3/Dark.png",
         ]
     },
     {
