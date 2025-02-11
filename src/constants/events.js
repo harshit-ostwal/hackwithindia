@@ -57,7 +57,7 @@ export const EventsData = [
                 prizePool: "$10,000",
             }
         ],
-        registrationLink: "",
+        registrationLink: "https://forms.gle/iSLk4iDhvDpyebm27",
         images: [
             // "/Swags/Mobile/Wallpaper - 3/Dark.png",
             // "/Swags/Desktop/Wallpaper - 3/Dark.png",

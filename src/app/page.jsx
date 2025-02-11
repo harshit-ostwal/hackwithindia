@@ -28,10 +28,10 @@ function Page() {
         <div className="w-full flex flex-col gap-20 h-full">
           {/* <div className="relative w-full aspect-video flex flex-col min-h-[500px] border rounded-xl overflow-hidden"> */}
           {/* {EventsData.map((data, index) => ( */}
-          <Link href={EventsData[0].href} className={`transition-opacity h-full min-h-[500px] max-h-[600px] overflow-hidden duration-1000 ease-linear`}>
+          <Link href={EventsData[0].registrationLink} className={`transition-opacity h-full min-h-[500px] max-h-[600px] overflow-hidden duration-1000 ease-linear`}>
             <Image draggable={false} src={EventsData[0].src} alt={EventsData[0].title} width="6000" height="3375" className="h-full w-full object-cover rounded-xl" />
           </Link>
-          <Link href={EventsData[1].href} className={`transition-opacity min-h-[500px] items-center flex flex-col gap-10 overflow-hidden duration-1000 ease-linear`}>
+          <Link href={EventsData[1].registrationLink} className={`transition-opacity min-h-[500px] items-center flex flex-col gap-10 overflow-hidden duration-1000 ease-linear`}>
             <div className="flex flex-col gap-4 items-center">
               <h1 className="text-medium text-xl">Powered By :-</h1>
               <Image draggable={false} src={"/Logo/MX.png"} alt={EventsData[1].title} width="300" height="300" className="object-cover rounded-xl" />
