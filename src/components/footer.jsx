@@ -49,7 +49,7 @@ function Footer() {
                 <div className="flex flex-col w-full gap-10 pb-10">
                     <h1 className="text-[12.2vw] font-Rejouice" >HACKWITHINDIA</h1>
                     <div className="flex items-center justify-between">
-                        <p className="lg:text-xl text-white">© {year} · Harshit Ostwal</p>
+                        <p className="lg:text-xl text-white">© {year} · Harsh Sharmaa & Moksha Kohli</p>
                         <p className="lg:text-xl text-white">All Rights Reserved</p>
                     </div>
                 </div>
