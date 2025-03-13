@@ -23,7 +23,7 @@ function page() {
 
     return (
         <div className="flex flex-col items-center min-h-screen">
-            <div className="flex flex-col w-full gap-20 2xl:w-4/5">
+            <div className="flex flex-col w-11/12 2xl:w-3/4 gap-20">
                 <div className="flex flex-col gap-2 items-center">
                     <div className="relative leading-none">
                         <h1 className="text-[18vw] Stroke sm:text-[15vw] md:text-[10vw] text-transparent font-semibold">EVENTS</h1>
@@ -35,7 +35,7 @@ function page() {
                 </div>
                 <div className="w-full flex flex-col gap-10">
                     <div className="relative w-full aspect-video max-h-[500px] min-h-[250px] border rounded-xl overflow-hidden">
-                        {EventsData.filter((data => data.featured === true)).map((data, index) => (
+                        {EventsData.filter((data => data.featured)).map((data, index) => (
                             <Link href={data.href} key={index} className={`absolute top-0 left-0 w-full h-full transition-opacity duration-1000 ease-linear ${currentIndex === index ? "opacity-100 z-10" : "opacity-0"}`}>
                                 <Image draggable={false} src={data.src} alt={data.title} width="6000" height="3375" className="h-full w-full object-cover rounded-xl" />
                             </Link>

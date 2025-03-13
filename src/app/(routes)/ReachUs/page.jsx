@@ -8,7 +8,7 @@ import React from 'react'
 function page() {
     return (
         <div className="flex flex-col gap-20 items-center min-h-screen w-full">
-            <div className="flex flex-col gap-20 w-full 2xl:w-4/5">
+            <div className="flex flex-col gap-20 w-11/12 2xl:w-3/4">
                 <div className="flex flex-col gap-2 text-center">
                     <div className="relative leading-none flex items-center justify-center">
                         <h1 className="text-[18vw] Stroke sm:text-[15vw] md:text-[10vw] text-transparent font-semibold">REACH US</h1>

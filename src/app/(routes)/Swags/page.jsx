@@ -24,7 +24,7 @@ function page() {
 
     return (
         <div className="flex flex-col items-center min-h-screen">
-            <div className="flex flex-col w-full gap-20 xl:w-4/5">
+            <div className="flex flex-col w-11/12 2xl:w-3/4 gap-20">
                 <div className="flex flex-col items-center gap-2">
                     <div className="relative leading-none">
                         <h1 className="text-[18vw] Stroke sm:text-[15vw] md:text-[10vw] text-transparent font-semibold">SWAGS</h1>
@@ -63,7 +63,7 @@ function page() {
                                         <h1>Upload Your Photo</h1>
                                     </label>
                                 </Button>
-                                <Button>Desgin It</Button>
+                                <Button>Design It</Button>
                             </div>
                         </div>
                     </div>

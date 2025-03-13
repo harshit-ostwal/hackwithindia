@@ -8,17 +8,19 @@ import {
 } from "@/components/ui/carousel"
 import { Button } from '@/components/ui/button';
 import { NumberTicker } from '@/components/ui/number-ticker'
-import { AboutImages, CounterData, PerksData } from '@/constants/about-us';
+import { About1Images, About2Images, AboutImages, CounterData, PerksData } from '@/constants/about-us';
 import Image from "next/image";
 import { Separator } from "@/components/ui/separator";
 
 function page() {
 
     const [activeIndex, setActiveIndex] = useState(0);
+    const [activeIndex2, setActiveIndex2] = useState(0);
 
     useEffect(() => {
         const interval = setInterval(() => {
             setActiveIndex((prevIndex) => (prevIndex + 1) % AboutImages.length);
+            setActiveIndex2((prevIndex) => (prevIndex + 1) % About2Images.length);
         }, 3000);
 
         return () => clearInterval(interval);
@@ -26,7 +28,7 @@ function page() {
 
     return (
         <div className="flex flex-col items-center min-h-screen">
-            <div className="flex flex-col w-full gap-40 2xl:w-4/5">
+            <div className="flex flex-col gap-40 w-11/12 2xl:w-3/4">
                 <div className="flex flex-col gap-2 items-center">
                     <div className="relative leading-none">
                         <h1 className="text-[18vw] Stroke sm:text-[15vw] md:text-[10vw] text-transparent font-semibold">ABOUT US</h1>
@@ -37,22 +39,31 @@ function page() {
                     <p className="text-lg lg:text-xl text-neutral-400 text-center">Collaborate and innovate to build something awesome! All monetary prizes will be split equally among the winning team members.</p>
                 </div>
 
-
                 <div id="asd" className="flex flex-col gap-10">
                     <h1 className="font-semibold text-3xl sm:text-4xl">
                         <span className="underline decoration-rose-400 underline-offset-4">HackwithIndia</span> Is The
                         <span className="underline decoration-blue-400 underline-offset-4"> Biggest Hackathon Community </span>
                     </h1>
 
-                    <h1 className="text-xl sm:text-2xl lg:text-3xl max-w-7xl w-full">
+                    <h1 className="text-xl sm:text-2xl lg:text-3xl max-w-7xl w-full font-Tobias">
                         HackWithIndia is India’s largest and most impactful hackathon community.
                         With a mission to foster innovation, collaboration, and learning,
                         HackWithIndia has become a hub for tech enthusiasts, developers, and creative problem-solvers across the country.
                     </h1>
-                    <h1 className="text-xl sm:text-2xl lg:text-3xl max-w-7xl w-full">
+                    <h1 className="text-xl sm:text-2xl lg:text-3xl max-w-7xl w-full font-Tobias">
                         In just 10 months, HackWithIndia has organized over 20 high-energy hackathons,
                         solidifying its role as a driving force in India’s rapidly growing tech ecosystem.
                     </h1>
+                </div>
+
+                <div className="w-full flex flex-col gap-10">
+                    <div className="relative w-full aspect-video max-h-[600px] min-h-[250px] border rounded-xl overflow-hidden">
+                        {About2Images.map((data, index) => (
+                            <div key={index} className={`absolute top-0 left-0 w-full h-full transition-opacity duration-1000 ease-linear ${activeIndex2 === index ? "opacity-100 z-10" : "opacity-0"}`}>
+                                <Image draggable={false} src={data} alt={index} width="6000" height="3375" className="h-full w-full object-cover rounded-xl" />
+                            </div>
+                        ))}
+                    </div>
                 </div>
 
                 <div className="grid grid-cols-2 sm:grid-cols-3 xl:grid-cols-4 gap-10 sm:gap-20">
@@ -70,23 +81,23 @@ function page() {
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 2xl:grid-cols-3 w-full items-center">
                     <div className="flex flex-col lg:flex-row gap-10 w-full h-full justify-between">
                         <div className="flex flex-col max-w-xl gap-6">
-                            <div className="text-5xl md:text-6xl font-bold tracking-tighter"><h2>What <br /> We Do</h2></div>
-                            <p className="text-neutral-500 text-xl sm:text-2xl">We organize exciting hackathons and challenges that bring together tech enthusiasts to innovate and create real-world solutions.</p>
+                            <div className="text-5xl md:text-6xl font-bold tracking-tighter font-Tobias"><h2>What <br /> We Do</h2></div>
+                            <p className="text-neutral-500 text-xl md:text-2xl">We organize exciting hackathons and challenges that bring together tech enthusiasts to innovate and create real-world solutions.</p>
                         </div>
                         <Separator className="lg:hidden" />
                         <Separator className="hidden lg:block" orientation="vertical" />
                     </div>
                     <div className="flex flex-col lg:flex-row gap-10 w-full h-full justify-between">
                         <div className="flex flex-col max-w-xl gap-6">
-                            <div className="text-5xl md:text-6xl font-bold tracking-tighter"><h2>How <br /> We Do It</h2></div>
-                            <p className="text-neutral-500 text-xl sm:text-2xl">We provide mentorship, workshops, and networking opportunities to help participants develop their skills and succeed in every event.</p>
+                            <div className="text-5xl md:text-6xl font-bold tracking-tighter font-Tobias"><h2>How <br /> We Do It</h2></div>
+                            <p className="text-neutral-500 text-xl md:text-2xl">We provide mentorship, workshops, and networking opportunities to help participants develop their skills and succeed in every event.</p>
                         </div>
                         <Separator className="lg:hidden" />
                         <Separator className="hidden lg:block" orientation="vertical" />
                     </div>
                     <div className="flex flex-col max-w-xl gap-6 h-full">
-                        <div className="text-5xl md:text-6xl font-bold tracking-tighter"><h2>Why <br /> HackwithIndia</h2></div>
-                        <p className="text-neutral-500 text-xl sm:text-2xl">We empower individuals with tech exposure, mentorship, and networking opportunities to help them grow and reach their potential.</p>
+                        <div className="text-5xl md:text-6xl font-bold tracking-tighter font-Tobias"><h2>Why <br /> HackwithIndia</h2></div>
+                        <p className="text-neutral-500 text-xl md:text-2xl">We empower individuals with tech exposure, mentorship, and networking opportunities to help them grow and reach their potential.</p>
                     </div>
                 </div>
 
@@ -128,8 +139,12 @@ function page() {
                     </div>
                 </div>
 
-                <div className="">
-
+                <div className="hidden xl:flex w-full gap-6">
+                    {About1Images.map((data, index) => (
+                        <div key={index} onClick={() => setActiveIndex(index)} className={`h-[600px] border rounded-xl cursor-pointer duration-1000 overflow-hidden relative ${activeIndex === index ? "w-full" : "w-72"}`}>
+                            <Image src={data} draggable={false} width={6000} height={3375} alt={data} quality={100} className="w-full h-full object-cover" fetchPriority="high" loading="eager" />
+                        </div>
+                    ))}
                 </div>
 
                 <div className="flex flex-col items-center gap-8 bg-gradient-to-r from-blue-200 to-rose-200 h-96 justify-center rounded-2xl text-center">

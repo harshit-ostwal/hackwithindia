@@ -48,9 +48,23 @@ export const CounterData = [
 ];
 
 export const AboutImages = [
-    "/Swags/Desktop/Wallpaper - 1.png",
-    "/Swags/Desktop/Wallpaper - 2.png",
-    "/Swags/Desktop/Wallpaper - 2.png",
+    "/Home/1.JPG",
+    "/Home/2.JPG",
+    "/Home/3.JPG",
+    "/Home/4.JPG",
+]
+
+export const About1Images = [
+    "/Home/5.JPG",
+    "/Home/6.JPG",
+    "/Home/7.JPG",
+    "/Home/8.JPG",
+]
+
+export const About2Images = [
+    "/Home/9.JPG",
+    "/Home/10.JPG",
+    "/Home/11.JPG",
 ]
 
 export const PerksData = [

@@ -56,11 +56,12 @@ export default function RootLayout({ children }) {
         <main className="relative flex items-center justify-center flex-col w-full">
           <Loader />
           <BadgeNotification data={"Welcome To India's Biggest Hackathon Community 🇮🇳"} />
-          <div className="flex flex-col items-center justify-center w-11/12  p-5">
+          <div className="flex flex-col items-center justify-center w-full">
             <Navbar />
             <main className="py-20 w-full">{children}</main>
           </div>
           <Footer />
+          {/* <h1 className="text-2xl">We're Currently Under Maintenance | Updates Coming Soon...</h1> */}
         </main>
       </body>
     </html>
